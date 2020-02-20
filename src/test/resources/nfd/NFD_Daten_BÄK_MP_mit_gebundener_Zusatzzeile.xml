@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mit XMLSpy v2014 rel. 2 sp1 (http://www.altova.com) von Gematik GmbH (Gematik) bearbeitet -->
+<!--XML-Beispieldatei von XMLSpy generiert v2014 rel. 2 sp1 (http://www.altova.com)-->
+<NFD_Document xmlns="http://ws.gematik.de/fa/nfds/NFD_Document/v1.0" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://www.altova.com/samplexml/other-namespace" xmlns:NFDM="http://ws.gematik.de/fa/nfds/common/NFDM_Common/v1.0" NFD_Version="0.0.0" xsi:schemaLocation="http://ws.gematik.de/fa/nfds/NFD_Document/v1.0 NFD_Document.xsd">
+	<Notfalldaten ID_NFD="a" ID="ID1" NFD_letzte_Aktualisierung_date="1957-08-13" NFD_letzte_Aktualisierung_time="09:30:47+05:00">
+		<NFD_Versicherter>
+			<NFDM:Versicherter>
+				<NFDM:Versicherten_ID>A000000000</NFDM:Versicherten_ID>
+				<NFDM:Geburtsdatum>19670813</NFDM:Geburtsdatum>
+				<NFDM:Vorname>Johann-Georg Wilhelm</NFDM:Vorname>
+				<NFDM:Nachname>Kritzepetrowski-Helmbichler</NFDM:Nachname>
+				<NFDM:Vorsatzwort>von</NFDM:Vorsatzwort>
+				<NFDM:Namenszusatz>Freiherr</NFDM:Namenszusatz>
+				<NFDM:Titel>Prof. Dr. </NFDM:Titel>
+				<NFDM:Geschlecht>M</NFDM:Geschlecht>
+			</NFDM:Versicherter>
+			<NFD_Behandelnder_Arzt_Institution BAI_Art="Institution">
+				<NFD_BAI_Arzt_Nachname>Müller-Holzscheit</NFD_BAI_Arzt_Nachname>
+				<NFD_BAI_Arzt_Vorname>Marcello-Bernhardino</NFD_BAI_Arzt_Vorname>
+				<NFD_BAI_Institution_Bezeichnung>Höhenklinik Alpenglück</NFD_BAI_Institution_Bezeichnung>
+				<NFD_BAI_Arzt_Bezeichnung>Stationsleitung</NFD_BAI_Arzt_Bezeichnung>
+				<NFD_BAI_Adresse>
+					<NFDM:Adresse>
+						<NFDM:Postleitzahl>98765</NFDM:Postleitzahl>
+						<NFDM:Ort>Oberstubbling</NFDM:Ort>
+						<NFDM:Strasse>Bergstr.</NFDM:Strasse>
+						<NFDM:Hausnummer>90</NFDM:Hausnummer>
+						<NFDM:Anschriftenzusatz>Haupthaus</NFDM:Anschriftenzusatz>
+						<NFDM:Wohnsitzlaendercode>DE</NFDM:Wohnsitzlaendercode>
+					</NFDM:Adresse>
+				</NFD_BAI_Adresse>
+				<NFD_BAI_Kommunikation>
+					<NFDM:Kommunikationsdaten>
+						<NFDM:Telefonnummer>0987/6544</NFDM:Telefonnummer>
+						<NFDM:Faxnummer>0987/6555</NFDM:Faxnummer>
+						<NFDM:E-Mail>Stationsleitung@Klinik_Alpenglueck.com</NFDM:E-Mail>
+					</NFDM:Kommunikationsdaten>
+				</NFD_BAI_Kommunikation>
+			</NFD_Behandelnder_Arzt_Institution>
+			<NFD_Behandelnder_Arzt_Institution BAI_Art="Arzt">
+				<NFD_BAI_Arzt_Nachname>Frankenstein</NFD_BAI_Arzt_Nachname>
+				<NFD_BAI_Arzt_Vorname>Berthold</NFD_BAI_Arzt_Vorname>
+				<NFD_BAI_Institution_Bezeichnung>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</NFD_BAI_Institution_Bezeichnung>
+				<NFD_BAI_Arzt_Bezeichnung>Hausarzt</NFD_BAI_Arzt_Bezeichnung>
+				<NFD_BAI_Adresse>
+					<NFDM:Adresse>
+						<NFDM:Postleitzahl>12345</NFDM:Postleitzahl>
+						<NFDM:Ort>Steinhausen am Wald</NFDM:Ort>
+						<NFDM:Strasse>Hochwaldstraße</NFDM:Strasse>
+						<NFDM:Hausnummer>12</NFDM:Hausnummer>
+						<NFDM:Anschriftenzusatz>Hinterhaus, III. Etage, links</NFDM:Anschriftenzusatz>
+						<NFDM:Wohnsitzlaendercode>DE</NFDM:Wohnsitzlaendercode>
+					</NFDM:Adresse>
+				</NFD_BAI_Adresse>
+				<NFD_BAI_Kommunikation>
+					<NFDM:Kommunikationsdaten>
+						<NFDM:Telefonnummer>0987/6544</NFDM:Telefonnummer>
+						<NFDM:Faxnummer>0987/6545</NFDM:Faxnummer>
+						<NFDM:E-Mail>B.Frankenstein@mydoctor.com</NFDM:E-Mail>
+					</NFDM:Kommunikationsdaten>
+				</NFD_BAI_Kommunikation>
+			</NFD_Behandelnder_Arzt_Institution>
+			<NFD_Benachrichtigungskontakt>
+				<NFD_BK_Bezeichnung>Tochter</NFD_BK_Bezeichnung>
+				<NFD_BK_Nachname>von Huber</NFD_BK_Nachname>
+				<NFD_BK_Vorname>Chantal-Eileen</NFD_BK_Vorname>
+				<NFD_BK_Kommunikation>
+					<NFDM:Kommunikationsdaten>
+						<NFDM:Telefonnummer>0987/543</NFDM:Telefonnummer>
+						<NFDM:Faxnummer>aaaaaaaaaaaaaaaaaaaaaaaaa</NFDM:Faxnummer>
+						<NFDM:E-Mail>chantal@daisy_chain.com</NFDM:E-Mail>
+					</NFDM:Kommunikationsdaten>
+				</NFD_BK_Kommunikation>
+			</NFD_Benachrichtigungskontakt>
+			<NFD_Versicherter_Kommunikation>
+				<NFDM:Kommunikationsdaten>
+					<NFDM:Telefonnummer>0987/65412</NFDM:Telefonnummer>
+					<NFDM:Faxnummer>aaaaaaaaaaaaaaaaaaaaaaaaa</NFDM:Faxnummer>
+					<NFDM:E-Mail>JGW.Kritze@Alter-Adel.de</NFDM:E-Mail>
+				</NFDM:Kommunikationsdaten>
+			</NFD_Versicherter_Kommunikation>
+		</NFD_Versicherter>
+		<NFD_Versicherter_Einwilligung>
+			<NFD_VE_Arzt_Nachname>Meyer</NFD_VE_Arzt_Nachname>
+			<NFD_VE_Arzt_Vorname>Eberhard</NFD_VE_Arzt_Vorname>
+			<NFD_VE_Adresse>
+				<NFDM:Adresse>
+					<NFDM:Postleitzahl>54321</NFDM:Postleitzahl>
+					<NFDM:Ort>Hannova</NFDM:Ort>
+					<NFDM:Strasse>Bahnhofstr</NFDM:Strasse>
+					<NFDM:Hausnummer>13</NFDM:Hausnummer>
+					<NFDM:Anschriftenzusatz>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</NFDM:Anschriftenzusatz>
+					<NFDM:Wohnsitzlaendercode>DE</NFDM:Wohnsitzlaendercode>
+				</NFDM:Adresse>
+			</NFD_VE_Adresse>
+		</NFD_Versicherter_Einwilligung>
+		<NFD_Befunddaten>
+			<Besondere_Hinweise>
+				<Schwangerschaft>
+					<Entbindungstermin_Errechnet xsi:nil="true"/>
+					<Schwangerschaft>0</Schwangerschaft>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Kraxenbichler-Tupfa</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Innere Medizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Bad Entenhausen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Schwangerschaft>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">1999-12-01</Datum_Implantation>
+					<Implantate>VP-Shunt</Implantate>
+					<Typenbezeichnung>Typ Medtronic Strata® Adjustable Pressure Valve</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Neurochirurgie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2002-02-02</Datum_Implantation>
+					<Implantate>ICD Kardioverter-Defibrillator</Implantate>
+					<Typenbezeichnung>St. Jude Medical Current Accel</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Orthopädie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2009-07-01</Datum_Implantation>
+					<Implantate>Endoprothese Hüfte links</Implantate>
+					<Typenbezeichnung>Durom/Metasul LDHHüftprothesensystem</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Orthopädie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2010-07-01</Datum_Implantation>
+					<Implantate>Knieprothese rechts</Implantate>
+					<Typenbezeichnung>Bikondyläre Primärprothese</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Orthopädie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2008-08-01</Datum_Implantation>
+					<Implantate>Künstliche Bandscheibe, LWK 5/6</Implantate>
+					<Typenbezeichnung>Hydra Felx, Raymedica</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Orthopädie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2006-01-02</Datum_Implantation>
+					<Implantate>Tiefer Hirnstimulator Ncl. Subthalamicus</Implantate>
+					<Typenbezeichnung>Activa RC Neurostimulator</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Charité Universtitätsmedizin Berlin - Standort Benjamin Franklin</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Neurochirurgie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Berlin</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2003-03-01</Datum_Implantation>
+					<Implantate>Drahtcerclage Sternum nach ACVB</Implantate>
+					<Typenbezeichnung> </Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Kardiologie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2003-03-15</Datum_Implantation>
+					<Implantate>Künstliche Aortenklappe, Bioprothese</Implantate>
+					<Typenbezeichnung> St. Jude Medical Modell SJM Epic 21</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Kardiologie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Implantate>
+					<Datum_Implantation xsi:nil="false ">2011-10-15</Datum_Implantation>
+					<Implantate>Deckung des Kalottendefekts</Implantate>
+					<Typenbezeichnung> Glaskeramik-Implantat Os temporale rechts</Typenbezeichnung>
+					<diagnostiziert_indiziert DI_Art="Institution">
+						<DI_Institution>
+							<DI_Institution_Name>Klinikum Großharlaching</DI_Institution_Name>
+							<DI_Institution_Fachabteilung>Abteilung für Neurochirurgie</DI_Institution_Fachabteilung>
+							<DI_Institution_Ort>Münchberg</DI_Institution_Ort>
+						</DI_Institution>
+					</diagnostiziert_indiziert>
+				</Implantate>
+				<Kommunikationsstoerungen>
+					<Kommunikationsstoerung>ausgeprägte Schwerhörigkeit (Presbyakusis)</Kommunikationsstoerung>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Kommunikationsstoerungen>
+				<Kommunikationsstoerungen>
+					<Kommunikationsstoerung>Demenz mit phasenweiser Desorientierung</Kommunikationsstoerung>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Kommunikationsstoerungen>
+				<Kommunikationsstoerungen>
+					<Kommunikationsstoerung>Deutliche Visusminderung (Maculadegeneration)</Kommunikationsstoerung>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Kommunikationsstoerungen>
+				<Weglaufgefaehrdung>
+					<Weglaufgefaehrdung>1</Weglaufgefaehrdung>
+					<Weglaufgefaehrdung_Erlaeuterung>Patient neigt bei Wechsel der gewohnten Umgebung zur Desorientiertheit mit ausgeprägter Weglauftendenz (häufig mit erreichbaren Öffentlichen Verkehrsmitteln nach Hause!)</Weglaufgefaehrdung_Erlaeuterung>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Weglaufgefaehrdung>
+				<Sonstige_Hinweise>
+					<sonstige_Hinweise>ICD ist über telemedizinische Plattform an Plattform Merlin.net angebunden. Kontakt Dr. Herzsprung Dt. Herzzentrum, München (089 1234 56 789)</sonstige_Hinweise>
+					<diagnostiziert_indiziert DI_Art="Arzt">
+						<DI_Arzt>
+							<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+							<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+							<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+						</DI_Arzt>
+					</diagnostiziert_indiziert>
+				</Sonstige_Hinweise>
+			</Besondere_Hinweise>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>Insektengift Wespe und Biene</Substanz>
+				<Reaktion>anaphylaktische Reaktion</Reaktion>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>Kontaktallergie Nickel</Substanz>
+				<Reaktion>pustelige Effloreszenzen im Kontaktareal</Reaktion>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Flechte</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Dermatologie</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Rotenburg ob der Haube</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>Kontaktallergie Latex</Substanz>
+				<Reaktion>Kontaktallergie Latex</Reaktion>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Flechte</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Dermatologie</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Rotenburg ob der Haube</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>Nahrungsmittel Nüsse</Substanz>
+				<Reaktion>Asthma, einmalige Reaktion (9/2009) bis Intubationspflichtigkeit!</Reaktion>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Flechte</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Dermatologie</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Rotenburg ob der Haube</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>Birkenpollen</Substanz>
+				<Reaktion>Fließschnupfen</Reaktion>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Flechte</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Dermatologie</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Rotenburg ob der Haube</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>Katzenhaare</Substanz>
+				<Reaktion>bis anaphylaktoide Reaktion!</Reaktion>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Flechte</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Dermatologie</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Rotenburg ob der Haube</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>Apfel</Substanz>
+				<Reaktion>Kribbeln, Juckreiz im Rachen</Reaktion>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Flechte</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Dermatologie</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Rotenburg ob der Haube</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>Glutamat</Substanz>
+				<Reaktion>Durchfall</Reaktion>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Flechte</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Dermatologie</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Rotenburg ob der Haube</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>Penicillin</Substanz>
+				<Reaktion>anamnestisch wird anaphylaktische Reaktion geschildert</Reaktion>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Allergien_Unvertraeglichkeiten>
+				<Substanz>Unacid (Sultamicillin)</Substanz>
+				<Reaktion>ausgepraegtes Arzneimittelexanthem</Reaktion>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Fachklinik für Lungenerkrankungen</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Pulmologie I</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Bad Höhenhausen-Schauinsland</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Allergien_Unvertraeglichkeiten>
+			<Diagnosen>
+				<Diagnose_Code>I10.11</Diagnose_Code>
+				<Diagnose_Text>Maligne essentielle Hypertonie</Diagnose_Text>
+				<!--<Diagnose_Zeitpunkt>2010-09-09</Diagnose_Zeitpunkt>-->
+				<Diagnose_Zeitpunkt>Q3/1998</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>I60.03</Diagnose_Code>
+				<Diagnose_Text>Subarachnoidalblutung, von der A. communicans posterior ausgehend</Diagnose_Text>
+				<Diagnose_Zeitpunkt>letztes Jahr</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>Z</Diagnosesicherheit>
+				<Seitenlokalisation>R</Seitenlokalisation>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Institution">
+					<DI_Institution>
+						<DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+						<DI_Institution_Fachabteilung>Abteilung für Neurochirurgie</DI_Institution_Fachabteilung>
+						<DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+					</DI_Institution>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>I48.1</Diagnose_Code>
+				<Diagnose_Text>Vorhofflimmern</Diagnose_Text>
+				<Diagnose_Zeitpunkt>1990-02-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>I50.12</Diagnose_Code>
+				<Diagnose_Text>Linksherzinsuffizienz - NYHA-Stadium II</Diagnose_Text>
+				<Diagnose_Zeitpunkt>1990-02-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>I69.0</Diagnose_Code>
+				<Diagnose_Text>Folgen einer Subarachnoidalblutung</Diagnose_Text>
+				<Diagnose_Zeitpunkt>2000-01-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation>B</Seitenlokalisation>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Neuron-Oberschlund</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Neurologie</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Kaiserslautern</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>F04</Diagnose_Code>
+				<Diagnose_Text>Organisches amnestisches Syndrom, nicht durch Alkohol oder andere psychotrope Substanzen bedingt</Diagnose_Text>
+				<Diagnose_Zeitpunkt>2008-12-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Neuron-Oberschlund</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Neurologie</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Kaiserslautern</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>H40.2</Diagnose_Code>
+				<Diagnose_Text>Primäres Engwinkelglaukom</Diagnose_Text>
+				<Diagnose_Zeitpunkt>2010-04-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation>B</Seitenlokalisation>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Iris-Retinatio</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Augenheilkunde</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Durchsicht-Oberhausen</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>H53.4</Diagnose_Code>
+				<Diagnose_Text>Gesichtsfelddefekte - homonyme Hemianospie</Diagnose_Text>
+				<Diagnose_Zeitpunkt>1999-12-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation>L</Seitenlokalisation>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Iris-Retinatio</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Augenheilkunde</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Durchsicht-Oberhausen</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>J41.8</Diagnose_Code>
+				<Diagnose_Text>Mischformen von einfacher und schleimig-eitriger chronischer Bronchitis</Diagnose_Text>
+				<Diagnose_Zeitpunkt>2005-02-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation>R</Seitenlokalisation>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Institution">
+					<DI_Institution>
+						<DI_Institution_Name>Fachklinik für Lungenerkrankungen</DI_Institution_Name>
+						<DI_Institution_Fachabteilung>Pulmologie I</DI_Institution_Fachabteilung>
+						<DI_Institution_Ort>Bad Höhenhausen-Schauinsland</DI_Institution_Ort>
+					</DI_Institution>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>J63.9</Diagnose_Code>
+				<Diagnose_Text>Emphysem, nicht näher bezeichnet</Diagnose_Text>
+				<Diagnose_Zeitpunkt>2005-02-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation>R</Seitenlokalisation>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Institution">
+					<DI_Institution>
+						<DI_Institution_Name>Fachklinik für Lungenerkrankungen</DI_Institution_Name>
+						<DI_Institution_Fachabteilung>Pulmologie I</DI_Institution_Fachabteilung>
+						<DI_Institution_Ort>Bad Höhenhausen-Schauinsland</DI_Institution_Ort>
+					</DI_Institution>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>E10.74</Diagnose_Code>
+				<Diagnose_Text>Primär insulinabhängiger Diabetes mellitus [Typ-1-Diabetes] Mit multiplen Komplikationen Mit diabetischem Fußsyndrom, nicht als entgleist bezeichnet</Diagnose_Text>
+				<Diagnose_Zeitpunkt>1911-11-11</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>E78.0</Diagnose_Code>
+				<Diagnose_Text>Hyperlipoproteinämie vom Low-density-lipoprotein-Typ [LDL]</Diagnose_Text>
+				<Diagnose_Zeitpunkt>2011-12-12</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>E80.4</Diagnose_Code>
+				<Diagnose_Text>Gilbert-Meulengracht-Syndrom</Diagnose_Text>
+				<Diagnose_Zeitpunkt>1995-01-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Institution">
+					<DI_Institution>
+						<DI_Institution_Name>Asklepios Stadtklinik Bad Höhenprimel</DI_Institution_Name>
+						<DI_Institution_Fachabteilung>Innere IV - Gastroenterologie</DI_Institution_Fachabteilung>
+						<DI_Institution_Ort>Bad Höhenprimel-Schauinstal</DI_Institution_Ort>
+					</DI_Institution>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>E06.2</Diagnose_Code>
+				<Diagnose_Text>Chronische Thyreoiditis mit transitorischer Hyperthyreose</Diagnose_Text>
+				<Diagnose_Zeitpunkt>2009-01-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Institution">
+					<DI_Institution>
+						<DI_Institution_Name>Asklepios Stadtklinik Bad Höhenprimel</DI_Institution_Name>
+						<DI_Institution_Fachabteilung>Innere IV - Gastroenterologie</DI_Institution_Fachabteilung>
+						<DI_Institution_Ort>Bad Höhenprimel-Schauinstal</DI_Institution_Ort>
+					</DI_Institution>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>E88.8</Diagnose_Code>
+				<Diagnose_Text>Benigne symmetrische Lipomatose [Launois-Bensaude-Adenolipomatose]</Diagnose_Text>
+				<Diagnose_Zeitpunkt>1995-01-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Institution">
+					<DI_Institution>
+						<DI_Institution_Name>Asklepios Stadtklinik Bad Höhenprimel</DI_Institution_Name>
+						<DI_Institution_Fachabteilung>Innere III - Endokrinologie</DI_Institution_Fachabteilung>
+						<DI_Institution_Ort>Bad Höhenprimel-Schauinstal</DI_Institution_Ort>
+					</DI_Institution>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>I25.15</Diagnose_Code>
+				<Diagnose_Text>Atherosklerotische Herzkrankheit Mit stenosierten Bypass-Gefäßen</Diagnose_Text>
+				<Diagnose_Zeitpunkt>2009-01-02</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Cardiacarrest</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Innere, Kardiologie</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Herzschlaghausen</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code/>
+				<Diagnose_Text>Z.n. 3-Gefäß-ACVB und mehreren PTCAs</Diagnose_Text>
+				<Diagnose_Zeitpunkt>2011-12-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit/>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Institution">
+					<DI_Institution>
+						<DI_Institution_Name>Stabat Mater Klinikum</DI_Institution_Name>
+						<DI_Institution_Fachabteilung>Chirurgie, Thoraxchirurgie</DI_Institution_Fachabteilung>
+						<DI_Institution_Ort>Großburghausen-Weilbach</DI_Institution_Ort>
+					</DI_Institution>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code/>
+				<Diagnose_Text>Z.n. Polytrauma nach Verkehrsunfall mit Unterschenkel-Trümmerfraktur, Rippen-serienfraktur, Lungenkontusion, Epiduralhämatom</Diagnose_Text>
+				<Diagnose_Zeitpunkt>1979-03-11</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>H80.0</Diagnose_Code>
+				<Diagnose_Text>Otosklerose mit Beteiligung der Fenestra vestibuli, nichtobliterierend</Diagnose_Text>
+				<Diagnose_Zeitpunkt>2007-05-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>G</Diagnosesicherheit>
+				<Seitenlokalisation>B</Seitenlokalisation>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Hasenohr</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt HNO</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Klingelmünster</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+			<Diagnosen>
+				<Diagnose_Code>G70.9</Diagnose_Code>
+				<Diagnose_Text>Neuromuskuläre Krankheit, nicht näher bezeichnet</Diagnose_Text>
+				<Diagnose_Zeitpunkt>2012-01-01</Diagnose_Zeitpunkt>
+				<Diagnosesicherheit>V</Diagnosesicherheit>
+				<Seitenlokalisation/>
+				<Diagnose_Code_System DC_Version="String">
+					<Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+				</Diagnose_Code_System>
+				<diagnostiziert_indiziert DI_Art="Arzt">
+					<DI_Arzt>
+						<DI_Arzt_Name>Dr. Neuron-Oberschlund</DI_Arzt_Name>
+						<DI_Arzt_Fachgebiet>Facharzt für Neurologie</DI_Arzt_Fachgebiet>
+						<DI_Arzt_Ort>Kaiserslautern</DI_Arzt_Ort>
+					</DI_Arzt>
+				</diagnostiziert_indiziert>
+			</Diagnosen>
+		</NFD_Befunddaten>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="230272" ps="BMP v2.3, Kap 8.3.1, Tab 3" a="METOPROLOLSUCCINAT 1A Phar.95 Retardtabletten" du="1" dus="BMP v2.3, Anh 4, Tab 9" f="RET" fs="BMP v2.3, Anh 3, Tab 8" t="morg. 1 nach Bedarf" i="nicht bei Übelkeit" x="Bei Mattigkeit, Schläfrigkeit, Schwindel keine weitere Einnahme und Information des Hausarztes bzw. des ärztlichen Bereitschaftsdienstes, in Notfällen rufen Sie den Rettungsdienst und 112">
+				<W w="Metoprolol succinat" s="47.5 mg /Stück"/>
+				<W w="Metoprolol" s="38.91 mg /Stück"/>
+				<W w="Metoprolol tartrat " s="50 mg /Stück"/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="1495334" ps="BMP v2.3, Kap 8.3.1, Tab 3" a="Insuman® Comb 25 SoloStar" du="2" dus="BMP v2.3, Anh 4, Tab 9" f="DIS" fs="BMP v2.3, Anh 3, Tab 8" m="20" d="40" v="20" i="Gluc. > 120" x="Bei Zittern oder Schwindel, Blutzucker messen, bei zzu geringem Blutzucker Traubenzucker einnehmen, in Notfällen rufen Sie den Rettungsdienst und 112">
+				<W w="Insulin human" s="40 IE"/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="796950" ps="BMP v2.3, Kap 8.3.1, Tab 3" a="Ramipril Al" du="2" dus="BMP v2.3, Anh 4, Tab 9" f="TAB" fs="BMP v2.3, Anh 3, Tab 8" m="2" d="3" v="1" h="12" i="n. Bedarf" x="Anwendungshinweise beachten, in Notfällen rufen Sie den Rettungsdienst und 112">
+				<W w="Ramipril" s="2,5 mg"/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="7699351" ps="BMP v2.3, Kap 8.3.1, Tab 3" f="TAB" fs="BMP v2.3, Anh 3, Tab 8" v="2" du="1" dus="BMP v2.3, Anh 4, Tab 9" a="Sortis">
+				<W w="Atorvastatin" s="20 mg"/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="958281" ps="BMP v2.3, Kap 8.3.1, Tab 3" a="Aspirin Migräne" f="BTA" fs="BMP v2.3, Anh 3, Tab 8" du="1" dus="BMP v2.3, Anh 4, Tab 9" x=" bei Kopfschmerzen" t="täglich 2 ??">
+				<W w="Acetylsalicylsäure" s="500 mg"/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="4190859" ps="BMP v2.3, Kap 8.3.1, Tab 3" a="Cotrim-Ct 800" du="s" dus="BMP v2.3, Anh 4, Tab 9" m="1" v="1" f="ING">
+				<W w="Trimethoprim" s="160 mg"/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="707946" ps="BMP v2.3, Kap 8.3.1, Tab 3" m="1" a="ASS Stada Protect" f="TAB" fs="BMP v2.3, Anh 3, Tab 8">
+				<W w="Acetylsalicylsäure" s="100 mg"/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="6680817" ps="BMP v2.3, Kap 8.3.1, Tab 3" a="Ginkobil ratiopharm" du="1" dus="BMP v2.3, Anh 4, Tab 9" m="1" f="DKA" fs="BMP v2.3, Anh 3, Tab 8">
+				<W w="Ginko-biloba Blätter" s="40 mg"/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="4897820" ps="BMP v2.3, Kap 8.3.1, Tab 3" a="Vitamin B6 Hevert" t="monatlich" x="dienstags, egal wann?" du="1" dus="BMP v2.3, Anh 4, Tab 9" f="INF" fs="BMP v2.3, Anh 3, Tab 8">
+				<W w="Pyridoxin" s="25 mg "/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Neuron-Oberschlund</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Facharzt für Neurologie</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Kaiserslautern</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="6195105" ps="BMP v2.3, Kap 8.3.1, Tab 3" f="TBL" fs="BMP v2.3, Anh 3, Tab 8" a="Paracetamol CT" m="1" t="vor Gabe Betaferon" x="vor Gabe Betaferon">
+				<W w="Paracetamol" s="500 mg"/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Enrico de Salbada</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Internist</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Hammelburg</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<M p="0760946" ps="BMP v2.3, Kap 8.3.1, Tab 3" t="nach der Mahlzeit" v="1" x="nach der Mahlzeit" a="Inegy" f="TBL" fs="BMP v2.3, Anh 3, Tab 8">
+				<W w="Simvastatin" s="20 mg"/>
+				<W w="Ezetimib" s="10 mg"/>
+			</M>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Andreas Müller</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Facharzt für allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Aschersleben</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<R t="Pflegecreme (Basiscreme DAC, Nachtkerzenöl 10%)  -- täglich auf die betroffenen Stellen --" x="Täglich dünn auftragen und einziehen lassen"/>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Andreas Müller</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Facharzt für allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Aschersleben</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<R t="Analsalbe Glyceroltrinitrat 0.2%, Ölige Glyceroltrinitrat-Lösung 5% 4.0 Halbfestes Hartfett (z.B.: Softisan 378) ad 100.0" x="Hände anschließend mit Seife waschen"/>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Andreas Müller</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Facharzt für allgemeinmedizin</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Aschersleben</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<R t="unspezifische Rezeptur (Polidocanol-600-Zinkoxidschüttelmixtur 5% auf Handflächen(1. Nach Händewaschen)~schuppiges Exantem. Alles zusammen und genau ein Zeilenumbruch ergibt dies in Summe 200 Zeichen." x="Zusätzliche Informationen  zur Anwendung erhalten Sie von Ihrem Arzt oder Apotheker. Bitte frage Sie ihn nach der konkreten Anwendung!"/>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Thomas Heidenbrück</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Facharzt für Dematologie</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Oldenburg</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<R t="Hautsalbe (Polidocanol-600-Zinkoxidschüttelmixtur 5% 2x täglich auf Handflächen (mo. &amp; ab. Nach Händewaschen) schuppiges Exanthem" x="Bitte auf die Handaußen- und innenflächen auftragen!"/>
+		</NFD_Medikationseintrag>
+		<NFD_Medikationseintrag>
+			<diagnostiziert_indiziert DI_Art="Arzt">
+				<DI_Arzt>
+					<DI_Arzt_Name>Dr. Thomas Heidenbrück</DI_Arzt_Name>
+					<DI_Arzt_Fachgebiet>Facharzt für Dematologie</DI_Arzt_Fachgebiet>
+					<DI_Arzt_Ort>Oldenburg</DI_Arzt_Ort>
+				</DI_Arzt>
+			</diagnostiziert_indiziert>
+			<R t="Analsalbe Glyceroltrinitrat 0.2%, Ölige Glyceroltrinitrat-Lösung 5% 4.0 Halbfestes Hartfett (z.B.: Softisan 378) ad 100.0" x="Bei Beschwerden dünn auftragen" />
+		</NFD_Medikationseintrag>
+		<NFD_Freiwillige_Zusatzinformationen>
+			<Freiwillige_Zusatzinformationen>Blutgruppe AB Rh neg; Knochenmark-Spender (Typisierung 2011 erfolgt / DKMS)</Freiwillige_Zusatzinformationen>
+		</NFD_Freiwillige_Zusatzinformationen>
+	</Notfalldaten>
+	<SignatureArzt>
+		<ds:Signature Id="xmldsig-b465ddf5-46ae-4888-8c55-02b37d3e9fc8">
+			<ds:SignedInfo Id="ID_3">
+				<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+				<ds:Reference Id="xmldsig-b465ddf5-46ae-4888-8c55-02b37d3e9fc8-ref0" URI="#ID1">
+					<ds:Transforms>
+						<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#base64"/>
+					</ds:Transforms>
+					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+					<ds:DigestValue>lARfz/Xsfdmhv7SpuMvhYhZ+IQLpeDKU8ZZIYf+Bbec=</ds:DigestValue>
+				</ds:Reference>
+				<ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xmldsig-b465ddf5-46ae-4888-8c55-02b37d3e9fc8-signedprops">
+					<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+					<ds:DigestValue>8y1RAZEYa+hoOWGQzd2vNWC6Dg68RoSFdX7OyPB7wlA=</ds:DigestValue>
+				</ds:Reference>
+			</ds:SignedInfo>
+			<ds:SignatureValue Id="xmldsig-b465ddf5-46ae-4888-8c55-02b37d3e9fc8-sigvalue">
+Ar+gNT/D+lnTHKvVKPhDCeVUhygs9Dlrcs3GASGhmL6ZUfDUQCYqeAjC+0/n+lLY4Let1WuzzmBTLkXBbr/Ewu/ltrH49/jyNlCnnQ7wxiGFBVOxzzShfhg3wVe7YqJOsI9Rgh0VJGwhHdrJ9gAt/Sc9sNyDauPNsDLABpKrOZAPccMNaP5IRCBmx6hmyWkluTrf8f+qjHh0rf46A4nUQ1zpBwRfiRdSPcRvVeNbqiQjHWuw+TPYPOGV0ODgQIvUnkCY778zPX+iPy9lcWjYZNGS7nSqtEspRfFraSSK3PZDiD7QlVa5jPuK4kFv+FcQLmEo1DkaZeimUo8OIBKVHzlrMZCtXzk6G1zWXsxf3M8suXeGZ48XH11Ik3gefeIJ0QJ9945SpzdrQ0V6LZAf43/vtQ5tmTlJEgRJ+j3hl92jSHVsC84qRYhzCAmYo/5RqT067GMfWA0t8N4UCGZTdzUUvbwmf/cCFuVrPS0XFcPkO9lridDMHiY5B6WEd6a5qEo1/mGP61U9sjpchSa74ECDicnQfzpsXtcsNUne/ZjAAuiFBqEBgVnhr+BTJgOwjln+CLayAx74I2NJ9jWvFaV/1QVqfXGksJQowFhNq83DZp+4/uwBtWfFV8v1KW8M5PuFsWAKlsInBb3kz9iHZzXGHPGJTeNmjahL2GYTJh8=
+			</ds:SignatureValue>
+			<ds:KeyInfo Id="ID_6">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIFaDCCA1CgAwIBAgICMDkwDQYJKoZIhvcNAQELBQAwODELMAkGA1UEBhMCREUxEDAOBgNVBAoMB0dFTUFUSUsxFzAVBgNVBAsMDkNBIENlcnRpZmljYXRlMB4XDTEzMDUxNDE1NDIxMloXDTEzMDUxNDE1NDIxMlowHjEcMBoGA1UEAxMTVGVzdCBWMyBDZXJ0aWZpY2F0ZTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAJJXBuMAokjFxUXAEbqHH/gw3jDmVqB/9wtmQwWqK1ZiicIjfZEo6r2yG56f1CRT5ZwIsiia+9hYIuSP8S6amTdUZV06c6iW+GK2ZtL6Dv3RzrN/WI/D72xPMvc0+S/5cv93eJl/EuGP6Q2DTkrShX59H6zI/oxf2ikdF5ePbqS6oZiwP2BK5dOI092kbvFdJU2SHNkP8BgPXN48adn2iMC3m/oHUUi0ymej/MrA0YXvGPlbktvC8soYWluCdIuCAUQCkmqy1NSoMcogg8Alsfn+WMfkyp8JJwvKknAkGywxIHOG+3q8G099AAEl4z7UuOxnWut6knbCNIY7AVeZi406msIf/xdCOY0W2/io5fxGJDQ1NXrfQWLdvtWo51LwVkFHW6n9x4AHTXtWVXPclhr2amL6s3fCxerOWWEyu9KDa8bXUT2CFxwRT1tq/pIOCX6Okfa92Nrw0OHAxBxUzSpSQLqipYI/R8rT+S1guJbyxiHiXzsGYrxuzDNd96XAgv3A9MczCqg77LwcQp81gnss3TFJ3SlzO6MCPhv0XHYvIN3SefQRDV3+LXQBake4ZhY9fHLBCZHYM5E4PgMrp78SsIErWnyPmz+3HQQLrmmXfSCR21PxicXngdOKimyRUsorCBEzC2LcQjgcQ0+mbB15V5eg6Gt3BlKMa2Oo0avPAgMBAAGjgZUwgZIwcQYDVR0jBGowaIAUrxt5U7Wr1gDyWGGvUxvxHVVUUXOhTaRLMEkxCzAJBgNVBAYTAkRFMRswGQYDVQQKDBJCdW5kZXPDpHJ6dGVrYW1tZXIxHTAbBgNVBAMMFDNSIELDhEsgVGVzdCBDQSAxOlBOggFaMB0GA1UdDgQWBBTWT+X1Jn0dtZ2GM445t/5LnKfN/DANBgkqhkiG9w0BAQsFAAOCAgEAbDqfdf4O/R13BEptFHNySKlVl9IsQVLDHyURP0twRwl+iaAmUO6AbkvMvKb6ddSOzMuirlKCpMbK0eJJ7AYyI6kSGlUHEGI0PjUVLN4idR2nut6ORM6nVQcdlS12b0dTHGJ+RDC4Jr/AqoA+ndFnHSK3yakHMvMXEBtuI5HCZ7k95P2A9VgYcyxYhYmFVB25bcWwTpwzmxSQ7KTdeeic6GEUqV1EfvmFrwhHRq1p3EgdACu/Ggcvz76HTuIYAYmysCy+m3Al79upF7Td4gQ+f7fQZ3KG/AbnQaOpvaNhR3d0GE0uItlWXil0IjzkYf1yiuavtBpDJNLMZM8rHIISb8SmMXtHgxcor36UjVmved01L+LBDoHb7GT0V6w4OH+jj0nxznkv8pWYT5thiJGvQC5TIG8jiAsRnqf1SR/4nX/uVq6BATO+OIq6r1/8ieR+TTvIlSf2wTIB7O+z+TO7MnciMsSz2HAVKTGsTqkWFHdZrTczKR8fla9S4Rn9aqt1Uq7eHajkVhwo5xGNUYcc83ahFp50S7ad6mX9L1OhgWWkAzEls61LrnfLznXV1F+ZQxRq5Br7Wyu5lEp2PqXwxHks8gU6446dHoQFZ0yFuvZ3dKgBgONB6bdIyQQRBciIrXPA3lspFvU0PkP5pjJ020n3kkNxiLeXBrTkITDXzT4=
+				</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+			<ds:Object>
+				<xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:xades141="http://uri.etsi.org/01903/v1.4.1#" Target="#xmldsig-b465ddf5-46ae-4888-8c55-02b37d3e9fc8">
+					<xades:SignedProperties Id="xmldsig-b465ddf5-46ae-4888-8c55-02b37d3e9fc8-signedprops">
+						<xades:SignedSignatureProperties>
+							<xades:SigningTime>2013-05-14T17:42:15.739+02:00</xades:SigningTime>
+							<xades:SigningCertificate>
+								<xades:Cert>
+									<xades:CertDigest>
+										<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+										<ds:DigestValue>vYA/wFIdqqiwOv9a5JgWOjNGyDjvZc/s/8L5eCuNdTg=</ds:DigestValue>
+									</xades:CertDigest>
+									<xades:IssuerSerial>
+										<ds:X509IssuerName>OU=CA Certificate,O=GEMATIK,C=DE</ds:X509IssuerName>
+										<ds:X509SerialNumber>12345</ds:X509SerialNumber>
+									</xades:IssuerSerial>
+								</xades:Cert>
+							</xades:SigningCertificate>
+						</xades:SignedSignatureProperties>
+					</xades:SignedProperties>
+					<xades:UnsignedProperties xmlns="http://uri.etsi.org/01903/v1.3.2#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uri.etsi.org/01903/v1.3.2# XAdES01903v132-201601.xsd">
+						<xades:UnsignedSignatureProperties xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+							<xades:RevocationValues>
+								<xades:OCSPValues>
+									<xades:EncapsulatedOCSPValue>
+MIIHWQoBAKCCB1IwggdOBgkrBgEFBQcwAQEEggc/MIIHOzCCAVOhQzBBMQswCQYDVQQGEwJERTEa
+MBgGA1UECgwRQnVuZGVzbmV0emFnZW50dXIxFjAUBgNVBAMMDTE0Ui1PQ1NQIDk6UE4YDzIwMTMx
+MTE5MTkyMzI0WjCBtTCBsjA7MAkGBSsOAwIaBQAEFEASRZSoewdF+06gJWPz8OGUhPsHBBT981CE
+MI7sI5r1M7LjgQfd5O+ArgICAyKAABgPMjAxMzEwMDcxMTEyMzJaoWAwXjBcBgUrJAgDDQRTMFEw
+DQYJYIZIAWUDBAIDBQAEQHsyRs6qRx6N7qSbgF9jYBTzcPAICjysJSHWl0tHZrIqHuzxybu7vd7N
+q3sNNJUGPxRjUblg82i+YvJNRtmJAZyhQzBBMB4GCSsGAQUFBzABBgQRGA8xOTgzMTExOTAwMDAw
+MFowHwYJKwYBBQUHMAECBBIEEKZhzTr+Bsv/0c9ZTO69QpcwDQYJKoZIhvcNAQENBQADggEBADuA
+p68QcQMrEF0coQsKNwj16JJNkysuNPg8W4ZCPhOmNY31r3Dg+1UbO7OekX4yNZianndS3zqr551w
+So42vULUMOn00HIHnd+2aCprfOSJfZMc2If1tQGTUTtsaeTHoUC3IZpOT0wfNXSZp0hh8kxtl3aF
+Asg3lfabUE21M8OgQGgZKzPctZ0zpYstTjvni47jguVj054XPJmM9ccXEX1SB3c5TJQrA9wIewH9
+0ThxOqnAcm3pF4ON0zu+6UaUzSmGcX+WI35X/9Wu0csdmyB3r397rlPR+WtwPiMo2efd0f8PzivC
+GP6VeYM/fAwCmkq5X5Z2Chmd4otfDYJh/B2gggTMMIIEyDCCBMQwggOsoAMCAQICAgMyMA0GCSqG
+SIb3DQEBDQUAMD8xCzAJBgNVBAYTAkRFMRowGAYDVQQKDBFCdW5kZXNuZXR6YWdlbnR1cjEUMBIG
+A1UEAwwLMTRSLUNBIDE6UE4wHhcNMTEwNzI1MTIyNzU0WhcNMTYwNzI0MTIyNTU2WjBBMQswCQYD
+VQQGEwJERTEaMBgGA1UECgwRQnVuZGVzbmV0emFnZW50dXIxFjAUBgNVBAMMDTE0Ui1PQ1NQIDk6
+UE4wggEjMA0GCSqGSIb3DQEBAQUAA4IBEAAwggELAoIBAQCvxWx35hIkpMvlhmjmfBRwUs6jJa41
+JinsAi8M/4VNSINiEpuiwogXEBlLjIxHuGIEEGZCLCg9CzKYbKemGgwxojVJjcAvLLgpfiU8sA0o
+VfRJayuNC91MZzjc4U/W0xBlRAumRfXChtKsWzDzpzdBeNhlOZAyx4uvKqDxsMZOyUG71Ukn+dX7
+onrZKGYZULvaBKTxor8urPbllVGtlv+MAIdEK4OXqIiiRbBYPBVFWR713HuxsxMRa7DDcHCldCph
+Neoic1HDEyj2j8MS/imTtlRyWiD2ddnjJ2n66Euv935eenIhJ1TPztNffv7/3sGTR/8JJguAv1ym
+bLivG11pAgRAAACBo4IBxTCCAcEwEwYDVR0lBAwwCgYIKwYBBQUHAwkwDgYDVR0PAQH/BAQDAgZA
+MBgGCCsGAQUFBwEDBAwwCjAIBgYEAI5GAQEwSgYIKwYBBQUHAQEEPjA8MDoGCCsGAQUFBzABhi5o
+dHRwOi8vb2NzcC5ucmNhLWRzLmRlOjgwODAvb2NzcC1vY3NwcmVzcG9uZGVyMBIGA1UdIAQLMAkw
+BwYFKyQIAQEwgbEGA1UdHwSBqTCBpjCBo6CBoKCBnYaBmmxkYXA6Ly9sZGFwLm5yY2EtZHMuZGU6
+Mzg5L0NOPUNSTCxPPUJ1bmRlc25ldHphZ2VudHVyLEM9REUsZGM9bGRhcCxkYz1ucmNhLWRzLGRj
+PWRlP2NlcnRpZmljYXRlUmV2b2NhdGlvbkxpc3Q7YmluYXJ5P2Jhc2U/b2JqZWN0Q2xhc3M9Y1JM
+RGlzdHJpYnV0aW9uUG9pbnQwGwYJKwYBBAHAbQMFBA4wDAYKKwYBBAHAbQMFATAPBgNVHRMBAf8E
+BTADAQEAMB8GA1UdIwQYMBaAFP3zUIQwjuwjmvUzsuOBB93k74CuMB0GA1UdDgQWBBT4ShqImRj7
+7Tk+JFiDrAyHx+TeQjANBgkqhkiG9w0BAQ0FAAOCAQEAGh86Pah8U7fWFLmj1ivD3JEdgX330ZBJ
+hJtBsK4OCJyGPm69yVRaR45F5ewjoTJZQTGtdQZk9xLitNrLvMULKfa7E0eNGlX8bBgA36Om4Hb7
+lZk3RzlcqVHWmPm/YMExYd3a43FHAfssp7SPXX0iY1TvE3/qfiKrdJJcURTNvXwa3u3l4vBDcgts
+w6MZw8R5AflVsebJ7JD/kZHiz5iPE621vBiRffZvIM8J1e5j2pI8JXv9MzdVqDygJh6YwohFzxtA
+aXba+HOZe9gFcTkyZVjnWot5oJPpTKVBfQ9Qy17DXdMhbhjLdDtjrDIG5Tmo+WotFMQzFtejqT64
+mm0LQQ==				
+				</xades:EncapsulatedOCSPValue>
+								</xades:OCSPValues>
+							</xades:RevocationValues>
+						</xades:UnsignedSignatureProperties>
+					</xades:UnsignedProperties>
+				</xades:QualifyingProperties>
+			</ds:Object>
+		</ds:Signature>
+	</SignatureArzt>
+</NFD_Document>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="yes"?>
+<UC_AllgemeineVersicherungsdatenXML CDM_VERSION="5.2.0" xmlns="http://ws.gematik.de/fa/vsdm/vsd/v5.2">
+    <Versicherter>
+        <Versicherungsschutz>
+            <Beginn>20141216</Beginn>
+            <Kostentraeger>
+                <Kostentraegerkennung>999567890</Kostentraegerkennung>
+                <Kostentraegerlaendercode>D</Kostentraegerlaendercode>
+                <Name>gematik Musterkasse1GKV</Name>
+                <AbrechnenderKostentraeger>
+                    <Kostentraegerkennung>991534564</Kostentraegerkennung>
+                    <Kostentraegerlaendercode>D</Kostentraegerlaendercode>
+                    <Name>gematik Musterkasse1GKV</Name>
+                </AbrechnenderKostentraeger>
+            </Kostentraeger>
+        </Versicherungsschutz>
+        <Zusatzinfos>
+            <ZusatzinfosGKV>
+                <Versichertenart>1</Versichertenart>
+                <Zusatzinfos_Abrechnung_GKV>
+                    <Kostenerstattung>
+                        <AerztlicheVersorgung>0</AerztlicheVersorgung>
+                        <ZahnaerztlicheVersorgung>0</ZahnaerztlicheVersorgung>
+                        <StationaererBereich>0</StationaererBereich>
+                        <VeranlassteLeistungen>0</VeranlassteLeistungen>
+                    </Kostenerstattung>
+                    <WOP>02</WOP>
+                </Zusatzinfos_Abrechnung_GKV>
+            </ZusatzinfosGKV>
+        </Zusatzinfos>
+    </Versicherter>
+</UC_AllgemeineVersicherungsdatenXML>

@@ -1,0 +1,90 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace entities {
+      namespace card {
+        class de.gematik.ti.healthcard.control.entities.card.DpeDocument {
+        }
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace entities {
+      namespace card {
+        class de.gematik.ti.healthcard.control.entities.card.GvdDocument {
+        }
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace entities {
+      namespace card {
+        class de.gematik.ti.healthcard.control.entities.card.PdDocument {
+        }
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace entities {
+      namespace card {
+        class de.gematik.ti.healthcard.control.entities.card.ProtocolEntry {
+            {static} - CHARSET : Charset
+            {static} - LOG : Logger
+            {static} - MAXIMUMRECORDLENGTH : int
+            - actorId : String
+            - actorName : String
+            - dataType : String
+            - record : byte[]
+            - timeStamp : long
+            - typeAccess : String
+            - validProtocolEntry : boolean
+            + ProtocolEntry()
+            + ProtocolEntry()
+            + checkRecordValidity()
+            {static} + createProtocolEntry()
+            + equals()
+            + getActorId()
+            + getActorName()
+            + getDataType()
+            {static} + getLongValue()
+            + getRecord()
+            + getTimeStamp()
+            + getTypeAccess()
+            + hashCode()
+            + isValidProtocolEntry()
+            + toString()
+            {static} - isEmpty()
+        }
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace entities {
+      namespace card {
+        class de.gematik.ti.healthcard.control.entities.card.VdDocument {
+        }
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

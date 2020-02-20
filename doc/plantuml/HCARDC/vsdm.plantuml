@@ -1,0 +1,52 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace vsdm {
+      class de.gematik.ti.healthcard.control.vsdm.VsdReader {
+          - cardToRead : HealthCard
+          + VsdReader()
+          + readGvd()
+          + readPd()
+          + readStatusVsd()
+          + readVd()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace vsdm {
+      class de.gematik.ti.healthcard.control.vsdm.VsdService {
+          - authorisingCard : HealthCard
+          + VsdService()
+          + getGvdDocument()
+          + getPdDocument()
+          + getVdDocument()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace vsdm {
+      class de.gematik.ti.healthcard.control.vsdm.VsdWriter {
+          - cardToRead : ICard
+          + VsdWriter()
+      }
+    }
+  }
+  
+
+  de.gematik.ti.healthcard.control.vsdm.VsdService o-- de.gematik.ti.healthcard.control.vsdm.VsdReader : vsdReader
+
+
+
+
+
+
+
+
+
+@enduml

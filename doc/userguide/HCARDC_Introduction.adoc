@@ -1,0 +1,8 @@
+ifndef::javadoc[]
+include::config.adoc[]
+endif::javadoc[]
+
+This part describes the usage of HealthCardControl.
+
+.HealthCardControl layer API
+image::root/hcardc_layer.png[caption="{figure-caption} {counter:figure}: "]

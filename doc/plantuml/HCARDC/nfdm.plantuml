@@ -1,0 +1,107 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace nfdm {
+      class AccessRightWrapper {
+          - healthCard : IHealthCard
+          + AccessRightWrapper()
+          + getAccessRight()
+      }
+
+      class NfdDpeReader {
+                {static} - LOG : Logger
+                {static} - RADIX : int
+                {static} - TAG : String
+                - cardToRead : IHealthCard
+                - subscriber : Subscriber<byte[]>
+                + extractDocument()
+                ~ NfdDpeReader()
+                ~ checkConsistency()
+                ~ checkContainerVersion()
+                ~ checkSize()
+                ~ readLifeCycleState()
+                {static} - convertStringToXMLDocument()
+                {static} - dataInfoToLength()
+                - extractEfSize()
+                {static} - getCharSettingFirst()
+                - getCompressedData()
+                - getSubscriber()
+                {static} - getUncompressed()
+       }
+
+       class NfdDpeReader {
+                 {static} - LOG : Logger
+                 {static} - RADIX : int
+                 {static} - TAG : String
+                 - cardToRead : IHealthCard
+                 - subscriber : Subscriber<byte[]>
+                 + extractDocument()
+                 ~ NfdDpeReader()
+                 ~ checkConsistency()
+                 ~ checkContainerVersion()
+                 ~ checkSize()
+                 ~ readLifeCycleState()
+                 {static} - convertStringToXMLDocument()
+                 {static} - dataInfoToLength()
+                 - extractEfSize()
+                 {static} - getCharSettingFirst()
+                 - getCompressedData()
+                 - getSubscriber()
+                 {static} - getUncompressed()
+       }
+
+       class NfdDpeService {
+                 {static} - LOG : Logger
+                 {static} - NFD_DATATYPE : String
+                 - accessRights : AccessRight[]
+                 - accessRules : AccessRule[]
+                 - authorisingCard : IHealthCard
+                 - cardToRead : IHealthCard
+                 - cardToReadVerifier : CardVerifier
+                 - dpeDfAid : ApplicationIdentifier
+                 - dpeEfFid : FileIdentifier
+                 - dpeEfSfid : ShortFileIdentifier
+                 - dpeStatusEfSfid : ShortFileIdentifier
+                 - nfdDfAid : ApplicationIdentifier
+                 - nfdEfFid : FileIdentifier
+                 - nfdSfid : ShortFileIdentifier
+                 - passwordMrNfd : Password
+                 - passwordMrPinDpe : Password
+                 - pinStateEnum : PinState[]
+                 - role : ProfessionalRole[]
+                 - statusNfdSfid : ShortFileIdentifier
+                 + NfdDpeService()
+                 + getDpeDocument()
+                 + getNfdDocument()
+                 - checkAccessRights()
+                 - createProtocolRecord()
+                 - initFileReference()
+                 - prepareAuth()
+                 - prepareGetDocument()
+                 - validatePinResult()
+                 - verifyPinByAccessRight()
+                 - writeProtocol()
+       }
+
+       class NfdDpeServiceSubscriber {
+                 - document : T[]
+                 + NfdDpeServiceSubscriber()
+                 + onError()
+                 + onSuccess()
+       }
+
+       class de.gematik.ti.healthcard.control.nfdm.NfdManager {
+                 + NfdManager()
+                 + getDocument()
+       }
+    }
+  }
+
+
+  de.gematik.ti.healthcard.control.nfdm.NfdDpeService o-- de.gematik.ti.healthcard.control.nfdm.NfdDpeReader : nfdDpeReader
+  de.gematik.ti.healthcard.control.nfdm.NfdDpeService +-down- de.gematik.ti.healthcard.control.nfdm.NfdDpeService.NfdDpeServiceSubscriber
+  de.gematik.ti.healthcard.control.nfdm.NfdManager o-- de.gematik.ti.healthcard.control.nfdm.NfdDpeReader : nfdDpeReader
+
+@enduml

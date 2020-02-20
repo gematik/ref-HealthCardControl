@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="547px" preserveAspectRatio="none" style="width:469px;height:547px;" version="1.1" viewBox="0 0 469 547" width="469px" zoomAndPan="magnify"><defs><filter height="300%" id="fad14ww7dfzwu" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--cluster de.gematik.ti.healthcard.control--><polygon fill="#FFFFFF" filter="url(#fad14ww7dfzwu)" points="22,24,251,24,258,47.6094,447,47.6094,447,535,22,535,22,24" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="258" y1="47.6094" y2="47.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="223" x="26" y="40.5332">de.gematik.ti.healthcard.control</text><!--cluster de.gematik.ti.healthcard.control.c2c--><polygon fill="#FFFFFF" filter="url(#fad14ww7dfzwu)" points="46,68,76,68,83,91.6094,423,91.6094,423,511,46,511,46,68" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="46" x2="83" y1="91.6094" y2="91.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="24" x="50" y="84.5332">c2c</text><!--class de.gematik.ti.healthcard.control.c2c.C2CSuccessState--><rect fill="#FEFECE" filter="url(#fad14ww7dfzwu)" height="75.6719" id="de.gematik.ti.healthcard.control.c2c.C2CSuccessState" style="stroke: #A80036; stroke-width: 1.5;" width="133" x="62.5" y="131.5"/><ellipse cx="77.5" cy="147.5" fill="#EB937F" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M76,148.5 L76,150.5 L80,150.5 L80,149.5 L80,149.0156 L80.625,148.5 L81,148.5 L81.375,148.5 L82,149.0156 L82,149.5 L82,152.5 L74,152.5 L73.5156,152.5 L73,151.875 L73,151.5 L73,151.125 L73.5156,150.5 L74,150.5 L74,150.5 L74,144.5 L74,144.5 L73.5156,144.5 L73,143.875 L73,143.5 L73,143.125 L73.5156,142.5 L74,142.5 L82,142.5 L82,145.5 L82,145.9844 L81.375,146.5 L81,146.5 L80.625,146.5 L80,145.9844 L80,145.5 L80,144.5 L76,144.5 L76,146.5 L77,146.5 L77,146.0156 L77,146.0156 L77.625,145.5 L78,145.5 L78.375,145.5 L79,146.0156 L79,146.5 L79,148.5 L79,148.9844 L78.375,149.5 L78.375,149.5 L78,149.5 L77.625,149.5 L77,148.9844 L77,148.9844 L77,148.5 L76,148.5 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="101" x="91.5" y="152.4102">C2CSuccessState</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="63.5" x2="194.5" y1="163.5" y2="163.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="68.5" y="178.9189">C2C_FAILED</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="74" x="68.5" y="192.7549">C2C_SUCCESS</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="63.5" x2="194.5" y1="199.1719" y2="199.1719"/><!--class de.gematik.ti.healthcard.control.c2c.CardFileSystemData--><rect fill="#FEFECE" filter="url(#fad14ww7dfzwu)" height="131.0156" id="de.gematik.ti.healthcard.control.c2c.CardFileSystemData" style="stroke: #A80036; stroke-width: 1.5;" width="176" x="231" y="104"/><ellipse cx="259.5" cy="120" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M261.5,116.5 Q261.7031,116 261.9375,115.75 Q262.1719,115.5 262.4375,115.5 Q262.9063,115.5 263.2031,115.7813 Q263.5,116.0625 263.5,116.7188 L263.5,118.2813 Q263.5,118.9375 263.2188,119.2188 Q262.9375,119.5 262.5,119.5 Q262.1094,119.5 261.8594,119.3281 Q261.6094,119.1563 261.5,118.7031 Q261.4531,118.3906 261.2813,118.2188 Q260.9688,117.8906 260.4063,117.7031 Q259.8438,117.5 259.2813,117.5 Q258.5781,117.5 257.9844,117.7813 Q257.4063,118.0625 256.9531,118.6875 Q256.5,119.3125 256.5,120.1719 L256.5,121.0938 Q256.5,122.125 257.3438,122.8125 Q258.1875,123.5 259.6875,123.5 Q260.5781,123.5 261.2031,123.2969 Q261.5625,123.1875 261.9688,122.8281 Q262.2344,122.625 262.375,122.5625 Q262.5156,122.5 262.6875,122.5 Q263.0156,122.5 263.25,122.7656 Q263.5,123.0156 263.5,123.375 Q263.5,123.7188 263.1563,124.125 Q262.6563,124.7188 261.8594,125.0469 Q260.8125,125.5 259.5313,125.5 Q258.0313,125.5 256.8281,124.9063 Q255.8594,124.4375 255.1719,123.4219 Q254.5,122.4063 254.5,121.2031 L254.5,120.1094 Q254.5,118.8594 255.0938,117.7656 Q255.7031,116.6719 256.75,116.0938 Q257.8125,115.5 259,115.5 Q259.7188,115.5 260.3438,115.75 Q260.9688,116 261.5,116.5 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="114" x="276.5" y="124.9102">CardFileSystemData</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="232" x2="406" y1="136" y2="136"/><polygon fill="none" points="242,144.418,238,150.418,246,150.418" style="stroke: #1963A0; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="150" x="251" y="151.4189">cvcAutrSfid : ShortFileIdentifier</text><polygon fill="none" points="242,158.2539,238,164.2539,246,164.2539" style="stroke: #1963A0; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="144" x="251" y="165.2549">cvcCASfid : ShortFileIdentifier</text><polygon fill="none" points="242,172.0898,238,178.0898,246,178.0898" style="stroke: #1963A0; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="110" x="251" y="179.0908">gdo : ShortFileIdentifier</text><polygon fill="none" points="242,185.9258,238,191.9258,246,191.9258" style="stroke: #1963A0; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="45" x="251" y="192.9268">key : Key</text><polygon fill="none" points="242,199.7617,238,205.7617,246,205.7617" style="stroke: #1963A0; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="103" x="251" y="206.7627">pinChRef : Password</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="232" x2="406" y1="213.1797" y2="213.1797"/><polygon fill="#4177AF" points="242,221.5977,238,227.5977,246,227.5977" style="stroke: #1963A0; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="120" x="251" y="228.5986">getCardFileSystemData()</text><!--class de.gematik.ti.healthcard.control.c2c.CardToCardAuthExecutor--><rect fill="#FEFECE" filter="url(#fad14ww7dfzwu)" height="200.1953" id="de.gematik.ti.healthcard.control.c2c.CardToCardAuthExecutor" style="stroke: #A80036; stroke-width: 1.5;" width="200" x="62" y="295"/><ellipse cx="90.05" cy="311" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M92.05,307.5 Q92.2531,307 92.4875,306.75 Q92.7219,306.5 92.9875,306.5 Q93.4563,306.5 93.7531,306.7813 Q94.05,307.0625 94.05,307.7188 L94.05,309.2813 Q94.05,309.9375 93.7688,310.2188 Q93.4875,310.5 93.05,310.5 Q92.6594,310.5 92.4094,310.3281 Q92.1594,310.1563 92.05,309.7031 Q92.0031,309.3906 91.8313,309.2188 Q91.5188,308.8906 90.9563,308.7031 Q90.3938,308.5 89.8313,308.5 Q89.1281,308.5 88.5344,308.7813 Q87.9563,309.0625 87.5031,309.6875 Q87.05,310.3125 87.05,311.1719 L87.05,312.0938 Q87.05,313.125 87.8938,313.8125 Q88.7375,314.5 90.2375,314.5 Q91.1281,314.5 91.7531,314.2969 Q92.1125,314.1875 92.5188,313.8281 Q92.7844,313.625 92.925,313.5625 Q93.0656,313.5 93.2375,313.5 Q93.5656,313.5 93.8,313.7656 Q94.05,314.0156 94.05,314.375 Q94.05,314.7188 93.7063,315.125 Q93.2063,315.7188 92.4094,316.0469 Q91.3625,316.5 90.0813,316.5 Q88.5813,316.5 87.3781,315.9063 Q86.4094,315.4375 85.7219,314.4219 Q85.05,313.4063 85.05,312.2031 L85.05,311.1094 Q85.05,309.8594 85.6438,308.7656 Q86.2531,307.6719 87.3,307.0938 Q88.3625,306.5 89.55,306.5 Q90.2688,306.5 90.8938,306.75 Q91.5188,307 92.05,307.5 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="139" x="106.95" y="315.9102">CardToCardAuthExecutor</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="63" x2="261" y1="327" y2="327"/><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="70" y="336.418"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="65" x="82" y="342.4189">LOG : Logger</text><rect fill="none" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="70" y="350.2539"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="174" x="82" y="356.2549">result : ResultOperation&lt;Response&gt;</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="63" x2="261" y1="362.6719" y2="362.6719"/><ellipse cx="73" cy="375.0898" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="87" x="82" y="378.0908">authenticateC2C()</text><ellipse cx="73" cy="388.9258" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="87" x="82" y="391.9268">authenticateC2C()</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="70" y="399.7617"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="68" x="82" y="405.7627">createToken()</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="70" y="413.5977"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="116" x="82" y="419.5986">doAutrCertVerification()</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="70" y="427.4336"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="110" x="82" y="433.4346">doCACertVerification()</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="70" y="441.2695"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="117" x="82" y="447.2705">doInternalExternalAuth()</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="70" y="455.1055"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="89" x="82" y="461.1064">doPinVerification()</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="70" y="468.9414"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="72" x="82" y="474.9424">doSelectRoot()</text><rect fill="#F24D5C" height="6" style="stroke: #C82930; stroke-width: 1.0;" width="6" x="70" y="482.7773"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" text-decoration="underline" textLength="70" x="82" y="488.7783">executeAuth()</text><!--link de.gematik.ti.healthcard.control.c2c.C2CSuccessState to de.gematik.ti.healthcard.control.c2c.CardFileSystemData--><!--link de.gematik.ti.healthcard.control.c2c.C2CSuccessState to de.gematik.ti.healthcard.control.c2c.CardToCardAuthExecutor--><!--
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace c2c {
+      enum C2CSuccessState {
+        C2C_FAILED
+        C2C_SUCCESS
+      }
+    }
+  }
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace c2c {
+      class de.gematik.ti.healthcard.control.c2c.CardFileSystemData {
+          ~ cvcAutrSfid : ShortFileIdentifier
+          ~ cvcCASfid : ShortFileIdentifier
+          ~ gdo : ShortFileIdentifier
+          ~ key : Key
+          ~ pinChRef : Password
+          {static} ~ getCardFileSystemData()
+      }
+    }
+  }
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace c2c {
+      class de.gematik.ti.healthcard.control.c2c.CardToCardAuthExecutor {
+          {static} - LOG : Logger
+          {static} - result : ResultOperation<Response>
+          {static} + authenticateC2C()
+          {static} + authenticateC2C()
+          {static} - createToken()
+          {static} - doAutrCertVerification()
+          {static} - doCACertVerification()
+          {static} - doInternalExternalAuth()
+          {static} - doPinVerification()
+          {static} - doSelectRoot()
+          {static} - executeAuth()
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2019.06(Fri May 24 19:10:25 CEST 2019)
+(APACHE source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 11.0.4+10-b304.69
+Operating System: Windows 7
+OS Version: 6.1
+Default Encoding: Cp1252
+Language: de
+Country: DE
+--></g></svg>

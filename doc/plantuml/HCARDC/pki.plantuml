@@ -1,0 +1,24 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace pki {
+      class de.gematik.ti.healthcard.control.pki.PkiProcessor {
+          + signDocumentQES()
+          + verifyDocumentQES()
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

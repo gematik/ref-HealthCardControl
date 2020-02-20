@@ -1,0 +1,36 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace entities {
+      namespace card {
+        namespace pin {
+          enum PinState {
+            NO_ERROR
+            PASSWORD_DISABLED
+            PASSWORD_NOT_FOUND
+            RETRY_COUNTER_COUNT_00
+            RETRY_COUNTER_COUNT_01
+            RETRY_COUNTER_COUNT_02
+            RETRY_COUNTER_COUNT_03
+            SECURITY_STATUS_NOT_SATISFIED
+            TRANSPORT_STATUS_EMPTY_PIN
+            TRANSPORT_STATUS_TRANSPORT_PIN
+          }
+        }
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

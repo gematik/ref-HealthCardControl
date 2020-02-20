@@ -1,0 +1,118 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace nfdm {
+      namespace states {
+        enum AccessRight {
+          ACCESS_MRPIN_DPE
+          ACCESS_MRPIN_DPE_READ
+          ACCESS_MRPIN_NFD
+          ACCESS_MRPIN_NFD_READ
+          ACCESS_NO_PIN
+          EMERGENCY_ACCESS_NO_PIN
+          NO_ACCESS
+          ROLE_INTEGER_MAP_DPE_EGK2
+          ROLE_INTEGER_MAP_DPE_EGK21
+          ROLE_INTEGER_MAP_NFD
+          RULE_1
+          RULE_2
+          RULE_3
+        }
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace nfdm {
+      namespace states {
+        enum AccessRule {
+          R1
+          R2
+          R3
+          R4
+        }
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace nfdm {
+      namespace states {
+        enum DataType {
+          DPE
+          NFD
+        }
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace nfdm {
+      namespace states {
+        enum NfdDpeDataAvailableState {
+          DATA_AVAILABLE
+          NO_DATA_AVAILABLE
+          LOG
+          TAG
+        }
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace nfdm {
+      namespace states {
+        enum NfdDpeLifeCycleState {
+          LCS_CREATION_STATE
+          LCS_INITIALISATION_STATE
+          LCS_OPERATIONAL_STATE_ACTIVATED
+          LCS_OPERATIONAL_STATE_DEACTIVATED
+          LCS_TERMINATION_STATE
+        }
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace nfdm {
+      namespace states {
+        enum NfdDpeState {
+          NO_TRANSACTIONS_OPEN
+          TRANSACTIONS_OPEN
+        }
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace nfdm {
+      namespace states {
+        enum NfdDpeVersionState {
+          NFD_DPE_VERSION_INADMISSIBLE
+          NFD_DPE_VERSION_PERMITTED
+          PERMITTED_VERSION
+          POSITION
+        }
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

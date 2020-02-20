@@ -1,0 +1,65 @@
+@startuml
+
+
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.security {
+      class PaceInfo {
+          {static} - LOG : Logger
+          {static} - PARAMETER256 : int
+          {static} - PARAMETER384 : int
+          {static} - PARAMETER512 : int
+          - cardAccess : byte[]
+          - paceInfoProtocolBytes : byte[]
+          - protocol : ASN1ObjectIdentifier
+          - parameterID : int
+          ~ PaceInfo()
+          - extractProtocol()
+          ~ getPaceInfoProtocolBytes()
+          ~ getParameterIDString()
+          ~ getProtocolID()
+      }
+    }
+  }
+  
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.security {
+      class TrustedChannel {
+          {static} - LOG : Logger
+          {static} - SECRET_KEY_REFERENCE : int
+          - card : IHealthCard
+          - can : String
+          - paceInfo : PaceInfo[]
+          - macPcd : MacPcd
+          - kEnc : byte[]
+          - kMac : byte[]
+          + TrustedChannel()
+          - initSecureChannel()
+          - selectEfMf()
+          - selectEfCardAccess()
+          - extractPaceInfo()
+          - manageSecurityEnvironment()
+          - createEncryptedNonceZ()
+          - generateEphemeralPublicKeyFirstECDH()
+          - mapNonce()
+          - performKeyAgreement()
+          - mutualAuthentication()
+          - compareCalculatedAndReceivedMacPiccs()
+          + getkEnc()
+          + getkMac()
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

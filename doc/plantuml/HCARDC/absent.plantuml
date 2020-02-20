@@ -1,0 +1,146 @@
+@startuml
+
+
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      package de.gematik.ti.healthcard.control.events.healthcard.absent {
+        abstract class AbstractEgkHealthCardAbsentEvent {
+            # AbstractEgkHealthCardAbsentEvent()
+        }
+      }
+    }
+  }
+  
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      package de.gematik.ti.healthcard.control.events.healthcard.absent {
+        abstract class AbstractHbaHealthCardAbsentEvent {
+            # AbstractHbaHealthCardAbsentEvent()
+        }
+      }
+    }
+  }
+  
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      package de.gematik.ti.healthcard.control.events.healthcard.absent {
+        abstract class AbstractHealthCardAbsentEvent {
+            # AbstractHealthCardAbsentEvent()
+        }
+      }
+    }
+  }
+  
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      package de.gematik.ti.healthcard.control.events.healthcard.absent {
+        abstract class AbstractSmcbHealthCardAbsentEvent {
+            # AbstractSmcbHealthCardAbsentEvent()
+        }
+      }
+    }
+  }
+  
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      package de.gematik.ti.healthcard.control.events.healthcard.absent {
+        class Egk21HealthCardAbsentEvent {
+            + Egk21HealthCardAbsentEvent()
+        }
+      }
+    }
+  }
+  
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      package de.gematik.ti.healthcard.control.events.healthcard.absent {
+        class Egk2HealthCardAbsentEvent {
+            + Egk2HealthCardAbsentEvent()
+        }
+      }
+    }
+  }
+  
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      package de.gematik.ti.healthcard.control.events.healthcard.absent {
+        class Hba21HealthCardAbsentEvent {
+            + Hba21HealthCardAbsentEvent()
+        }
+      }
+    }
+  }
+  
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      package de.gematik.ti.healthcard.control.events.healthcard.absent {
+        class Hba2HealthCardAbsentEvent {
+            + Hba2HealthCardAbsentEvent()
+        }
+      }
+    }
+  }
+  
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      package de.gematik.ti.healthcard.control.events.healthcard.absent {
+        class Smcb21HealthCardAbsentEvent {
+            + Smcb21HealthCardAbsentEvent()
+        }
+      }
+    }
+  }
+  
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      package de.gematik.ti.healthcard.control.events.healthcard.absent {
+        class Smcb2HealthCardAbsentEvent {
+            + Smcb2HealthCardAbsentEvent()
+        }
+      }
+    }
+  }
+  
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      package de.gematik.ti.healthcard.control.events.healthcard.absent {
+        class UnknownCardAbsentEvent {
+            + UnknownCardAbsentEvent()
+        }
+      }
+    }
+  }
+  
+
+  AbstractEgkHealthCardAbsentEvent -up-|> AbstractHealthCardAbsentEvent
+  AbstractHbaHealthCardAbsentEvent -up-|> AbstractHealthCardAbsentEvent
+  AbstractHealthCardAbsentEvent -up-|> AbstractHealthCardEvent
+  AbstractSmcbHealthCardAbsentEvent -up-|> AbstractHealthCardAbsentEvent
+  Egk21HealthCardAbsentEvent -up-|> AbstractEgkHealthCardAbsentEvent
+  Egk2HealthCardAbsentEvent -up-|> AbstractEgkHealthCardAbsentEvent
+  Hba21HealthCardAbsentEvent -up-|> AbstractHbaHealthCardAbsentEvent
+  Hba2HealthCardAbsentEvent -up-|> AbstractHbaHealthCardAbsentEvent
+  Smcb21HealthCardAbsentEvent -up-|> AbstractSmcbHealthCardAbsentEvent
+  Smcb2HealthCardAbsentEvent -up-|> AbstractSmcbHealthCardAbsentEvent
+  UnknownCardAbsentEvent -up-|> AbstractHealthCardAbsentEvent
+
+
+
+
+
+
+
+
+
+@enduml

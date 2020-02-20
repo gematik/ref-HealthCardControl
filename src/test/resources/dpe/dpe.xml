@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<DPE:DPE_Document xmlns="http://ws.gematik.de/fa/nfds/common/NFDM_Common/v1.0" xmlns:DPE="http://ws.gematik.de/fa/nfds/DPE_Document/v1.0" DPE_Version="1.0.0">
+  <DPE:Persoenliche_Erklaerungen ID_DPE="a" DPE_letzte_Aktualisierung_time="09:30:47+05:00" DPE_letzte_Aktualisierung_date="1957-08-13">
+    <DPE:DPE_Versicherter>
+      <Versicherter>
+        <Versicherten_ID>X110483272</Versicherten_ID>
+        <Geburtsdatum>19790322</Geburtsdatum>
+        <Vorname>Dïmitri Francesco</Vorname>
+        <Nachname>Wützigmann</Nachname>
+        <Geschlecht>M</Geschlecht>
+      </Versicherter>
+    </DPE:DPE_Versicherter>
+    <DPE:DPE_Versicherter_Einwilligung>
+      <DPE:DPE_VE_Arzt_Nachname>Müller</DPE:DPE_VE_Arzt_Nachname>
+      <DPE:DPE_VE_Arzt_Vorname>Peter</DPE:DPE_VE_Arzt_Vorname>
+      <DPE:DPE_VE_Ablageort>
+        <Adresse>
+          <Postleitzahl>82031</Postleitzahl>
+          <Ort>Grünwald</Ort>
+          <Strasse>Hauptstr. </Strasse>
+          <Hausnummer>15</Hausnummer>
+          <Anschriftenzusatz/>
+          <Wohnsitzlaendercode/>
+        </Adresse>
+      </DPE:DPE_VE_Ablageort>
+    </DPE:DPE_Versicherter_Einwilligung>
+    <DPE:DPE_Gewebe_Organspendeerklaerung DPE_GO_letzte_Aktualisierung="2018-07-06+02:00">
+      <DPE:DPE_GO_Ablageort>
+        <Adresse>
+          <Postleitzahl>80541</Postleitzahl>
+          <Ort>München</Ort>
+          <Strasse>Tiroler Platz</Strasse>
+          <Hausnummer>23</Hausnummer>
+          <Anschriftenzusatz/>
+          <Wohnsitzlaendercode/>
+        </Adresse>
+      </DPE:DPE_GO_Ablageort>
+      <DPE:DPE_GO_Beschreibung>Im Schlafzimmer im Nachtkästchen</DPE:DPE_GO_Beschreibung>
+    </DPE:DPE_Gewebe_Organspendeerklaerung>
+    <DPE:DPE_Vorsorgevollmacht DPE_VV_letzte_Aktualisierung="2018-07-06+02:00">
+      <DPE:DPE_VV_Ablageort>
+        <Adresse>
+          <Postleitzahl>82541</Postleitzahl>
+          <Ort>München</Ort>
+          <Strasse>Tiroler Platz</Strasse>
+          <Hausnummer>23</Hausnummer>
+          <Anschriftenzusatz/>
+          <Wohnsitzlaendercode/>
+        </Adresse>
+      </DPE:DPE_VV_Ablageort>
+      <DPE:DPE_VV_Beschreibung>Im Wohnzimmer in der Kommode oberste Schublade rechts</DPE:DPE_VV_Beschreibung>
+      <DPE:DPE_VV_Bevollmaechtigter>
+        <DPE:DPE_VV_E-Mail>franz.mueller@t-online.de</DPE:DPE_VV_E-Mail>
+        <DPE:DPE_VV_Faxnummer/>
+        <DPE:DPE_VV_Name_Bevollmaechtigter>Müller</DPE:DPE_VV_Name_Bevollmaechtigter>
+        <DPE:DPE_VV_Vorname_Bevollmaechtigter>Franz</DPE:DPE_VV_Vorname_Bevollmaechtigter>
+        <DPE:DPE_VV_Telefon_Bevollmaechtigter>089/675645</DPE:DPE_VV_Telefon_Bevollmaechtigter>
+        <DPE:DPE_VV_Adresse_Bevollmaechtigter>
+          <Adresse>
+            <Postleitzahl>80541</Postleitzahl>
+            <Ort>München</Ort>
+            <Strasse>Waldweg</Strasse>
+            <Hausnummer>23</Hausnummer>
+            <Anschriftenzusatz/>
+            <Wohnsitzlaendercode/>
+          </Adresse>
+        </DPE:DPE_VV_Adresse_Bevollmaechtigter>
+      </DPE:DPE_VV_Bevollmaechtigter>
+    </DPE:DPE_Vorsorgevollmacht>
+    <DPE:DPE_Patientenverfuegung DPE_PV_letzte_Aktualisierung="2018-07-06+02:00">
+      <DPE:DPE_PV_Ablageort>
+        <Adresse>
+          <Postleitzahl>80541</Postleitzahl>
+          <Ort>München</Ort>
+          <Strasse>Tiroler Platz</Strasse>
+          <Hausnummer>23</Hausnummer>
+          <Anschriftenzusatz/>
+          <Wohnsitzlaendercode/>
+        </Adresse>
+      </DPE:DPE_PV_Ablageort>
+      <DPE:DPE_PV_Beschreibung>Im Wohnzimmer in der Kommode in der obersten Schublade</DPE:DPE_PV_Beschreibung>
+    </DPE:DPE_Patientenverfuegung>
+  </DPE:Persoenliche_Erklaerungen>
+</DPE:DPE_Document>

@@ -1,0 +1,44 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace role {
+      enum ProfessionalRole {
+        ADV_KOSTENTRAEGER
+        ANDERER_HEILBERUF
+        APOTHEKER
+        ARZT
+        BS_GEMATIK
+        BUNDESWEHR_APOTHEKE
+        KRANKENHAUS
+        KRANKENHAUS_APOTHEKE
+        LEO_ZAHNAERZTE
+        MITARBEITER_APOTHEKE
+        MITARBEITER_KOSTENTRAEGER
+        MOBILE_EINRICHTUNG_RETTUNGSDIENST
+        OEFFENTLICHE_APOTHEKE
+        PRAXIS_ARZT
+        PRAXIS_PSYCHOTHERAPEUT
+        PRAXIS_ZAHNARZT
+        PS_PSYCHOTHERAPEUT
+        SONSTIGE_LEISTUNGSERBRINGER
+        VERSICHERTER
+        ZAHNARZT
+        ERROR_MESSAGE
+        oid
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

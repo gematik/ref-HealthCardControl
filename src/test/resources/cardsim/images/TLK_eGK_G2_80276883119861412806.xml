@@ -1,0 +1,1770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<card version="2" name="eGK_G2">
+	<objectSystem>
+		<attribute id="root">
+			<child id="MF" objectType="Application">
+				<attributes>
+					<attribute id="applicationIdentifier">{d2760001448000}</attribute>
+					<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+					<attribute id="shareable">TRUE</attribute>
+					<attribute id="accessRules">
+            CB{
+              [ACTIVATED,1,{
+                ({80||fa||00||00}, ALW),
+                ({00||ea||00||00, 10||ea||00||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}]
+			}
+          </attribute>
+					<attribute id="uniqueID">1</attribute>
+				</attributes>
+				<children>
+					<child id="EF.ATR" objectType="TransparentElementaryFile">
+						<attributes>
+							<attribute id="body" herstellerspezifisch="true">e01102020578020300800202020578020208325f520c8066044445414348739621f3d01561636850726f64545f434f535f505456342e302e30d2100000000001006163685f53696d343030d31000000000010000004445414348343030d4100000000001006163685f65474b333530d6100000000001006163685f65474b333530</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="shareable">TRUE</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||b0||??||??, 00||d0||??||00}, ALW)}]
+				}
+              </attribute>
+							<attribute id="numberOfOctet" herstellerspezifisch="true">009c</attribute>
+							<attribute id="flagTransactionMode">TRUE</attribute>
+							<attribute id="uniqueID">3</attribute>
+							<attribute id="flagChecksum">TRUE</attribute>
+							<attribute id="positionLogicalEndOfFile" herstellerspezifisch="true">0081</attribute>
+							<attribute id="shortFileIdentifier">1d</attribute>
+							<attribute id="fileIdentifier">2f01</attribute>
+						</attributes>
+					</child>
+					<child id="EF.C.CA_eGK.CS.E256" objectType="TransparentElementaryFile" personalized="16.10.2014 16:13:27">
+						<attributes>
+							<attribute id="body" herstellerspezifisch="true">7F2181D87F4E81915F290170420844454758588202147F494D06082A8648CE3D0403028641041C0DE669D6DEC32C9EA23569929C2ED072C3A40A034BB042420056198E83E24070F98B060A92CD7ABD9962C0504ADDDC3201D9D6CFDC0E3CEBD5B7D77BB7FB1D5F200844455458581302147F4C1306082A8214004C0481185307800000000000005F25060104000202075F24060202000202065F374087AAF636A2F583516980ECF5790C8327EF992BAC76EFF047CB2D58CA31F947B0250B85925923FECC889859B0564C961E7CA2949A37EC3CB19CE3A78675AC0004</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="shareable">TRUE</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||b0||??||??}, ALW),
+                    ({00||d6||??||??}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}]
+				}
+              </attribute>
+							<attribute id="numberOfOctet">00dc</attribute>
+							<attribute id="flagTransactionMode">TRUE</attribute>
+							<attribute id="uniqueID">1001</attribute>
+							<attribute id="flagChecksum">FALSE</attribute>
+							<attribute id="positionLogicalEndOfFile">00DC</attribute>
+							<attribute id="shortFileIdentifier">07</attribute>
+							<attribute id="fileIdentifier">2f07</attribute>
+						</attributes>
+					</child>
+					<child id="EF.C.eGK.AUT_CVC.E256" objectType="TransparentElementaryFile" personalized="16.10.2014 16:13:27">
+						<attributes>
+							<attribute id="body" herstellerspezifisch="true">7F2181DA7F4E81935F290170420844455458581302147F494B06062B24030503018641042B28F065C3D0A260BCED89DCF0D137A2BE7A8A21453510F515E11A2610CAAB7F246952AC28CFBD83B74D0CB1EE81B6ACC0385753418F15A5C5BD0C34FE87CE045F200C0009802768831198614128067F4C1306082A8214004C0481185307000000000000005F25060104000902025F24060109000902015F374076897C5C4CC97C0C0E84A98F65B8368D33CD3A7AA0885FD4DC059916B1FE819C0B0E9EB3F012DDE22D9B507212A403B7525CABC0DC1C08BDADB554C6070C8960</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="shareable">TRUE</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||b0||??||??}, ALW),
+                    ({00||d6||??||??}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}]
+                }
+              </attribute>
+							<attribute id="numberOfOctet">00de</attribute>
+							<attribute id="flagTransactionMode">TRUE</attribute>
+							<attribute id="uniqueID">1003</attribute>
+							<attribute id="flagChecksum">FALSE</attribute>
+							<attribute id="comment">CHR = 000180276003530000000000, CHA.0</attribute>
+							<attribute id="positionLogicalEndOfFile">00DE</attribute>
+							<attribute id="shortFileIdentifier">06</attribute>
+							<attribute id="fileIdentifier">2f06</attribute>
+						</attributes>
+					</child>
+					<child id="EF.DIR" objectType="LinearVariableElementaryFile">
+						<attributes>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="flagRecordLifeCycleStatus">FALSE</attribute>
+							<attribute id="shareable">TRUE</attribute>
+							<attribute id="flagTransactionMode">TRUE</attribute>
+							<attribute id="maximumRecordLength">20</attribute>
+							<attribute id="uniqueID">7</attribute>
+							<attribute id="maximumNumberOfRecords">14</attribute>
+							<attribute id="flagChecksum">TRUE</attribute>
+							<attribute id="shortFileIdentifier">1e</attribute>
+							<attribute id="fileIdentifier">2f00</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||b2||??||??, 00||a2||??||??}, ALW),
+                    ({00||e2||00||??, 80||0c||??||??, 00||dc||??||??}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}]
+				}
+              </attribute>
+							<attribute id="numberOfOctet">00c8</attribute>
+						</attributes>
+						<records>
+							<record id="MF">
+								<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+								<attribute id="recordValue">61094f07d2760001448000</attribute>
+							</record>
+							<record id="DF.HCA">
+								<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+								<attribute id="recordValue">61084f06d27600000102</attribute>
+							</record>
+							<record id="DF.ESIGN">
+								<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+								<attribute id="recordValue">610c4f0aa000000167455349474e</attribute>
+							</record>
+							<record id="DF.CIA_ESIGN">
+								<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+								<attribute id="recordValue">61114f0fe828bd080fa000000167455349474e</attribute>
+							</record>
+							<record id="DF.NFD">
+								<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+								<attribute id="recordValue">61084f06d27600014407</attribute>
+							</record>
+							<record id="DF.DPE">
+								<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+								<attribute id="recordValue">61084f06d27600014408</attribute>
+							</record>
+							<record id="DF.GDD">
+								<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+								<attribute id="recordValue">61084f06d2760001440a</attribute>
+							</record>
+						</records>
+					</child>
+					<child id="EF.GDO" objectType="TransparentElementaryFile" personalized="16.10.2014 16:13:27">
+						<attributes>
+							<attribute id="body" herstellerspezifisch="true">5A0A80276883119861412806</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="shareable">TRUE</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||b0||??||??}, ALW)}]
+				}
+              </attribute>
+							<attribute id="numberOfOctet">0c</attribute>
+							<attribute id="flagTransactionMode">FALSE</attribute>
+							<attribute id="uniqueID">5</attribute>
+							<attribute id="flagChecksum">TRUE</attribute>
+							<attribute id="positionLogicalEndOfFile" herstellerspezifisch="true">000C</attribute>
+							<attribute id="shortFileIdentifier">02</attribute>
+							<attribute id="fileIdentifier">2f02</attribute>
+						</attributes>
+					</child>
+					<child id="EF.Version" objectType="LinearFixedElementaryFile">
+						<attributes>
+							<attribute id="flagRecordLifeCycleStatus">FALSE</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="shareable">TRUE</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||b2||??||??, 00||a2||??||??}, ALW),
+                    ({00||dc||??||??}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}]
+				}
+              </attribute>
+							<attribute id="flagTransactionMode">TRUE</attribute>
+							<attribute id="maximumRecordLength">05</attribute>
+							<attribute id="uniqueID">1005</attribute>
+							<attribute id="maximumNumberOfRecords">04</attribute>
+							<attribute id="flagChecksum">TRUE</attribute>
+							<attribute id="shortFileIdentifier">10</attribute>
+							<attribute id="fileIdentifier">2f10</attribute>
+						</attributes>
+						<records>
+							<record id="Version des Card Operating Systems (COS)">
+								<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+								<attribute id="recordValue">0040000000</attribute>
+							</record>
+							<record id="Version des eGKObjektsystems">
+								<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+								<attribute id="recordValue">0040000000</attribute>
+							</record>
+							<record id="Version der Speicherstrukturen">
+								<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+								<attribute id="recordValue">0040000000</attribute>
+							</record>
+							<record id="Reserviert">
+								<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+								<attribute id="recordValue">0000000000</attribute>
+							</record>
+						</records>
+					</child>
+					<child id="EF.Version2" objectType="TransparentElementaryFile">
+						<attributes>
+							<attribute id="body" herstellerspezifisch="true">ef2bc003020000c103010101c21000000000000000000000000000010203c403010000c503020000c703010000</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="shareable">TRUE</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||b0||??||??}, ALW),
+                    ({00||d6||??||??}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}}),
+                    ({80||0e||??||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)})}]
+				}
+              </attribute>
+							<attribute id="numberOfOctet">3c</attribute>
+							<attribute id="flagTransactionMode">TRUE</attribute>
+							<attribute id="uniqueID">1111</attribute>
+							<attribute id="flagChecksum">TRUE</attribute>
+							<attribute id="positionLogicalEndOfFile">2d</attribute>
+							<attribute id="shortFileIdentifier">11</attribute>
+							<attribute id="fileIdentifier">2f11</attribute>
+						</attributes>
+					</child>
+					<child id="PIN.CH" objectType="PWD" personalized="16.10.2014 16:13:27">
+						<attributes>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="uniqueID">1006</attribute>
+							<attribute id="pwdIdentifier">01</attribute>
+							<attribute id="transportStatus">regularPassword</attribute>
+							<attribute id="retryCounter">02</attribute>
+							<attribute id="maximumLength">08</attribute>
+							<attribute id="startSSecList">{(1,INFINITY)}</attribute>
+							<attribute id="startRetryCounter">03</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||24||00||??, 80||20||00||??, 00||2c||00||??, 00||2c||01||??, 00||20||00||??}, ALW)}]
+				}
+              </attribute>
+							<attribute id="PUK">2812345678FFFFFF</attribute>
+							<attribute id="secret">26123456FFFFFFFF</attribute>
+							<attribute id="minimumLength">06</attribute>
+							<attribute id="pukUsage">0a</attribute>
+							<attribute id="flagEnabled">TRUE</attribute>
+						</attributes>
+					</child>
+					<child id="MRPIN.home" objectType="MultireferencePWD">
+						<attributes>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||24||00||??, 80||20||00||??, 00||2c||00||??, 00||2c||01||??, 00||20||00||??}, ALW)}]
+				}
+              </attribute>
+							<attribute id="passwordReference">01</attribute>
+							<attribute id="pwdIdentifier">02</attribute>
+							<attribute id="uniqueID">1007</attribute>
+							<attribute id="flagEnabled">TRUE</attribute>
+							<attribute id="startSSecList">{(1,INFINITY)}</attribute>
+						</attributes>
+					</child>
+					<child id="PrK.eGK.AUT_CVC.E256" objectType="PrivateElcKey" personalized="16.10.2014 16:13:27">
+						<attributes>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="privateKey">609165EBE3CECEA7E878BB38569D902997768FF4BFFD347B711819FEC321ACD1</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||88||00||00, 00||86||00||00, 00||46||81||??}, ALW),
+                    ({00||e4||20||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)})}]
+				}
+              </attribute>
+							<attribute id="uniqueID">1008</attribute>
+							<attribute id="accessRulesSessionkeys"/>
+							<attribute id="listAlgorithmIdentifier">{[1,(elcRoleAuthentication,elcSessionkey4SM,elcAsynchronAdmin)]}</attribute>
+							<attribute id="keyAvailable">TRUE</attribute>
+							<attribute id="keyIdentifier">09</attribute>
+							<attribute id="domainParameterOid">brainpoolP256r1</attribute>
+							<attribute id="numberScenario">00</attribute>
+						</attributes>
+					</child>
+					<child id="PuK.RCA.CS.E256" objectType="PublicElcVerificationKey" personalized="16.10.2014 16:13:27">
+						<attributes>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="expirationDate">020400020206</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||e4||21||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}}),
+                    ({00||2a||00||be}, ALW)}]
+				}
+              </attribute>
+							<attribute id="P">048534D8887F3C7EC18B50B91F09EF3979E86A6F4FC314F3A91DDCC0D271C8C2FD66F9399D7AD8DE5FC7DC09435F2130585B6E7ED4FB2F599F5AEA4B4B15A44A40</attribute>
+							<attribute id="oid">ecdsa-with-SHA256</attribute>
+							<attribute id="accessRulesVerification">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||e4||21||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}}),
+                    ({00||2a||00||be}, ALW)}],
+                  [DEACTIVATED,1,{
+                    ({00||e4||21||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}}),
+                    ({00||2a||00||be}, ALW)}],
+                  [TERMINATED,1,{
+                    ({00||e4||21||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}}),
+                    ({00||2a||00||be}, ALW)}]
+				}
+              </attribute>
+							<attribute id="accessRulesAuthentication">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||e4||21||00, 00||86||00||00, 00||82||00||00}, ALW)}],
+                  [DEACTIVATED,1,{
+                    ({00||e4||21||00, 00||86||00||00, 00||82||00||00}, ALW)}],
+                  [TERMINATED,1,{
+                    ({00||e4||21||00, 00||86||00||00, 00||82||00||00}, ALW)}]
+				}
+              </attribute>
+							<attribute id="uniqueID">1010</attribute>
+							<attribute id="CHAT">cvc_FlagList_TI:ffffffffffffc3</attribute>
+							<attribute id="keyIdentifier">4445475858820214</attribute>
+							<attribute id="domainParameterOid">brainpoolP256r1</attribute>
+						</attributes>
+					</child>
+					<child id="PuK.RCA.ADMINCMS.CS.E256" objectType="PublicElcVerificationKey">
+						<attributes>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="expirationDate">010501020301</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+				    ({00||2a||00||be}, ALW),
+                    ({00||e4||21||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}]
+                }
+              </attribute>
+							<attribute id="P">04a41958237bfc9a1d6fadb844a184ef413489cc1e0e77d8b177adfc6f0c4fb8a05983c6e5ad01271af98f4242d335beaf8a42a31fd5588430cd8c94223d06cae0</attribute>
+							<attribute id="privateKey">55bb36d333fbf240e18111023fdfb6d2278b7851e2d05ff4d751fc372b5ea9c6</attribute>
+							<attribute id="oid">ecdsa-with-SHA256</attribute>
+							<attribute id="accessRulesVerification">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||e4||21||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}}),
+                    ({00||2a||00||be}, ALW)}],
+                  [DEACTIVATED,??,{
+                    ({00||e4||21||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}}),
+                    ({00||2a||00||be}, ALW)}],
+                  [TERMINATED,??,{
+                    ({00||e4||21||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}}),
+                    ({00||2a||00||be}, ALW)}]
+				}
+              </attribute>
+							<attribute id="accessRulesAuthentication">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||e4||21||00,00||86||00||00}, ALW)}],
+                  [DEACTIVATED,??,{
+                    ({00||e4||21||00,00||86||00||00}, ALW)}],
+                  [TERMINATED,??,{
+                    ({00||e4||21||00,00||86||00||00}, ALW)}]
+				}
+              </attribute>
+							<attribute id="uniqueID">1020</attribute>
+							<attribute id="CHAT">cvc_FlagList_CMS:ffbfffffffffff</attribute>
+							<attribute id="keyIdentifier">0000000000000013</attribute>
+							<attribute id="domainParameterOid">brainpoolP256r1</attribute>
+						</attributes>
+					</child>
+					<child id="SK.CMS.AES128" objectType="SymmetricAutKey" personalized="16.10.2014 16:13:27">
+						<attributes>
+							<attribute id="uniqueID">1019</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||82||00||00}, ALW),
+                    ({00||e4||20||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)})}]
+				}
+              </attribute>
+							<attribute id="keyIdentifier">13</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="encKey">c1b307ab0c9969d9fdea77504995b341</attribute>
+							<attribute id="macKey">b3b3eba66f87ac8a9cba5b440bf5ef97</attribute>
+							<attribute id="numberScenario">00</attribute>
+							<attribute id="keyMode">AES_128</attribute>
+							<attribute id="algorithmIdentifier">aesSessionkey4SM</attribute>
+						</attributes>
+					</child>
+					<child id="SK.CMS.AES256" objectType="SymmetricAutKey" personalized="16.10.2014 16:13:27">
+						<attributes>
+							<attribute id="keyIdentifier">18</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||82||00||00}, ALW),
+                    ({00||e4||20||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)})}]
+                }
+              </attribute>
+							<attribute id="encKey">d87360b2ff3c0647b71e4d9117e1194b4b4718d0839adb08e79c66553d03f72c</attribute>
+							<attribute id="macKey">7984c85f7fb26b68081b18f0d36805b730b109294c0d3403df921498dcc5e383</attribute>
+							<attribute id="numberScenario">00</attribute>
+							<attribute id="algorithmIdentifier">aesSessionkey4SM</attribute>
+							<attribute id="uniqueID">2419</attribute>
+							<attribute id="keyMode">AES_256</attribute>
+						</attributes>
+					</child>
+					<child id="SK.VSD.AES128" objectType="SymmetricAutKey" personalized="16.10.2014 16:13:27">
+						<attributes>
+							<attribute id="uniqueID">1021</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||82||00||00}, ALW),
+                    ({00||e4||20||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)})}]
+                }
+              </attribute>
+							<attribute id="keyMode">AES_128</attribute>
+							<attribute id="keyIdentifier">12</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="encKey">65758a17346660774993c9973bf82a36</attribute>
+							<attribute id="macKey">5cc5d74fc1f249cb2e697dacf9f8a94f</attribute>
+							<attribute id="numberScenario">00</attribute>
+							<attribute id="algorithmIdentifier">aesSessionkey4SM</attribute>
+						</attributes>
+					</child>
+					<child id="SK.VSD.AES256" objectType="SymmetricAutKey" personalized="16.10.2014 16:13:27">
+						<attributes>
+							<attribute id="keyIdentifier">19</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||82||00||00}, ALW),
+                    ({00||e4||20||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)})}]
+                }
+              </attribute>
+							<attribute id="encKey">a65014bb588c686e28e1ef58897bc26a4b15396d116a900a403c81bfb1b08da9</attribute>
+							<attribute id="macKey">a2299b3c7646d29733c4215b9c76adf55be5c5481487cea0ed5c0faf4639ccde</attribute>
+							<attribute id="numberScenario">00</attribute>
+							<attribute id="algorithmIdentifier">aesSessionkey4SM</attribute>
+							<attribute id="uniqueID">1419</attribute>
+							<attribute id="keyMode">AES_256</attribute>
+						</attributes>
+					</child>
+					<child id="DF.HCA" objectType="Application">
+						<attributes>
+							<attribute id="applicationIdentifier">{d27600000102}</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="shareable">TRUE</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||04||00||00, 00||44||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                    ({00||ea||00||00, 10||ea||00||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}],
+                  [DEACTIVATED,??,{
+                    ({00||04||00||00, 00||44||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)})}]
+				}
+              </attribute>
+							<attribute id="uniqueID">1026</attribute>
+						</attributes>
+						<children>
+							<child id="EF.Einwilligung" objectType="LinearFixedElementaryFile">
+								<attributes>
+									<attribute id="flagRecordLifeCycleStatus">TRUE</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||08||??||??, 00||06||??||??}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00000080000000)}}),
+                        ({00||b2||??||??, 00||a2||??||??}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00000040000000)}}),
+                        ({00||dc||??||??}, AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00000010000000)}),
+                        ({00||0c||??||??, 80||0c||??||??}, AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00000040000000)})}]
+                    }
+                  </attribute>
+									<attribute id="flagTransactionMode">TRUE</attribute>
+									<attribute id="maximumRecordLength">45</attribute>
+									<attribute id="uniqueID">1027</attribute>
+									<attribute id="maximumNumberOfRecords">0a</attribute>
+									<attribute id="flagChecksum">TRUE</attribute>
+									<attribute id="shortFileIdentifier">05</attribute>
+									<attribute id="fileIdentifier">d005</attribute>
+								</attributes>
+								<records>
+									<record id="RECORD1">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD2">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD3">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD4">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD5">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD6">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD7">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD8">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD9">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD10">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+								</records>
+							</child>
+							<child id="EF.GVD" objectType="TransparentElementaryFile" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="body" herstellerspezifisch="true">01001F8B0808FD9EBB53000B45465F4756442E786D6C008550DD8B8240107F3FE87F58F63DB702A1448BA888A00F38B9885E62D1C995740B77B4C3BFFE26BD232F8A5E06F6F739B3EEE83B4D58019989CFDAE35DABC319E8E01CC63AF2F8C2DFB4FB7D7BD0EEDA7C346C7DB885099DAFC9610E2650396089B0BD59030519820E258DDD6AC928531B87C41E5788174788ABB1224825C6272B04719482C8F43644615B3DCE26D3D5613BFBF4179BB5C709A13DA88FB1AA719F975225B98E8C4189B9A9985FCEAF918E2B1AAFCA295E5A6B232470C2B8A0DB3193104133750C598909DDF5177C071AAABD545A3E2AFF83F74D9EF5D5CCFB0F25E90FCB74195BA9010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                        ({00||b0||??||??}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00000004000000)},AUTCHAT(cvc_FlagList_TI:00000002000000),AND{SMMAC(12),SMRSPENC},AND{SMMAC(19),SMRSPENC},AND{SMMAC(cvc_FlagList_CMS:00400000000000),SMRSPENC}}),
+                        ({00||0e||??||??, 80||0e||??||??}, OR{SMMAC(12),SMMAC(19),SMMAC(cvc_FlagList_CMS:00400000000000)}),
+						({00||d6||??||??, 00||d0||??||00}, OR{AND{SMMAC(12),SMCMDENC},AND{SMMAC(19),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00400000000000),SMCMDENC}})}]
+                    }
+                  </attribute>
+									<attribute id="numberOfOctet">0258</attribute>
+									<attribute id="flagTransactionMode">FALSE</attribute>
+									<attribute id="uniqueID">1028</attribute>
+									<attribute id="flagChecksum">TRUE</attribute>
+									<attribute id="positionLogicalEndOfFile">0102</attribute>
+									<attribute id="shortFileIdentifier">03</attribute>
+									<attribute id="fileIdentifier">d003</attribute>
+								</attributes>
+							</child>
+							<child id="EF.Logging" objectType="CyclicElementaryFile">
+								<attributes>
+									<attribute id="flagRecordLifeCycleStatus">FALSE</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||e2||00||??}, OR{AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00000001000000)},AUTCHAT(cvc_FlagList_TI:00000000800000)}),
+                        ({00||b2||??||??, 00||a2||??||??}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00000000400000)}})}]
+                    }
+                  </attribute>
+									<attribute id="flagTransactionMode">TRUE</attribute>
+									<attribute id="maximumRecordLength">2E</attribute>
+									<attribute id="uniqueID">1029</attribute>
+									<attribute id="maximumNumberOfRecords">32</attribute>
+									<attribute id="flagChecksum">TRUE</attribute>
+									<attribute id="shortFileIdentifier">06</attribute>
+									<attribute id="fileIdentifier">d006</attribute>
+								</attributes>
+								<records>
+									<record id="RECORD1">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD2">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD3">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD4">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD5">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD6">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD7">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD8">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD9">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD10">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD11">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD12">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD13">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD14">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD15">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD16">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD17">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD18">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD19">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD20">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD21">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD22">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD23">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD24">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD25">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD26">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD27">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD28">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD29">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD30">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD31">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD32">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD33">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD34">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD35">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD36">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD37">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD38">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD39">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD40">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD41">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD42">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD43">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD44">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD45">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD46">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD47">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD48">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD49">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD50">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									</record>
+								</records>
+							</child>
+							<child id="EF.PD" objectType="TransparentElementaryFile" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="body" herstellerspezifisch="true">01A41F8B0808FD9EBB53000B45465F50442E786D6C008D93DB4EC2401086EF4D7C87A6F7F4442A874089825122A7D888DC91B51D69C3EE96EC6EF1F0B2BE8A535AB0AD9878B39B7EF3CF3FB393696FF0CEA8B60721E384F775DBB0740D78908431DFF4F5B13F6FB4DB6EA761BBFAC0BBBCE8ED65D87D1AAE17A84F80D338886099E5E22D14F090E0B19A4E3434E5B28BEABE1E29B5EB9AE69B3436C0888AB74608E62B3131C8B2C3DCBB86A36BC3D174BDBC7DF4C7F3595F47828D60414D3B942CD51007FA9BF3F578E4AD6CDB72AC56BB79D533CFC54BA98727F08214EC0E5E52A124BE22659EDD69756CAB69E74E9550256999084E1878A384C53CDE6A0BC0268BF245A8A29F91203AD0594A29231F85F6846B1DC920A21044CA9B1E1B39918AD257824809FC3A1480F729787C6E221585587D92887AB6E33AC5842ABC963317CABB0141639E6BB3EF9A6442785862057D4E222ED193125C0910B84D389EDCE35CA8E4699E312D3FCF7BC0663968FE2E9B8044F80579D25150CBBB27A9E42963B837AE9B2B4BE83441F3EF111673FA59975FAB95F9E4F01FBF066ABF014A3453D8740300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                        ({00||b0||??||??}, ALW),
+                        ({00||0e||??||??, 80||0e||??||??}, OR{SMMAC(12),SMMAC(19),SMMAC(cvc_FlagList_CMS:00400000000000)}),
+						({00||d6||??||??, 00||d0||??||00}, OR{AND{SMMAC(12),SMCMDENC},AND{SMMAC(19),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00400000000000),SMCMDENC}})}]
+                    }
+                  </attribute>
+									<attribute id="numberOfOctet">0352</attribute>
+									<attribute id="flagTransactionMode">FALSE</attribute>
+									<attribute id="uniqueID">1030</attribute>
+									<attribute id="flagChecksum">TRUE</attribute>
+									<attribute id="positionLogicalEndOfFile">01A6</attribute>
+									<attribute id="shortFileIdentifier">01</attribute>
+									<attribute id="fileIdentifier">d001</attribute>
+								</attributes>
+							</child>
+							<child id="EF.Pruefungsnachweis" objectType="TransparentElementaryFile">
+								<attributes>
+									<attribute id="body" herstellerspezifisch="true"/>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                        ({00||b0||??||??, 00||0e||??||??, 80||0e||??||??, 00||d6||??||??, 00||d0||??||00}, ALW)}]
+                    }
+                  </attribute>
+									<attribute id="numberOfOctet">012c</attribute>
+									<attribute id="flagTransactionMode">TRUE</attribute>
+									<attribute id="uniqueID">1031</attribute>
+									<attribute id="flagChecksum">TRUE</attribute>
+									<attribute id="positionLogicalEndOfFile">00</attribute>
+									<attribute id="shortFileIdentifier">1c</attribute>
+									<attribute id="fileIdentifier">d01c</attribute>
+								</attributes>
+							</child>
+							<child id="EF.Standalone" objectType="TransparentElementaryFile">
+								<attributes>
+									<attribute id="body" herstellerspezifisch="true"/>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                        ({00||b0||??||??, 00||0e||??||??, 80||0e||??||??, 00||d6||??||??, 00||d0||??||00}, ALW)}]
+                    }
+                  </attribute>
+									<attribute id="numberOfOctet">0384</attribute>
+									<attribute id="flagTransactionMode">TRUE</attribute>
+									<attribute id="uniqueID">1032</attribute>
+									<attribute id="flagChecksum">TRUE</attribute>
+									<attribute id="positionLogicalEndOfFile">00</attribute>
+									<attribute id="shortFileIdentifier">0a</attribute>
+									<attribute id="fileIdentifier">da0a</attribute>
+								</attributes>
+							</child>
+							<child id="EF.StatusVD" objectType="TransparentElementaryFile" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="body" herstellerspezifisch="true">30323031343037303830383334323100500200000030000004</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                        ({00||b0||??||??}, ALW),
+                        ({00||0e||??||??, 80||0e||??||??}, OR{SMMAC(12),SMMAC(19),SMMAC(cvc_FlagList_CMS:00400000000000)}),
+						({00||d6||??||??, 00||d0||??||00}, OR{AND{SMMAC(12),SMCMDENC},AND{SMMAC(19),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00400000000000),SMCMDENC}})}]
+                    }
+                  </attribute>
+									<attribute id="numberOfOctet">19</attribute>
+									<attribute id="flagTransactionMode">TRUE</attribute>
+									<attribute id="uniqueID">1033</attribute>
+									<attribute id="flagChecksum">TRUE</attribute>
+									<attribute id="positionLogicalEndOfFile">0019</attribute>
+									<attribute id="shortFileIdentifier">0c</attribute>
+									<attribute id="fileIdentifier">d00c</attribute>
+								</attributes>
+							</child>
+							<child id="EF.TTN" objectType="LinearFixedElementaryFile">
+								<attributes>
+									<attribute id="flagRecordLifeCycleStatus">TRUE</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                        ({00||b2||??||??}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00000000100000)},AUTCHAT(cvc_FlagList_TI:00000000080000),AND{SMMAC(12),SMRSPENC},AND{SMMAC(13),SMRSPENC},AND{SMMAC(18),SMRSPENC},AND{SMMAC(19),SMRSPENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMRSPENC},AND{SMMAC(cvc_FlagList_CMS:00400000000000),SMRSPENC}}),
+                        ({00||dc||??||??}, OR{AND{SMMAC(12),SMCMDENC},AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(19),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00200000000000),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00400000000000),SMCMDENC}})}]
+                    }
+                  </attribute>
+									<attribute id="flagTransactionMode">TRUE</attribute>
+									<attribute id="maximumRecordLength">0F</attribute>
+									<attribute id="uniqueID">1034</attribute>
+									<attribute id="maximumNumberOfRecords">05</attribute>
+									<attribute id="flagChecksum">TRUE</attribute>
+									<attribute id="shortFileIdentifier">0f</attribute>
+									<attribute id="fileIdentifier">d00f</attribute>
+								</attributes>
+								<records>
+									<record id="RECORD1">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD2">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD3">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD4">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD5">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">000000000000000000000000000000</attribute>
+									</record>
+								</records>
+							</child>
+							<child id="EF.VD" objectType="TransparentElementaryFile" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="body" herstellerspezifisch="true">000801A801A902A81F8B0808FD9EBB53000B45465F56442E786D6C00AD545D6F8240107C6FD2FF407897CFA2620463D534C6AA4D4D6DD317728515887034DC611B7F7D8F8F5A40AAA6E90B213BB3B333770BFDC16718703B88891F6183970589E700DB91E363D7E0A7AB65ABDBD5F496ACF103F3FAAABF234EEF69640D83C085107C0CEBB4D3F6204EB04B1C4401BFCCEF39A689498F910DDEA3F4BD278A1F44601D88FA5BC1017183440686E943DC6982C273A3F1DC5A4F1E57D3E5C2E05985F960F3382E9B78184221CEAAF57A3A9CD85E42F7055C106EC1F53136154996245592FB62A958214EB003294D9315B5A065A50A691611968FC608DC838F66700B18334FA6AEEB5ABBD3D5A55CB291734A2740C05CC4EC3AC01C376894F19ACE0285601647CECD13D6146F112120DFCDD6B952C6A8750DDF62B03D9CA9FE16F75C60F5466BCB1705FEBFC87F0E2D5E96BAC1C8F7228AA73731F3F59A1044F73EDE44A4BA52258059ACDF4669EF318AA9A9D68615E55A5749D32A9231575655BFE03E2F1FCC8E92CBA6EFF593B940EB88F8031E41F9275D0F911E655E3CFF6B61D42F9FCCC4DDB30400001F8B0808FD9EBB53000B45465F4756442E786D6C008550DD8B8240107F3FE87F58F63DB702A1448BA888A00F38B9885E62D1C995740B77B4C3BFFE26BD232F8A5E06F6F739B3EEE83B4D58019989CFDAE35DABC319E8E01CC63AF2F8C2DFB4FB7D7BD0EEDA7C346C7DB885099DAFC9610E2650396089B0BD59030519820E258DDD6AC928531B87C41E5788174788ABB1224825C6272B04719482C8F43644615B3DCE26D3D5613BFBF4179BB5C709A13DA88FB1AA719F975225B98E8C4189B9A9985FCEAF918E2B1AAFCA295E5A6B232470C2B8A0DB3193104133750C598909DDF5177C071AAABD545A3E2AFF83F74D9EF5D5CCFB0F25E90FCB74195BA90100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                        ({00||b0||??||??}, ALW),
+                        ({00||0e||??||??, 80||0e||??||??}, OR{SMMAC(12),SMMAC(19),SMMAC(cvc_FlagList_CMS:00400000000000)}),
+						({00||d6||??||??, 00||d0||??||00}, OR{AND{SMMAC(12),SMCMDENC},AND{SMMAC(19),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00400000000000),SMCMDENC}})}]
+                    }
+                  </attribute>
+									<attribute id="numberOfOctet">04e2</attribute>
+									<attribute id="flagTransactionMode">FALSE</attribute>
+									<attribute id="uniqueID">1035</attribute>
+									<attribute id="flagChecksum">TRUE</attribute>
+									<attribute id="positionLogicalEndOfFile">02A9</attribute>
+									<attribute id="shortFileIdentifier">02</attribute>
+									<attribute id="fileIdentifier">d002</attribute>
+								</attributes>
+							</child>
+							<child id="EF.Verweis" objectType="LinearFixedElementaryFile">
+								<attributes>
+									<attribute id="flagRecordLifeCycleStatus">TRUE</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||08||??||??, 00||06||??||??}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00000080000000)}}),
+                        ({00||b2||??||??, 00||a2||??||??, 00||dc||??||??}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00000008000000)}})}]
+                    }
+                  </attribute>
+									<attribute id="flagTransactionMode">TRUE</attribute>
+									<attribute id="maximumRecordLength">14</attribute>
+									<attribute id="uniqueID">1036</attribute>
+									<attribute id="maximumNumberOfRecords">0a</attribute>
+									<attribute id="flagChecksum">TRUE</attribute>
+									<attribute id="shortFileIdentifier">09</attribute>
+									<attribute id="fileIdentifier">d009</attribute>
+								</attributes>
+								<records>
+									<record id="RECORD1">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">0000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD2">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">0000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD3">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">0000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD4">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">0000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD5">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">0000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD6">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">0000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD7">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">0000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD8">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">0000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD9">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">0000000000000000000000000000000000000000</attribute>
+									</record>
+									<record id="RECORD10">
+										<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+										<attribute id="recordValue">0000000000000000000000000000000000000000</attribute>
+									</record>
+								</records>
+							</child>
+							<child id="DF.NFD" objectType="Application">
+								<attributes>
+									<attribute id="applicationIdentifier">{d27600014407}</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||04||00||00, 00||44||00||00}, AND{PWD(83),AUTCHAT(cvc_FlagList_TI:00020000000000)}),
+                        ({00||ea||00||00, 10||ea||00||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}],
+                      [DEACTIVATED,??,{
+                        ({00||04||00||00, 00||44||00||00}, AND{PWD(83),AUTCHAT(cvc_FlagList_TI:00020000000000)})}]
+					}
+                  </attribute>
+									<attribute id="uniqueID">1037</attribute>
+								</attributes>
+								<children>
+									<child id="EF.NFD" objectType="TransparentElementaryFile">
+										<attributes>
+											<attribute id="body" herstellerspezifisch="true">e010020208000202ffff020208000202ffff5f520e460701444547544f0147039611f300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="shareable">TRUE</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                            ({00||b0||??||??}, OR{AUTCHAT(cvc_FlagList_TI:00002000000000),AND{PWD(87),AUTCHAT(cvc_FlagList_TI:00004000000000)}}),
+                            ({00||0e||??||??, 80||0e||90||00, 00||d6||??||??, 00||d0||??||00}, AND{PWD(83),AUTCHAT(cvc_FlagList_TI:00010000000000)})}]
+						}
+                      </attribute>
+											<attribute id="numberOfOctet">2f2b</attribute>
+											<attribute id="flagTransactionMode">FALSE</attribute>
+											<attribute id="uniqueID">1038</attribute>
+											<attribute id="flagChecksum">FALSE</attribute>
+											<attribute id="positionLogicalEndOfFile">2f2b</attribute>
+											<attribute id="shortFileIdentifier">10</attribute>
+											<attribute id="fileIdentifier">d010</attribute>
+										</attributes>
+									</child>
+									<child id="EF.StatusNFD" objectType="TransparentElementaryFile">
+										<attributes>
+											<attribute id="body" herstellerspezifisch="true">e010020208000202ffff020208000202ffff5f520e46070144</attribute>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="shareable">TRUE</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                            ({00||b0||??||??}, OR{AUTCHAT(cvc_FlagList_TI:00002000000000),AND{PWD(87),AUTCHAT(cvc_FlagList_TI:00004000000000)}}),
+                            ({00||0e||??||??, 80||0e||8e||00, 00||d6||??||??, 00||d0||??||00}, AND{PWD(83),AUTCHAT(cvc_FlagList_TI:00010000000000)})}]
+						}
+                      </attribute>
+											<attribute id="numberOfOctet">19</attribute>
+											<attribute id="flagTransactionMode">TRUE</attribute>
+											<attribute id="uniqueID">1039</attribute>
+											<attribute id="flagChecksum">TRUE</attribute>
+											<attribute id="positionLogicalEndOfFile">19</attribute>
+											<attribute id="shortFileIdentifier">0e</attribute>
+											<attribute id="fileIdentifier">d00e</attribute>
+										</attributes>
+									</child>
+									<child id="MRPIN.NFD" objectType="MultireferencePWD">
+										<attributes>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||26||00||??, 00||28||00||??}, ALW),
+                            ({00||24||00||??, 80||20||00||??, 00||2c||01||??, 00||2c||00||??, 00||20||00||??}, ALW)}],
+                          [DEACTIVATED,??,{
+                            ({00||26||00||??, 00||28||00||??}, ALW),
+                            ({00||24||00||??, 80||20||00||??, 00||2c||01||??, 00||2c||00||??, 00||20||00||??}, ALW)}]
+						}
+                      </attribute>
+											<attribute id="passwordReference">01</attribute>
+											<attribute id="pwdIdentifier">03</attribute>
+											<attribute id="uniqueID">1041</attribute>
+											<attribute id="flagEnabled">FALSE</attribute>
+											<attribute id="startSSecList">{(1,INFINITY)}</attribute>
+										</attributes>
+									</child>
+									<child id="MRPIN.NFD_READ" objectType="MultireferencePWD">
+										<attributes>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||24||00||??, 80||20||00||??, 00||2c||01||??, 00||2c||00||??, 00||20||00||??}, ALW)}]
+						}
+                      </attribute>
+											<attribute id="passwordReference">01</attribute>
+											<attribute id="pwdIdentifier">07</attribute>
+											<attribute id="uniqueID">1542</attribute>
+											<attribute id="flagEnabled">TRUE</attribute>
+											<attribute id="startSSecList">{(1,INFINITY)}</attribute>
+										</attributes>
+									</child>
+								</children>
+							</child>
+							<child id="DF.DPE" objectType="Application">
+								<attributes>
+									<attribute id="applicationIdentifier">{d27600014408}</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||44||00||00, 00||04||00||00}, OR{PWD(02),AND{PWD(84),AUTCHAT(cvc_FlagList_TI:00001000000000)}}),
+                        ({00||ea||00||00, 10||ea||00||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}],
+                      [DEACTIVATED,??,{
+                        ({00||44||00||00, 00||04||00||00}, OR{PWD(02),AND{PWD(84),AUTCHAT(cvc_FlagList_TI:00001000000000)}})}]
+					}
+                  </attribute>
+									<attribute id="uniqueID">1043</attribute>
+								</attributes>
+								<children>
+									<child id="EF.DPE" objectType="TransparentElementaryFile">
+										<attributes>
+											<attribute id="body" herstellerspezifisch="true">e010020208000202ffff020208000202ffff5f520e460701444547544f0147039611f300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="shareable">TRUE</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                            ({00||b0||??||??}, OR{AND{PWD(88),AUTCHAT(cvc_FlagList_TI:00000200000000)},AUTCHAT(cvc_FlagList_TI:00000100000000),PWD(02)}),
+                            ({00||0e||??||??, 80||0e||9B||00, 00||d6||??||??, 00||d0||??||00}, AND{PWD(84),AUTCHAT(cvc_FlagList_TI:00000800000000)})}]
+						}
+                      </attribute>
+											<attribute id="numberOfOctet">06bd</attribute>
+											<attribute id="flagTransactionMode">FALSE</attribute>
+											<attribute id="uniqueID">1044</attribute>
+											<attribute id="flagChecksum">TRUE</attribute>
+											<attribute id="positionLogicalEndOfFile">06bd</attribute>
+											<attribute id="shortFileIdentifier">1b</attribute>
+											<attribute id="fileIdentifier">d01b</attribute>
+										</attributes>
+									</child>
+									<child id="EF.StatusDPE" objectType="TransparentElementaryFile">
+										<attributes>
+											<attribute id="body" herstellerspezifisch="true">e010020208000202ffff020208000202ffff5f304433443344</attribute>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="shareable">TRUE</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                            ({00||b0||??||??}, OR{AND{PWD(88),AUTCHAT(cvc_FlagList_TI:00000200000000)},AUTCHAT(cvc_FlagList_TI:00000100000000),PWD(02)}),
+                            ({00||0e||??||??, 80||0e||98||00, 00||d6||??||??, 00||d0||??||00}, AND{PWD(84),AUTCHAT(cvc_FlagList_TI:00000800000000)})}]
+						}
+                      </attribute>
+											<attribute id="numberOfOctet">19</attribute>
+											<attribute id="flagTransactionMode">TRUE</attribute>
+											<attribute id="uniqueID">1045</attribute>
+											<attribute id="flagChecksum">TRUE</attribute>
+											<attribute id="positionLogicalEndOfFile">19</attribute>
+											<attribute id="shortFileIdentifier">18</attribute>
+											<attribute id="fileIdentifier">d018</attribute>
+										</attributes>
+									</child>
+									<child id="MRPIN.DPE" objectType="MultireferencePWD">
+										<attributes>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||26||00||??, 00||28||00||??}, ALW),
+                            ({00||24||00||??, 80||20||00||??, 00||2c||01||??, 00||2c||00||??, 00||20||00||??}, ALW)}],
+                          [DEACTIVATED,??,{
+                            ({00||26||00||??, 00||28||00||??}, ALW),
+                            ({00||24||00||??, 80||20||00||??, 00||2c||01||??, 00||2c||00||??, 00||20||00||??}, ALW)}]
+						}
+                      </attribute>
+											<attribute id="passwordReference">01</attribute>
+											<attribute id="pwdIdentifier">04</attribute>
+											<attribute id="uniqueID">1047</attribute>
+											<attribute id="flagEnabled">FALSE</attribute>
+											<attribute id="startSSecList">{(1,INFINITY)}</attribute>
+										</attributes>
+									</child>
+									<child id="MRPIN.DPE_READ" objectType="MultireferencePWD">
+										<attributes>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||24||00||??, 80||20||00||??, 00||2c||01||??, 00||2c||00||??, 00||20||00||??}, ALW)}]
+						}
+                      </attribute>
+											<attribute id="passwordReference">01</attribute>
+											<attribute id="pwdIdentifier">08</attribute>
+											<attribute id="uniqueID">1131</attribute>
+											<attribute id="flagEnabled">TRUE</attribute>
+											<attribute id="startSSecList">{(1,INFINITY)}</attribute>
+										</attributes>
+									</child>
+								</children>
+							</child>
+							<child id="DF.GDD" objectType="Application">
+								<attributes>
+									<attribute id="applicationIdentifier">{d2760001440a}</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||44||00||00, 00||04||00||00}, OR{PWD(02),AND{PWD(85),AUTCHAT(cvc_FlagList_TI:00000000010000)}}),
+                        ({00||ea||00||00, 10||ea||00||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}],
+                      [DEACTIVATED,??,{
+                        ({00||44||00||00, 00||04||00||00}, OR{PWD(02),AND{PWD(85),AUTCHAT(cvc_FlagList_TI:00000000010000)}})}]
+					}
+                  </attribute>
+									<attribute id="uniqueID">1048</attribute>
+								</attributes>
+								<children>
+									<child id="EF.EinwilligungGDD" objectType="LinearVariableElementaryFile">
+										<attributes>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="flagRecordLifeCycleStatus">TRUE</attribute>
+											<attribute id="shareable">TRUE</attribute>
+											<attribute id="flagTransactionMode">TRUE</attribute>
+											<attribute id="maximumRecordLength">3C</attribute>
+											<attribute id="uniqueID">1049</attribute>
+											<attribute id="maximumNumberOfRecords">14</attribute>
+											<attribute id="flagChecksum">TRUE</attribute>
+											<attribute id="shortFileIdentifier">13</attribute>
+											<attribute id="fileIdentifier">d013</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||e2||00||??, 00||0c||??||??, 80||0c||??||??, 00||b2||??||??, 00||a2||??||??, 00||dc||??||??}, OR{PWD(02),AND{PWD(85),AUTCHAT(cvc_FlagList_TI:00000000008000)}})}]
+						}
+                      </attribute>
+											<attribute id="numberOfOctet">04b0</attribute>
+										</attributes>
+										<records>
+											<record id="RECORD1">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD2">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD3">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD4">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD5">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD6">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD7">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD8">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD9">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD10">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD11">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD12">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD13">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD14">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD15">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD16">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD17">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD18">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD19">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD20">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+										</records>
+									</child>
+									<child id="EF.VerweiseGDD" objectType="LinearVariableElementaryFile">
+										<attributes>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="flagRecordLifeCycleStatus">TRUE</attribute>
+											<attribute id="shareable">TRUE</attribute>
+											<attribute id="flagTransactionMode">TRUE</attribute>
+											<attribute id="maximumRecordLength">3C</attribute>
+											<attribute id="uniqueID">1050</attribute>
+											<attribute id="maximumNumberOfRecords">14</attribute>
+											<attribute id="flagChecksum">TRUE</attribute>
+											<attribute id="shortFileIdentifier">1a</attribute>
+											<attribute id="fileIdentifier">d01a</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||e2||00||??, 00||0c||??||??, 80||0c||??||??, 00||b2||??||??, 00||a2||??||??, 00||dc||??||??}, OR{PWD(02),AND{PWD(85),AUTCHAT(cvc_FlagList_TI:00000000008000)}})}]
+						}
+                      </attribute>
+											<attribute id="numberOfOctet">04b0</attribute>
+										</attributes>
+										<records>
+											<record id="RECORD1">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD2">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD3">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD4">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD5">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD6">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD7">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD8">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD9">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD10">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD11">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD12">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD13">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD14">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD15">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD16">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD17">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD18">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD19">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+											<record id="RECORD20">
+												<attribute id="recordLifeCycleStatus">ACTIVATED</attribute>
+												<attribute id="recordValue">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											</record>
+										</records>
+									</child>
+									<child id="MRPIN.GDD" objectType="MultireferencePWD">
+										<attributes>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||26||00||??, 00||28||00||??}, ALW),
+                            ({00||24||00||??, 80||20||00||??, 00||2c||01||??, 00||2c||00||??, 00||20||00||??}, ALW)}],
+                          [DEACTIVATED,??,{
+                            ({00||26||00||??, 00||28||00||??}, ALW),
+                            ({00||24||00||??, 80||20||00||??, 00||2c||01||??, 00||2c||00||??, 00||20||00||??}, ALW)}]
+						}
+                      </attribute>
+											<attribute id="passwordReference">01</attribute>
+											<attribute id="pwdIdentifier">05</attribute>
+											<attribute id="uniqueID">1101</attribute>
+											<attribute id="flagEnabled">TRUE</attribute>
+											<attribute id="startSSecList">{(1,INFINITY)}</attribute>
+										</attributes>
+									</child>
+								</children>
+							</child>
+							<child id="DF.OSE" objectType="Application">
+								<attributes>
+									<attribute id="applicationIdentifier">{d2760001440b}</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||44||00||00, 00||04||00||00}, OR{PWD(02),AND{PWD(89),AUTCHAT(cvc_FlagList_TI:00000000000800)}}),
+                        ({00||ea||00||00, 10||ea||00||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}],
+                      [DEACTIVATED,??,{
+                        ({00||44||00||00, 00||04||00||00}, OR{PWD(02),AND{PWD(89),AUTCHAT(cvc_FlagList_TI:00000000000800)}})}]
+					}
+                  </attribute>
+									<attribute id="uniqueID">3048</attribute>
+								</attributes>
+								<children>
+									<child id="EF.OSE" objectType="TransparentElementaryFile">
+										<attributes>
+											<attribute id="body" herstellerspezifisch="true">00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</attribute>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="shareable">TRUE</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                            ({00||b0||??||??}, OR{AUTCHAT(cvc_FlagList_TI:00000000002000),AND{PWD(89),AUTCHAT(cvc_FlagList_TI:00000000004000)}, PWD(02)}),
+                            ({00||0e||??||??, 80||0e||81||00, 00||d6||??||??, 00||d0||??||00}, AND{PWD(89),AUTCHAT(cvc_FlagList_TI:00000000001000)})}]
+						}
+                      </attribute>
+											<attribute id="numberOfOctet">1b58</attribute>
+											<attribute id="flagTransactionMode">FALSE</attribute>
+											<attribute id="uniqueID">3045</attribute>
+											<attribute id="flagChecksum">TRUE</attribute>
+											<attribute id="positionLogicalEndOfFile">1b58</attribute>
+											<attribute id="shortFileIdentifier">01</attribute>
+											<attribute id="fileIdentifier">e001</attribute>
+										</attributes>
+									</child>
+									<child id="EF.StatusOSE" objectType="TransparentElementaryFile">
+										<attributes>
+											<attribute id="body" herstellerspezifisch="true">00000000000000000000000000000000000000000000000000</attribute>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="shareable">TRUE</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||e4||00||00}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                            ({00||b0||??||??}, OR{AUTCHAT(cvc_FlagList_TI:00000000002000),AND{PWD(89),AUTCHAT(cvc_FlagList_TI:00000000004000)}, PWD(02)}),
+                            ({00||0e||??||??, 80||0e||82||00, 00||d6||??||??, 00||d0||??||00}, AND{PWD(89),AUTCHAT(cvc_FlagList_TI:00000000001000)})}]
+						}
+                      </attribute>
+											<attribute id="numberOfOctet">19</attribute>
+											<attribute id="flagTransactionMode">TRUE</attribute>
+											<attribute id="uniqueID">3145</attribute>
+											<attribute id="flagChecksum">TRUE</attribute>
+											<attribute id="positionLogicalEndOfFile">19</attribute>
+											<attribute id="shortFileIdentifier">02</attribute>
+											<attribute id="fileIdentifier">e002</attribute>
+										</attributes>
+									</child>
+									<child id="MRPIN.OSE" objectType="MultireferencePWD">
+										<attributes>
+											<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+											<attribute id="accessRules">
+                        CB{
+                          [ACTIVATED,1,{
+                            ({00||24||00||??, 80||20||00||??, 00||2c||01||??, 00||2c||00||??, 00||20||00||??}, ALW)}],
+                          [DEACTIVATED,??,{
+                            ({00||24||00||??, 80||20||00||??, 00||2c||01||??, 00||2c||00||??, 00||20||00||??}, ALW)}]
+						}
+                      </attribute>
+											<attribute id="passwordReference">01</attribute>
+											<attribute id="pwdIdentifier">09</attribute>
+											<attribute id="uniqueID">3484</attribute>
+											<attribute id="flagEnabled">TRUE</attribute>
+											<attribute id="startSSecList">{(1,INFINITY)}</attribute>
+										</attributes>
+									</child>
+								</children>
+							</child>
+						</children>
+					</child>
+					<child id="DF.ESIGN" objectType="Application">
+						<attributes>
+							<attribute id="applicationIdentifier">{a000000167455349474e}</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="shareable">TRUE</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({00||ea||00||00, 10||ea||00||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}]
+                }
+              </attribute>
+							<attribute id="uniqueID">1051</attribute>
+						</attributes>
+						<children>
+							<child id="EF.C.CH.AUT.R2048" objectType="TransparentElementaryFile" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="body" herstellerspezifisch="true">308206D9308205C1A00302010202014E300D06092A864886F70D01010B05003081A7310B3009060355040613024445312F302D060355040A0C26542D53797374656D7320496E7465726E6174696F6E616C20476D6248204E4F542D56414C494431453043060355040B0C3C456C656B74726F6E697363686520476573756E6468656974736B617274652D4341206465722054656C656D6174696B696E667261737472756B7475723120301E06035504030C1754535953492E45474B2D43413320544553542D4F4E4C59301E170D3134303932323030303030305A170D3139303932313233353935395A3081B7310B300906035504061302444531293027060355040A0C2067656D6174696B204D75737465726B6173736531474B564E4F542D56414C494431123010060355040B0C0939393935363738393031133011060355040B0C0A583131303230373833363111300F06035504040C084E756C6C6D61797231163014060355042A0C0D446F6D696E696B2050657465723129302706035504030C20446F6D696E696B205065746572204E756C6C6D61797220544553542D4F4E4C5930820122300D06092A864886F70D01010105000382010F003082010A02820101008451A272795BCAFEA34187D5B863933E016259D20C28A58C69ACEEF3C72E70BBFF9416198E602CFEAA4A266B0998A70E9D42A8062FD7B701AD1CC21AC4C9B1AB7216AC5466891580840052AD283D85D041444545364F9B7E5D46BB97EC64EFA7C8843820BFFB532DBCEA5191436D44D2F5A4EEDD9C2CBBDDDEBBB82A7E420523B258D0D06DC099D53ED572D04AF16B7FC1D669EE99A0BD8AC84B2B7B3B6862D3C7221BB2DD9E43EF9B62ABCFFFD63F2AFC7430D6172A916F3A4DA1A318FEF90F723AF7EBC957050A523E9CFB194DAF5BC195A6765588018F3A87C997D290E50CFB25AAFEAA21D17D29F8BD628F697758F4D68EC16888C9FF4189DA55FAF2E8970203010001A38202FC308202F8300C0603551D130101FF04023000301D0603551D0E0416041437A00B279B12247692D44BD884031C5DAD82AB6C300E0603551D0F0101FF040403020780303006052B240803030427302530233021301F301D30100C0E56657273696368657274652F2D72300906072A8214004C0431308201B00603551D1F048201A7308201A33082019FA082019BA08201978681E0687474703A2F2F65676B2D746573742E74656C657365632E64652F636172612D65676B2F646F776E6C6F61642F646F776E6C6F61642E63726C3F706174683D434E253344542D53797374656D7325323065474B253230546573742D4341253230312532434F55253344547275737425323043656E746572253230446575747363686525323054656C656B6F6D2532434F253344542D53797374656D73253230456E74657270726973652532305365727669636573253230476D624825324343253344444525334643657274696669636174655265766F636174696F6E4C6973748681B16C6461703A2F2F6C6461702D65676B2D746573742E74656C657365632E64652F434E3D542D53797374656D7325323065474B253230546573742D4341253230312C4F553D547275737425323043656E746572253230446575747363686525323054656C656B6F6D2C4F3D542D53797374656D73253230456E74657270726973652532305365727669636573253230476D62482C433D44453F43657274696669636174655265766F636174696F6E4C697374305A0603551D2004533051304406082A8214004C0481233038303606082B06010505070201162A687474703A2F2F65676B2D746573742E74656C657365632E64652F646F776E6C6F61642F63702E706466300906072A8214004C0446304106082B0601050507010104353033303106082B060105050730018625687474703A2F2F6F6373702E65676B2E746573742E74656C657365632E64652F6F63737072301F0603551D23041830168014E588D6137C747D6AE44C6D98FCD5D95096F6862130130603551D25040C300A06082B06010505070302300D06092A864886F70D01010B050003820101007F35D0D6E8E6D4FCECDDE4BBF15836FF796155C7DB90CFDC8947C9D7BE33994A2027081EAD12E58836413BC5A630A61078CE123137CC4F92797C0BA6012057807941D39CEB16923235BB23D89259D6413A28D8D816B8F37E14592209810C1920002950BC789C047D6E0FA88B6ECA2907269125F89588E6C40EDABC8AB169F760FF592433648C17AEA2C968171E5735D6E8390B2A307C0956EB9460F66FFD3AFF9462984F4AE1473681A732E348294C0CC4219F96E508945D813CD3E34F9791C5A94FB1F8B83CBF78AEB5AA45716A98FADA3B18259E2DAAAA2818D7FBC7C7E0FADF76E7512E656B2D575DDDA25DA7364B1E96326B4E867949B85D9132FA7A99EA</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||b0||??||??}, ALW),
+                        ({00||e4||00||00, 00||0e||??||??, 80||0e||??||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                        ({00||d6||??||??, 00||d0||??||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}})}]
+                    }
+                  </attribute>
+									<attribute id="numberOfOctet">076c</attribute>
+									<attribute id="flagTransactionMode">TRUE</attribute>
+									<attribute id="uniqueID">1052</attribute>
+									<attribute id="flagChecksum">FALSE</attribute>
+									<attribute id="positionLogicalEndOfFile" herstellerspezifisch="true">06DD</attribute>
+									<attribute id="shortFileIdentifier">01</attribute>
+									<attribute id="fileIdentifier">c500</attribute>
+								</attributes>
+							</child>
+							<child id="EF.C.CH.AUTN.R2048" objectType="TransparentElementaryFile" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="body" herstellerspezifisch="true">308206953082057DA003020102020150300D06092A864886F70D01010B05003081A7310B3009060355040613024445312F302D060355040A0C26542D53797374656D7320496E7465726E6174696F6E616C20476D6248204E4F542D56414C494431453043060355040B0C3C456C656B74726F6E697363686520476573756E6468656974736B617274652D4341206465722054656C656D6174696B696E667261737472756B7475723120301E06035504030C1754535953492E45474B2D43413320544553542D4F4E4C59301E170D3134303932323030303030305A170D3139303932313233353935395A3074310B300906035504061302444531293027060355040A0C2067656D6174696B204D75737465726B6173736531474B564E4F542D56414C494431123010060355040B0C093939393536373839303126302406035504030C1D3432434446343846423939383342413932343033544553542D4F4E4C5930820122300D06092A864886F70D01010105000382010F003082010A0282010100B3077078805223A47250D1F06258A5D395AA167CCDE37263E7C978C87A92FC5363ADF406E8E779DCDA87B3F92CBA2CC0E92F7F64192A57DE7EE89726BD0C32C0668D804A0E5CA21562E0AFEA8AFC2362F3897227073F17F0DF3D4D8467A9FBA81436AE69A970A646191C3D7AA456902AB817AFCA1A128206464D92FE572574AF7CFB2CCEE728F759DBA2CFDDD2799F92414D6E334C5DD0BC3585FBB1DF40304CA7765375440A5FE13B9D7A709A4FC86C5248BA34AB51BC028733E02EAB6C6C2B10AF309BC2C82A5AE7FEBDE777736C62CA2AED29BFA8C655D48639C012450C3B47CD20055317C2FA07AFB7FC0B975AB9A9B0E659C4FEE112489C5BB43ABA55F10203010001A38202FC308202F8301D0603551D0E04160414BCD5F99E4ABAA29982D9F83D988A55A112779432300E0603551D0F0101FF0404030205A0308201B00603551D1F048201A7308201A33082019FA082019BA08201978681E0687474703A2F2F65676B2D746573742E74656C657365632E64652F636172612D65676B2F646F776E6C6F61642F646F776E6C6F61642E63726C3F706174683D434E253344542D53797374656D7325323065474B253230546573742D4341253230312532434F55253344547275737425323043656E746572253230446575747363686525323054656C656B6F6D2532434F253344542D53797374656D73253230456E74657270726973652532305365727669636573253230476D624825324343253344444525334643657274696669636174655265766F636174696F6E4C6973748681B16C6461703A2F2F6C6461702D65676B2D746573742E74656C657365632E64652F434E3D542D53797374656D7325323065474B253230546573742D4341253230312C4F553D547275737425323043656E746572253230446575747363686525323054656C656B6F6D2C4F3D542D53797374656D73253230456E74657270726973652532305365727669636573253230476D62482C433D44453F43657274696669636174655265766F636174696F6E4C697374300C0603551D130101FF04023000303006052B240803030427302530233021301F301D30100C0E56657273696368657274652F2D72300906072A8214004C0431305A0603551D2004533051304406082A8214004C0481233038303606082B06010505070201162A687474703A2F2F65676B2D746573742E74656C657365632E64652F646F776E6C6F61642F63702E706466300906072A8214004C0447304106082B0601050507010104353033303106082B060105050730018625687474703A2F2F6F6373702E65676B2E746573742E74656C657365632E64652F6F63737072301F0603551D23041830168014E588D6137C747D6AE44C6D98FCD5D95096F6862130130603551D25040C300A06082B06010505070302300D06092A864886F70D01010B05000382010100A9766E190C545B1E0A676EF9791BE1CD270CCB28BD8E9772880C53FF4FF1F91A883F09625B903C456F39FD03766693E66C77D66071DA3850BFC0F05562E7265CC24FB909E952CA6CDD6F9941F5AF1A595CC10A319E10B7E98F5E65B490131FF48A11D310936EA00C012613B49310CAFFC7918FE125231E884D62B4401D760339738068B1E57451FD3D05B5DCB66BEBE9FF3824E817270A4C2F044FC3B1829F75033AA02379A151CD56575A68C4D52D6DD6CBEC024ED7A2F86EE6F10D98293CB4CE96B498564CD5A3A367EFD62183B8D8358B64999651AE4B5B87DA6A836EE6274B81E2EF04CCFF828E59A8C334093B5BBC4ECB8D79D1EDBA27A91D8CE9A89E55</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||e4||00||00, 00||0e||??||??, 80||0e||??||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                        ({00||d6||??||??, 00||d0||??||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}}),
+                        ({00||b0||??||??}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00800000000000)},AUTCHAT(cvc_FlagList_TI:00400000000000),AND{SMMAC(13),SMRSPENC},AND{SMMAC(18),SMRSPENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMRSPENC}})}]
+                    }
+                  </attribute>
+									<attribute id="numberOfOctet">076c</attribute>
+									<attribute id="flagTransactionMode">TRUE</attribute>
+									<attribute id="uniqueID">1054</attribute>
+									<attribute id="flagChecksum">FALSE</attribute>
+									<attribute id="positionLogicalEndOfFile" herstellerspezifisch="true">0699</attribute>
+									<attribute id="shortFileIdentifier">09</attribute>
+									<attribute id="fileIdentifier">c509</attribute>
+								</attributes>
+							</child>
+							<child id="EF.C.CH.ENC.R2048" objectType="TransparentElementaryFile" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="body" herstellerspezifisch="true">308206C4308205ACA00302010202014F300D06092A864886F70D01010B05003081A7310B3009060355040613024445312F302D060355040A0C26542D53797374656D7320496E7465726E6174696F6E616C20476D6248204E4F542D56414C494431453043060355040B0C3C456C656B74726F6E697363686520476573756E6468656974736B617274652D4341206465722054656C656D6174696B696E667261737472756B7475723120301E06035504030C1754535953492E45474B2D43413320544553542D4F4E4C59301E170D3134303932323030303030305A170D3139303932313233353935395A3081B7310B300906035504061302444531293027060355040A0C2067656D6174696B204D75737465726B6173736531474B564E4F542D56414C494431123010060355040B0C0939393935363738393031133011060355040B0C0A583131303230373833363111300F06035504040C084E756C6C6D61797231163014060355042A0C0D446F6D696E696B2050657465723129302706035504030C20446F6D696E696B205065746572204E756C6C6D61797220544553542D4F4E4C5930820122300D06092A864886F70D01010105000382010F003082010A0282010100ADD2CB748C33AD65D29AA7953D78560259317ECA63AAE64127A32198E34888B7BE8D7F71C0470B7BC99C59124EAB3A9B5C06047FA516443B74DA54895AEF33F76780D34AD747BFC07815F0BD99C5462862262CA1519FF924119F1828C1DED9A0ECF9F8101F92F9BA3EB1BE98A2D26521DB0B3383B0D1EC562D0CF6D155BD63A4FDA41E2939578B41D859780BB60BF2345811B113136CCB887724E7755EEE34F7FC1679BBE6E0A9B6D7A009A2DB47ABCF4EA0E30AA3EA831520D60A667121371928A85611CD1D16BC6D1808AA4071EB849B803EFBE2A167C611326B0B13B1472B46876F20AEA2BEE58F2110B012D6023E2EB7BC1FC39E959242B51C7280311D5B0203010001A38202E7308202E3300E0603551D0F0101FF040403020430301D0603551D0E04160414523F3AEA538961B15D3188BA4CEBBF5D5F363B48308201B00603551D1F048201A7308201A33082019FA082019BA08201978681E0687474703A2F2F65676B2D746573742E74656C657365632E64652F636172612D65676B2F646F776E6C6F61642F646F776E6C6F61642E63726C3F706174683D434E253344542D53797374656D7325323065474B253230546573742D4341253230312532434F55253344547275737425323043656E746572253230446575747363686525323054656C656B6F6D2532434F253344542D53797374656D73253230456E74657270726973652532305365727669636573253230476D624825324343253344444525334643657274696669636174655265766F636174696F6E4C6973748681B16C6461703A2F2F6C6461702D65676B2D746573742E74656C657365632E64652F434E3D542D53797374656D7325323065474B253230546573742D4341253230312C4F553D547275737425323043656E746572253230446575747363686525323054656C656B6F6D2C4F3D542D53797374656D73253230456E74657270726973652532305365727669636573253230476D62482C433D44453F43657274696669636174655265766F636174696F6E4C697374300C0603551D130101FF04023000303006052B240803030427302530233021301F301D30100C0E56657273696368657274652F2D72300906072A8214004C0431305A0603551D2004533051304406082A8214004C0481233038303606082B06010505070201162A687474703A2F2F65676B2D746573742E74656C657365632E64652F646F776E6C6F61642F63702E706466300906072A8214004C0444304106082B0601050507010104353033303106082B060105050730018625687474703A2F2F6F6373702E65676B2E746573742E74656C657365632E64652F6F63737072301F0603551D23041830168014E588D6137C747D6AE44C6D98FCD5D95096F68621300D06092A864886F70D01010B05000382010100A9B95B3444F97B2221EA5027552745BFF64783B8028E1E6E003E0AC67BC9FA38E300D58E1A7013A296998252756EFE1FBB2C99BD6EF27C5D51B6A3A724B461D6A63C0B8551A5DEB0EAA32AD241974322CFDD3EBC8BAFE923BA95860B55FDAA16874011AF128800072F1B1F1BDE3F6488E01C1BD5E940A624ACC14764544EF32CE77E560C7E45C90642CF277F1139402F14C088EC7253476CB983B26B4E3A1EC177331E72AD597596BFE9B81CD953FF04CC1703D6BE352DBA69B2B11E3D7EB73F6D0F9B5897DD55751F438215C3C878287ABC1D5F194D307D6480EA38E6537914B9339264B37702CE524F8FFE4F3D33A54678D3DDC626424EAB4C964C3FFDB744</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||b0||??||??}, ALW)}]
+                    }
+                  </attribute>
+									<attribute id="numberOfOctet">076c</attribute>
+									<attribute id="flagTransactionMode">TRUE</attribute>
+									<attribute id="uniqueID">1056</attribute>
+									<attribute id="flagChecksum">FALSE</attribute>
+									<attribute id="positionLogicalEndOfFile" herstellerspezifisch="true">06C8</attribute>
+									<attribute id="shortFileIdentifier">02</attribute>
+									<attribute id="fileIdentifier">c200</attribute>
+								</attributes>
+							</child>
+							<child id="EF.C.CH.ENCV.R2048" objectType="TransparentElementaryFile" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="body" herstellerspezifisch="true">3082068030820568A003020102020151300D06092A864886F70D01010B05003081A7310B3009060355040613024445312F302D060355040A0C26542D53797374656D7320496E7465726E6174696F6E616C20476D6248204E4F542D56414C494431453043060355040B0C3C456C656B74726F6E697363686520476573756E6468656974736B617274652D4341206465722054656C656D6174696B696E667261737472756B7475723120301E06035504030C1754535953492E45474B2D43413320544553542D4F4E4C59301E170D3134303932323030303030305A170D3139303932313233353935395A3074310B300906035504061302444531293027060355040A0C2067656D6174696B204D75737465726B6173736531474B564E4F542D56414C494431123010060355040B0C093939393536373839303126302406035504030C1D3432434446343846423939383342413932343033544553542D4F4E4C5930820122300D06092A864886F70D01010105000382010F003082010A028201010098C96E2FDD4CB9AE8599EBB9C6AA269E4D97F7644332105D21F64DD6475483CF5B0E242FF73EEB66E163F93E30C768A404F972BB2563E8D9DA1B44A0FD05F747C507F8000C0450633415C5009640D145D2DE9BDB5ED233A8EC865658366931241F6BD491E71705AD180D77CBEB3B645B38DE3DD609B391E6AEAECB113B7FEFBDC3A7310947FDF3E883DE344A21CD9FF4ABC06A721FD8E2BE82C367821C2AD2BAC43C24F01018856C9CDCC155EDB2BD0064C73A88A1780B92274C58E63696C3694EDD4AA8E6CF25466FDDA00BFBAEB2C186A410B095CED288DE5BAA0C797FF39F46799E791A03FFD5BB8913BD176BF2BF51EB673D4812F71EF795F5AA80907F490203010001A38202E7308202E3301D0603551D0E041604141FB3E3D1F4ED3950E22916A60CDF2700A0D67E57300E0603551D0F0101FF040403020430308201B00603551D1F048201A7308201A33082019FA082019BA08201978681E0687474703A2F2F65676B2D746573742E74656C657365632E64652F636172612D65676B2F646F776E6C6F61642F646F776E6C6F61642E63726C3F706174683D434E253344542D53797374656D7325323065474B253230546573742D4341253230312532434F55253344547275737425323043656E746572253230446575747363686525323054656C656B6F6D2532434F253344542D53797374656D73253230456E74657270726973652532305365727669636573253230476D624825324343253344444525334643657274696669636174655265766F636174696F6E4C6973748681B16C6461703A2F2F6C6461702D65676B2D746573742E74656C657365632E64652F434E3D542D53797374656D7325323065474B253230546573742D4341253230312C4F553D547275737425323043656E746572253230446575747363686525323054656C656B6F6D2C4F3D542D53797374656D73253230456E74657270726973652532305365727669636573253230476D62482C433D44453F43657274696669636174655265766F636174696F6E4C697374300C0603551D130101FF04023000303006052B240803030427302530233021301F301D30100C0E56657273696368657274652F2D72300906072A8214004C0431305A0603551D2004533051304406082A8214004C0481233038303606082B06010505070201162A687474703A2F2F65676B2D746573742E74656C657365632E64652F646F776E6C6F61642F63702E706466300906072A8214004C0445304106082B0601050507010104353033303106082B060105050730018625687474703A2F2F6F6373702E65676B2E746573742E74656C657365632E64652F6F63737072301F0603551D23041830168014E588D6137C747D6AE44C6D98FCD5D95096F68621300D06092A864886F70D01010B05000382010100A01685249BCCA7DCBFA824C319F89C5598ACC1358663779CF3B1ADE80214C850430EF90EF451828029FA89391688D1A5E94C50CF8B01F1F31A901D88C7F5738DB2112453D28BEBFEB3EF2C137FC2AD0C26B3083FF522BC40ACF694EAF899363F359C11CA0D8ECA5EA90800C34335549FD2821E1CE5B407078B1EE28C29134D4A5943868B83C57B9F85FF8671EB510EC419299C1A8301DE86A5986A0CA29EA769771BB51DB6CDDF984A356320D185D24408193D7939503DF9D871F48A64474304528B04800F9A328CAC672F7BB77A6A30D80A01DAAA817B7D9DBF85B23FE95DB327185B6648730A8C23A27B7B13FDD7483246142A82DDEFD9DEB6B958837D1D1D</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||e4||00||00, 00||0e||??||??, 80||0e||??||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)}),
+                        ({00||d6||??||??, 00||d0||??||00}, OR{AND{SMMAC(13),SMCMDENC},AND{SMMAC(18),SMCMDENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMCMDENC}}),
+                        ({00||b0||??||??}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00200000000000)},AUTCHAT(cvc_FlagList_TI:00100000000000),AND{SMMAC(13),SMRSPENC},AND{SMMAC(18),SMRSPENC},AND{SMMAC(cvc_FlagList_CMS:00800000000000),SMRSPENC}})}]
+                    }
+                  </attribute>
+									<attribute id="numberOfOctet">076c</attribute>
+									<attribute id="flagTransactionMode">TRUE</attribute>
+									<attribute id="uniqueID">1059</attribute>
+									<attribute id="flagChecksum">FALSE</attribute>
+									<attribute id="positionLogicalEndOfFile" herstellerspezifisch="true">0684</attribute>
+									<attribute id="shortFileIdentifier">0a</attribute>
+									<attribute id="fileIdentifier">c50a</attribute>
+								</attributes>
+							</child>
+							<child id="PrK.CH.AUT.R2048" objectType="PrivateRsaKey" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="d">26C659695C60E6E2A9EAB9288B093B0BCF9207AA42FFE24B7C683DF9D823A6CBA0C0BF9D2B98C976B366594DC29926536508347EE3A43E2FD28FFBDDA64F48AE6A1774D6A2D987208B0E212C36FF986807C83ED8626AFFB10F1A7C3CAFFC803255D351335FAF019804A551D3D4C37F88A68D77A61F6F087AA31BB583564E787CA94FCBF449FAF4331EC3D1E287AE66FBDB32D3DAE2164DA2764117B53E74B4319E6F532C05B4C5086A408AA1FEECE266329CEEF642B8ABD8224E7FA294ADF5858120779C26F3529A1DE905C1D7C8B40EEE6AA4804C1A40595B35B4B9C886956119D5D282C422E0567AFD7B63BD6F0D61A9A0713331D58AC2A1C4B044FAEC2561</attribute>
+									<attribute id="e">010001</attribute>
+									<attribute id="c">277BFAC08E1D43882E0F9A45F47754E1DAF6FAE40EF1B32FA82AEDCB4AFBCFF6092184912629D7B535C5F4A60FCAB3274069CAB24DA63AE2873665010E8982B76AE945CA62C91437F819DE4EC08775ED6E8A75B4D4737F6717DD4358C61334757C3B697F478BE1D8C73E3BB8D012A1039CED1C31C3804429A0CE1E29A6F4E38E</attribute>
+									<attribute id="n">008451A272795BCAFEA34187D5B863933E016259D20C28A58C69ACEEF3C72E70BBFF9416198E602CFEAA4A266B0998A70E9D42A8062FD7B701AD1CC21AC4C9B1AB7216AC5466891580840052AD283D85D041444545364F9B7E5D46BB97EC64EFA7C8843820BFFB532DBCEA5191436D44D2F5A4EEDD9C2CBBDDDEBBB82A7E420523B258D0D06DC099D53ED572D04AF16B7FC1D669EE99A0BD8AC84B2B7B3B6862D3C7221BB2DD9E43EF9B62ABCFFFD63F2AFC7430D6172A916F3A4DA1A318FEF90F723AF7EBC957050A523E9CFB194DAF5BC195A6765588018F3A87C997D290E50CFB25AAFEAA21D17D29F8BD628F697758F4D68EC16888C9FF4189DA55FAF2E897</attribute>
+									<attribute id="uniqueID">1061</attribute>
+									<attribute id="keyIdentifier">02</attribute>
+									<attribute id="dP">08EA7EFD1D7FD492292501BBAB013D52326A3F8B8EE34591BE1B6DC6ED5FDAC36BAC2E48AD564DEB952E875C637FA6C70D2AF383DCA637E09CD793F12463526041BEE89679FB920719FC99243ED5C2CB80174F9670E5B1EAEC441A902992FF76105D77A753AD88F06B8DC8BF50E44CB2977C35025D9ED9AA6EDAB24694425CA1</attribute>
+									<attribute id="dQ">6775BC89F839F1A4093A047C1A780DC8658DD1E774EA636C20FC484EB0AB5DD500A7BDEEFB0B312AC13DC2951EFF89094C5EA06B3CA2B6333BCB889851CCA3C12095DA4CEF1EE609B6D11FBB0F85ABE32CFD6D32BA6BD1D2CE110FC20E0B630D9D561DBF243B2B9E60AE5AC496BC5B9DA709E3F1D62C6E94367ABFDFC92262DD</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||88||00||00, 00||2a||9e||9a, 00||2a||9e||ac}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00080000000000)}}),
+                        ({00||46||81||??}, ALW),
+                        ({00||e4||20||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)})}]
+                    }
+                  </attribute>
+									<attribute id="q">009DCB866A255DA744479F852A7EDFFC30962B709E7760DC84F4070FC1FFA7A095A5A38D82A215AFE4A826D1A79F2E25EB5F000A5A83CB7256BB3AC1B1AEE2EC8D88266269BEA7D26454F2F7CA9D73F7CEAD0994BD4ECF9D0C17E6BA0428422904B577DFCFF8265194CFD4B25163F06DC68F6EFC203B47B8FD1C6350E873112567</attribute>
+									<attribute id="p">00D6AB28C7CE0E1D27793E87DE96901CE9F7C3FE49F67C2FDF3D9E2DBDB5C6748D4D4537316F11CCA38F5723D3202B19A5B5536424E1E97A57583C43C85AB4D543297DAE1EB6A586BD9A663E26BEEB46475F40DCFD99B022AAFF581B7CB8A1DC5C870272700AFD9CDE608351ECF7E02C4960012CD229DF34393AFB07145D627551</attribute>
+									<attribute id="modulusLength">0800</attribute>
+									<attribute id="keyAvailable">TRUE</attribute>
+									<attribute id="listAlgorithmIdentifier">{[1,(rsaClientAuthentication,signPKCS1_V1_5,sign9796_2_DS2,signPSS)]}</attribute>
+								</attributes>
+							</child>
+							<child id="PrK.CH.AUTN.R2048" objectType="PrivateRsaKey" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="d">00AAD1FA5ABFF59FD494CED0C210D48CC52A14B48838DB40965ADF3DC3EC50BB39C5EE80DCE6F596AD48461B4F318222999EE59723A76F6390047F6159B120267CB65D657F43DCD73A98B1D2A8741CC896EDD0C37EC1C74DCCA2F51735B2C3DA3F31AA4B18BE77A1EF589E3D7AFBBB2CABD623A3B3AED4E203A2A8FA0C7C925C96473943094BB0AE43438F152F68A39CBC089A5B60148C6390153954694C63B3BA98103C72A81851AF5B7A70AA88B18495AD3724BF2279726431AAFDA344C35171DF549D6CCF541B41AD9F74DCE28A57F87E2E2A3C8BFA0606FA46668486E4D4338A17D99C9ABFE5480AA9F17FD27A359AD1C7E03E6C982E3479BFD8BBAED76001</attribute>
+									<attribute id="e">010001</attribute>
+									<attribute id="c">45F5C5F756A68AF50DD0F5A8AB397198E2645C98074EACF6280C85F138672708B9DC3BD600C8429527C015585737F5BEE0C6E708DF75771CBD01FE64F6A45691ED4FFE61B82B92090A00F86BEB5BEA1D19CF60CCE3A25221F9E2BCF980E8C9B11BA74A201800A8D2A65E9D6F38569B9D9987A3023BF006A02BBEC31F6C0D2ECD</attribute>
+									<attribute id="n">00B3077078805223A47250D1F06258A5D395AA167CCDE37263E7C978C87A92FC5363ADF406E8E779DCDA87B3F92CBA2CC0E92F7F64192A57DE7EE89726BD0C32C0668D804A0E5CA21562E0AFEA8AFC2362F3897227073F17F0DF3D4D8467A9FBA81436AE69A970A646191C3D7AA456902AB817AFCA1A128206464D92FE572574AF7CFB2CCEE728F759DBA2CFDDD2799F92414D6E334C5DD0BC3585FBB1DF40304CA7765375440A5FE13B9D7A709A4FC86C5248BA34AB51BC028733E02EAB6C6C2B10AF309BC2C82A5AE7FEBDE777736C62CA2AED29BFA8C655D48639C012450C3B47CD20055317C2FA07AFB7FC0B975AB9A9B0E659C4FEE112489C5BB43ABA55F1</attribute>
+									<attribute id="uniqueID">1064</attribute>
+									<attribute id="keyIdentifier">06</attribute>
+									<attribute id="dP">00F0C3F11FF60C31E67BCCBA0ACE5B852EBE4EAA7F6D9C68BFE63BBB8804D543FB5E4F1CBA21E4C6315695AF0B0A2243D249CF7B1D3AA1EC57E2EB0ABF47007A095678D2A66F8835A9D38C14986C55654DF327A13BD9459D7A9945A8820DD21460CD575543DA1086F36C84B6DCF0263C622524EC8BCC81D03512976666DAF2D8B1</attribute>
+									<attribute id="dQ">008863EDC7AB399472C56EFEB584CD225E6A6F2FC25BA526CFA5814D03E32A3715E0959996E30F15FB60B68CB5644726F772C80747C968F32F80B6D8EB6A3778D8482651FD6987DED92EC46E16084B999D29C275FA80840960E36DB7612373EBBE0023C089AD1D46039EEA59D21B4601404DCB4CB6E5A2A064177F14F80D828D01</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||88||00||00, 00||2a||9e||9a, 00||2a||9e||ac}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00800000000000)},AUTCHAT(cvc_FlagList_TI:00400000000000)}),
+                        ({00||46||81||??}, ALW),
+                        ({00||e4||20||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)})}]
+                    }
+                  </attribute>
+									<attribute id="q">00B606E48B8D70E29C17E8152069C78C08F33712C93A1543091FF0EA69BEE88AB6B0A9A0DF310109A2ED4B6BF71F30328A3E1E2F506C303C59BAB2879E2CBE91BD4155CA12B92E138B6B8E95F7366735F09B7A14E64A7FE680752F8C78208E8BBEB5887EF0511CB30C16CD6CDD5BD37B5DF7E832F9CEFB9EFC61A64B20D8820281</attribute>
+									<attribute id="p">00FBC8AA2DC5CA3FFD4F957CFE5D12ABA26FA5C65A7F9F1922CFD9613FDEA7DAA6572CC570688147EEB305F12CB0ABE2F33777F98C75CA4FB4711131345F46C6ACD1F589F75F91F4CA8119BB51509760F63E30085099248B00F25A6C7450FB0DCE816B89F5346E936074B314F55EF9D46E7272CD62E387C64880C6A9DEAA03BB71</attribute>
+									<attribute id="modulusLength">0800</attribute>
+									<attribute id="keyAvailable">TRUE</attribute>
+									<attribute id="listAlgorithmIdentifier">{[1,(rsaClientAuthentication,sign9796_2_DS2,signPSS)]}</attribute>
+								</attributes>
+							</child>
+							<child id="PrK.CH.ENC.R2048" objectType="PrivateRsaKey" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="d">219E2A3141486159D7108826C9FBB30EC3375A6144437242D9AAA83DCC7F63C9BDB5DA1722EBDAA1B74D60C0B4AC532A66F2D6FDE4ECD887734322A46A0CE74D0B1C9440DE40072AEF4EB6FFC474ADEBF387948C22A040EC23E85420D5D606DB23D9F88B0DC03C42340BE663D8E1BE237D1CBE7AD2C0D6E797D0F10F6D78B2838CDB003DC4B367838D71FBE30E2BF5CE33EA45101BDE9047D5223BE558DF875B85CC074F5CF9F5664EC0CAECEFB2CCAA29492D166683F1AE196849BCB50B85352970474A89B01EEC39109F769586DE62852A4BC6C0824278A459AB9BA4F4F48445E3F25B36D7796F873ACCFA6BBA66097BBE31FB640C73B58B196E7A2571E6A1</attribute>
+									<attribute id="e">010001</attribute>
+									<attribute id="c">00C3FA4F5A87B61D53AB99356DFB57F3EAD51851EC462953ABF2CC0A7D0834A7967FF9A325F6C9D23BF03972AAC5FB85081333242AC0F340EFAFED0168E5B356AAB23858D0ADA805B06C194A45AA268CD7841C5140261FDAA97ECCDAE04276990E38BB9B355C65BA966964BD8DEB9F7D7155CC07F35BEB517B5B30FFBB82242466</attribute>
+									<attribute id="n">00ADD2CB748C33AD65D29AA7953D78560259317ECA63AAE64127A32198E34888B7BE8D7F71C0470B7BC99C59124EAB3A9B5C06047FA516443B74DA54895AEF33F76780D34AD747BFC07815F0BD99C5462862262CA1519FF924119F1828C1DED9A0ECF9F8101F92F9BA3EB1BE98A2D26521DB0B3383B0D1EC562D0CF6D155BD63A4FDA41E2939578B41D859780BB60BF2345811B113136CCB887724E7755EEE34F7FC1679BBE6E0A9B6D7A009A2DB47ABCF4EA0E30AA3EA831520D60A667121371928A85611CD1D16BC6D1808AA4071EB849B803EFBE2A167C611326B0B13B1472B46876F20AEA2BEE58F2110B012D6023E2EB7BC1FC39E959242B51C7280311D5B</attribute>
+									<attribute id="uniqueID">1067</attribute>
+									<attribute id="keyIdentifier">03</attribute>
+									<attribute id="dP">067014F557C6054AB74F37D3B50176F19E4A1A380C31C84F56F9A47B6C91FF7F6354D41E5D889F7A2C1D34167A0C71CD239DD6B25AEE2F494D6AA747FBFC818EE35799B6F5F0104A0200069E6AA34F1F0D528E3A04BFA96BB9AAD6F2ABEF6C1529EED93F61A9B91D1DA56E7E7BF78506DDB585AF5B127A73E09E8B028BE2B7F1</attribute>
+									<attribute id="dQ">15EAC425BAC04C36D7D17B7CA2EB8B13A297D0B69247A9A83BA4F5BC6E62E545FA76261C811E92C36F557AAE944B87852AAEACD4FC930B789B08B840A411E8D213CC889C0797E4E9FF98D5D304053DF2F70548EAA3E1C171A04253187CC2C1C3E5FC51EBBAD53D45BDDC3987E545693F9E94D1800F939F9F4CD4FCBA702D4A0B</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||46||81||??}, ALW),
+                        ({00||2a||80||86, 00||2a||86||b8}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00040000000000)}})}]
+                    }
+                  </attribute>
+									<attribute id="q">00B43EE6DCC9CE8F2EEF567D292A1EF7C82833C32B2CD23878B38CC81DAFDC235D710CD608C7037F7026525E2069B16AE688237327C87D6A5A59AB7D5C7F2A97F2C8DCA4E18537C09533D7F44D4959356DFE45F71125E331DE94BC19A952D3239535D0C6253970057E1FFEB209A9C1702DFF2DC7AE9120D66DB004EEDBF40A7ACB</attribute>
+									<attribute id="p">00F6E0E6E5E53DB9B4E493DE48ECDA182123C25C4BDBB95F49BDF00A58896CE949F924515E2B4A001E7F3B7FBA37433C4E1B1C0F0230EA0337FA99CB5E1C88D836A90ACB34D35D5B3C69294950ED88BA19881AE545CD05915BFCCA041EFD77B0659041301E65209F354A87BC47ABD0D045EA3024AE799BDD99B35E2A67CADCC5B1</attribute>
+									<attribute id="modulusLength">0800</attribute>
+									<attribute id="keyAvailable">TRUE</attribute>
+									<attribute id="listAlgorithmIdentifier">{[1,(rsaDecipherOaep,rsaDecipherPKCS1_V1_5)]}</attribute>
+								</attributes>
+							</child>
+							<child id="PrK.CH.ENCV.R2048" objectType="PrivateRsaKey" personalized="16.10.2014 16:13:27">
+								<attributes>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="d">6D8B1E615AFD83B3C93E4E70682BDE7C698DA7664F77399C4C9957BD666F0602497A9E1F75D9BAD58C8C2D4B9595A344D5FC337252A08B7686963E625E87448044982E0B7A922D40B33B587FCF3AB1D0AA1BC90B43B4DA2D274839E80D3AE66CCBCA782213D9C1CC150EB2F195BA837D940C63B16E4B3D3473D206EE5806A64FFF7D95AED98F08D0057A91BCF3A0A73744E8E3CFF284FA1FD6C93EA336A9F315BC45F56F84BA018C4B5411ACCBF2009CB28B24605D2D9D4CF66F6209FF8284265597AF80E62427D3C3D968BC7B273120ED249822C0D41AFECF6F29323D97C69CDCC491ED5A0C1B865B321A517F353C4F222A770003A493E3FC970C18FD985401</attribute>
+									<attribute id="e">010001</attribute>
+									<attribute id="c">409E59666F6B925B3A8FE61847B9EBC4F4BF093569E89185CCD07278FAB4A129E8BB3E7D6B99B5D10D2FE8B4580DAC7F22DA6264D76CA32CCF681AFB8480C01397AEC07760A31DE496AE3EAF6AE11402E85317BFD0C3BFB0542C90B786C693FA0595C86E9791072093DD711C78A73AEA2D20EBACBF514F6B9D3DF8D5ADAFEACB</attribute>
+									<attribute id="n">0098C96E2FDD4CB9AE8599EBB9C6AA269E4D97F7644332105D21F64DD6475483CF5B0E242FF73EEB66E163F93E30C768A404F972BB2563E8D9DA1B44A0FD05F747C507F8000C0450633415C5009640D145D2DE9BDB5ED233A8EC865658366931241F6BD491E71705AD180D77CBEB3B645B38DE3DD609B391E6AEAECB113B7FEFBDC3A7310947FDF3E883DE344A21CD9FF4ABC06A721FD8E2BE82C367821C2AD2BAC43C24F01018856C9CDCC155EDB2BD0064C73A88A1780B92274C58E63696C3694EDD4AA8E6CF25466FDDA00BFBAEB2C186A410B095CED288DE5BAA0C797FF39F46799E791A03FFD5BB8913BD176BF2BF51EB673D4812F71EF795F5AA80907F49</attribute>
+									<attribute id="uniqueID">1074</attribute>
+									<attribute id="keyIdentifier">07</attribute>
+									<attribute id="dP">7C2B271F24ED3E424E10897EF7E370BCA45BF6B2AD16BC8DF26C5CCD45CBA513A0673FDFC2787EBC17E794A277D460A7647E4609175D501119515BD463298481AA8929CA2B4FED80BC72C55184BB424838037BDA46D9F585D765197B021B5F3E936649651B8D8D3B4A7098F78D7018B5ACFA197FF2D06D12D342AA0627A464B9</attribute>
+									<attribute id="dQ">00A0C4C9E12873952973DC1A8C43B0BD57BEB9CF89F793ABA4A84BC59DC5D43345CB0A58FB837057C9EACE28D628DE7799CC563CE34F8756BA4ED5451C23B7C58A3EE0F04AC86874D1C9BCDA74460E67537B09A92D4BF5CAE18A933D13C02A0FD6348C0D76D59470F87C33F05FF55613875073FBA585635EB3C434558E0E5761A1</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||2a||80||86, 00||2a||86||b8}, OR{PWD(02),AND{PWD(01),AUTCHAT(cvc_FlagList_TI:00200000000000)},AUTCHAT(cvc_FlagList_TI:00100000000000)}),
+                        ({00||46||81||??}, ALW),
+                        ({00||e4||20||??}, OR{SMMAC(13),SMMAC(18),SMMAC(cvc_FlagList_CMS:00800000000000)})}]
+                    }
+                  </attribute>
+									<attribute id="q">00B41F8124EAAF82DB1496D71A8FC9BC942255EB62CFD3B081FAE6216625EAD95E7E3E54531E866A27F7E0AE3C7FA7A207BA809394961FA250FAD221588D5BD3E074D8F2041BB0D822D485D996A948A451412EF0336B5F3D4C4410DB45D95D2B8ADA62B70FCC95171DB542CF1584882E60FD9A5EE5880BAD3F1723814943FC4E61</attribute>
+									<attribute id="p">00D925FBCB4368037099E9C4A91F876469A53E9A08E48E12C3612D1D6B694F3DC50E8237F7DF8A2EEF3BD51A86A5833966B39AAB561A7B06C24695531D1D56E5CF7367CD78C35524A0700E548F0F4CE7EE172EE1BAAE7C12396DF47612518A40AD79F6B388B4BEB4AA0A5E78C36AAAC8123CBA5F64391590BDDB06A452E343C9E9</attribute>
+									<attribute id="modulusLength">0800</attribute>
+									<attribute id="keyAvailable">TRUE</attribute>
+									<attribute id="listAlgorithmIdentifier">{[1,(rsaDecipherOaep,rsaDecipherPKCS1_V1_5)]}</attribute>
+								</attributes>
+							</child>
+						</children>
+					</child>
+					<child id="DF.CIA_ESIGN" objectType="Application">
+						<attributes>
+							<attribute id="applicationIdentifier">{e828bd080fa000000167455349474e}</attribute>
+							<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+							<attribute id="shareable">TRUE</attribute>
+							<attribute id="accessRules">
+                CB{
+                  [ACTIVATED,1,{
+                    ({??||??||??||??}, NEV)}]
+                }
+              </attribute>
+							<attribute id="uniqueID">1077</attribute>
+						</attributes>
+						<children>
+							<child id="EF.CIA_Info" objectType="TransparentElementaryFile">
+								<attributes>
+									<attribute id="body" herstellerspezifisch="true">3015020101030100a60d0c0b44494e2056203636323931</attribute>
+									<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+									<attribute id="shareable">TRUE</attribute>
+									<attribute id="accessRules">
+                    CB{
+                      [ACTIVATED,1,{
+                        ({00||b0||??||??}, ALW)}]
+                    }
+                  </attribute>
+									<attribute id="numberOfOctet">17</attribute>
+									<attribute id="flagTransactionMode">FALSE</attribute>
+									<attribute id="uniqueID">1078</attribute>
+									<attribute id="flagChecksum">TRUE</attribute>
+									<attribute id="positionLogicalEndOfFile">17</attribute>
+									<attribute id="shortFileIdentifier">12</attribute>
+									<attribute id="fileIdentifier">5032</attribute>
+								</attributes>
+							</child>
+						</children>
+					</child>
+				</children>
+			</child>
+		</attribute>
+		<attribute id="lifeCycleStatus">ACTIVATED</attribute>
+		<attribute id="publicKeyList"/>
+		<attribute id="pointInTime">000000000000</attribute>
+		<attribute id="iccsn8" herstellerspezifisch="true">6883119861412806</attribute>
+		<attribute id="warmAnswerToReset" herstellerspezifisch="true">3bd095ff81b1fe451f032d</attribute>
+		<attribute id="coldAnswerToReset" herstellerspezifisch="true">3bd095ff81b1fe451f032d</attribute>
+		<attribute id="reservedPersistentCacheSlots">05</attribute>
+	</objectSystem>
+	<commons>
+		<common id="specVersion" type="STRING">V3.8.0</common>
+		<common id="OPTION_CRYPTOBOX" type="BOOLEAN">FALSE</common>
+		<common id="LOGICAL_CHANNELS" type="INT">4</common>
+		<common id="OPTION_USB" type="BOOLEAN">FALSE</common>
+		<common id="INIT.FILE" type="STRING">..\d3\TLK_eGK_G2_sample.d3</common>
+		<common id="imageVersion" type="STRING">Image_V1.0.1;gemSpec_eGK_ObjSys_V3.8.0;gemSpec_COS_Wrapper_V1.6.0;gemSpec_COS_V3.7.0</common>
+		<common id="objectSystemId" type="STRING">EGKG2</common>
+		<common id="OPTION_CONTACTLESS" type="BOOLEAN">FALSE</common>
+	</commons>
+</card>

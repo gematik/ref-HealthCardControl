@@ -1,0 +1,47 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace entities {
+      namespace card {
+        namespace certificate {
+          enum AuthenticationCertificateState {
+            VALIDATION_ERROR
+            VALIDATION_SUCCESS
+          }
+        }
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace entities {
+      namespace card {
+        namespace certificate {
+          class de.gematik.ti.healthcard.control.entities.card.certificate.CertificateUtil {
+              {static} - LOG : Logger
+              {static} + getCertificate()
+              {static} + getCommonName()
+              {static} + getSurnameGivenname()
+              - CertificateUtil()
+              {static} - getFieldsFormCertificate()
+              {static} - getFirstFieldFormCertificate()
+          }
+        }
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

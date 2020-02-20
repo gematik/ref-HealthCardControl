@@ -1,0 +1,48 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    class de.gematik.ti.healthcard.control.CardDataServices {
+        - authorisingCard : HealthCard
+        - cardToRead : HealthCard
+        + CardDataServices()
+        + getNfdDpeService()
+        + getVsdService()
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    class de.gematik.ti.healthcard.control.CardUnlocker {
+        - card : IHealthCard
+        + CardUnlocker()
+        + doCard2Card()
+        + getProfessionalRole()
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    class de.gematik.ti.healthcard.control.HealthCardControl {
+        {static} - LOG : Logger
+        {static} - TAG : String
+        {static} - instance : HealthCardControl
+        {static} + getInstance()
+        {static} + start()
+        {static} + stop()
+        - HealthCardControl()
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

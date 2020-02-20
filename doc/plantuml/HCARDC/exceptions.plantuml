@@ -1,0 +1,87 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace exceptions {
+      class de.gematik.ti.healthcard.control.exceptions.AuthenticationCertificateException {
+          + AuthenticationCertificateException()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace exceptions {
+      class de.gematik.ti.healthcard.control.exceptions.CardToCardProcessException {
+          + CardToCardProcessException()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace exceptions {
+      class de.gematik.ti.healthcard.control.exceptions.HealthcardControlRuntimeException {
+          + HealthcardControlRuntimeException()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace exceptions {
+      class de.gematik.ti.healthcard.control.exceptions.NfdDpeExtractException {
+          + NfdDpeExtractException()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace exceptions {
+      class de.gematik.ti.healthcard.control.exceptions.NfdExtractException {
+          + NfdExtractException()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace exceptions {
+      class de.gematik.ti.healthcard.control.exceptions.PinStateException {
+          + PinStateException()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace exceptions {
+      class de.gematik.ti.healthcard.control.exceptions.WrongObjectSystemVersionArraySizeException {
+          {static} - MESSAGE : String
+          + WrongObjectSystemVersionArraySizeException()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace exceptions {
+      class de.gematik.ti.healthcard.control.exceptions.WrongRoleException {
+          + WrongRoleException()
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

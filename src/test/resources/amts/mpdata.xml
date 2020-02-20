@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<MP xmlns="http://ws.gematik.de/fa/amtss/AMTS_Document/v1.3" v="025" U="CAFE0102030405060708090001010203" l="de-DE" llcs="ISO 639-1" lccs="ISO 3166-1" iv="1.3.0" oid="----- TBD -----" on="eMP/AMTS" so="eGK" ko="">
+  <P g="Sarah" f="Mustermann" egk="X000000000" b="19700606" s="W" sd="true" t="Prof." v="von" z="Freifrau"/>
+  <A t="2017-11-12T10:10:12" n="Dr. Friedrich Glücklich" s="Friedrichstr. 136" z="10117" c="Berlin"/>
+  <O ai="Milchprodukte" aid="true" p="1" pd="true" w="77" wd="true" h="175" hd="true" c="0" cda="1957-08-13" cd="true" et="2018-11-13"/>
+  <U re="Unverträglichkeit" su="ACE-Hemmer" q="Eigenangabe"/>
+  <U re="Juckreiz" su="Cotrim" q="ärztlich diagnostiziert"/>
+  <S t="Schilddrüse">
+    <M dm="true" ied="2012-08-13" icd="2017-05-13" bmp="true" hi="false" p="06882219" ps="BMP v2.5, Kap 8.3.1, Tab 3" a="Thyronajod 50 Henning 100 Tbl. N3" f="TAB" fs="1.2.276.0.76.3.1.1.5.2.40" m="1/2" d="1/2" v="1/2" h="1" dud="Tablette" dus="1.2.276.0.76.3.1.1.5.2.41" r="Schilddrüsenhormone">
+      <W w="Levothyroxin natrium xH2O" gwe="0,05mg/TAB"/>
+      <W w="Kaliumiodid" gwe="0,196mg/TAB"/>
+    </M>
+  </S>
+  <S t="Diabetes" cs="1.2.276.0.76.3.1.1.5.2.42">
+    <M dm="true" ied="2015-11-09" icd="2018-03-30" bmp="true" hi="false" p="04245922" ps="BMP v2.5, Kap 8.3.1, Tab 3" a="Actrapid 100 I.E./ml" f="AMP" fs="1.2.276.0.76.3.1.1.5.2.40" m="10" d="6" v="8" h="1" dud="IE" dus="1.2.276.0.76.3.1.1.5.2.41" r="Diabetes mellitus">
+      <W w="Insulin" gwe="300I.E."/>
+    </M>
+    <M dm="true" ied="2015-11-09" icd="2018-03-30" bmp="true" hi="false" p="04245922" ps="BMP v2.5, Kap 8.3.1, Tab 3" a="Lantus 100 E/ml" f="SRI" fs="1.2.276.0.76.3.1.1.5.2.40" i="Abends 18-30 I.E. nach Messergebnis" dud="IE" dus="1.2.276.0.76.3.1.1.5.2.41" r="Diabetes mellitus">
+      <W w="Insulin glargin" gwe="300I.E."/>
+    </M>
+  </S>
+</MP>

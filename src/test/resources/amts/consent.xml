@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="yes"?>
+<Einwilligung xmlns="http://ws.gematik.de/fa/amtss/AMTS_Einwilligung_Document/v1.0">
+  <Version>1.0.1</Version>
+  <Einwilligungsdatum>2018-08-08</Einwilligungsdatum>
+  <Nachname>Glücklich</Nachname>
+  <Vorname>Friedrich</Vorname>
+  <Postleitzahl>10117</Postleitzahl>
+  <Ort>Berlin</Ort>
+  <Strasse>Friedrichstrasse</Strasse>
+  <Hausnummer>136</Hausnummer>
+  <Wohnsitzlaendercode>D</Wohnsitzlaendercode>
+</Einwilligung>

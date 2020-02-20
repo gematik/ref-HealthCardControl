@@ -1,0 +1,57 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace c2c {
+      enum C2CSuccessState {
+        C2C_FAILED
+        C2C_SUCCESS
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace c2c {
+      class de.gematik.ti.healthcard.control.c2c.CardFileSystemData {
+          ~ cvcAutrSfid : ShortFileIdentifier
+          ~ cvcCASfid : ShortFileIdentifier
+          ~ gdo : ShortFileIdentifier
+          ~ key : Key
+          ~ pinChRef : Password
+          {static} ~ getCardFileSystemData()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace c2c {
+      class de.gematik.ti.healthcard.control.c2c.CardToCardAuthExecutor {
+          {static} - LOG : Logger
+          {static} - result : ResultOperation<Response>
+          {static} + authenticateC2C()
+          {static} + authenticateC2C()
+          {static} - createToken()
+          {static} - doAutrCertVerification()
+          {static} - doCACertVerification()
+          {static} - doInternalExternalAuth()
+          {static} - doPinVerification()
+          {static} - doSelectRoot()
+          {static} - executeAuth()
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

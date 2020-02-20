@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="ISO-8859-15"?><NFD_Document xmlns="http://ws.gematik.de/fa/nfds/NFD_Document/v1.3" xmlns:NFDM="http://ws.gematik.de/fa/nfds/common/NFDM_Common/v1.0" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" NFD_Version="1.2.0">
+  <Notfalldaten ID="ID1" ID_NFD="a" NFD_letzte_Aktualisierung_date="2018-06-06" NFD_letzte_Aktualisierung_time="09:30:47+05:00">
+    <NFD_Versicherter>
+      <NFDM:Versicherter>
+        <NFDM:Versicherten_ID>X110483272</NFDM:Versicherten_ID>
+        <NFDM:Geburtsdatum>19790322</NFDM:Geburtsdatum>
+        <NFDM:Vorname>Dïmitri Francesco</NFDM:Vorname>
+        <NFDM:Nachname>Wützigmann</NFDM:Nachname>
+        <NFDM:Geschlecht>M</NFDM:Geschlecht>
+      </NFDM:Versicherter>
+      <NFD_Behandelnder_Arzt_Institution BAI_Art="Arzt">
+        <NFD_BAI_Arzt_Nachname>Müller-Holzscheit</NFD_BAI_Arzt_Nachname>
+        <NFD_BAI_Arzt_Vorname>Marcello-Bernhardino</NFD_BAI_Arzt_Vorname>
+        <NFD_BAI_Institution_Bezeichnung>Charite</NFD_BAI_Institution_Bezeichnung>
+        <NFD_BAI_Arzt_Bezeichnung>Oberarzt</NFD_BAI_Arzt_Bezeichnung>
+        <NFD_BAI_Adresse>
+          <NFDM:Adresse>
+            <NFDM:Postleitzahl>98765</NFDM:Postleitzahl>
+            <NFDM:Ort>Oberstubbling</NFDM:Ort>
+            <NFDM:Strasse>Bergstr.</NFDM:Strasse>
+            <NFDM:Hausnummer>11</NFDM:Hausnummer>
+            <NFDM:Anschriftenzusatz>Haupthaus</NFDM:Anschriftenzusatz>
+            <NFDM:Wohnsitzlaendercode>DE</NFDM:Wohnsitzlaendercode>
+          </NFDM:Adresse>
+        </NFD_BAI_Adresse>
+        <NFD_BAI_Kommunikation>
+          <NFDM:Kommunikationsdaten>
+            <NFDM:Telefonnummer>0987/6544</NFDM:Telefonnummer>
+            <NFDM:Faxnummer>0987/6555</NFDM:Faxnummer>
+            <NFDM:E-Mail>oberarzt@charite.com</NFDM:E-Mail>
+          </NFDM:Kommunikationsdaten>
+        </NFD_BAI_Kommunikation>
+      </NFD_Behandelnder_Arzt_Institution>
+      <NFD_Benachrichtigungskontakt>
+        <NFD_BK_Bezeichnung>Tochter</NFD_BK_Bezeichnung>
+        <NFD_BK_Nachname>von Huber</NFD_BK_Nachname>
+        <NFD_BK_Vorname>Clara</NFD_BK_Vorname>
+        <NFD_BK_Kommunikation>
+          <NFDM:Kommunikationsdaten>
+            <NFDM:Telefonnummer>0987/543</NFDM:Telefonnummer>
+            <NFDM:Faxnummer>0987/555</NFDM:Faxnummer>
+            <NFDM:E-Mail>clara.huber@charite.de</NFDM:E-Mail>
+          </NFDM:Kommunikationsdaten>
+        </NFD_BK_Kommunikation>
+      </NFD_Benachrichtigungskontakt>
+      <NFD_Versicherter_Kommunikation>
+        <NFDM:Kommunikationsdaten>
+          <NFDM:Telefonnummer>0987/65412</NFDM:Telefonnummer>
+          <NFDM:Faxnummer>0987/65444</NFDM:Faxnummer>
+          <NFDM:E-Mail>sarah@mustermann.de</NFDM:E-Mail>
+        </NFDM:Kommunikationsdaten>
+      </NFD_Versicherter_Kommunikation>
+    </NFD_Versicherter>
+    <NFD_Versicherter_Einwilligung>
+      <NFD_VE_Arzt_Nachname>Meyer</NFD_VE_Arzt_Nachname>
+      <NFD_VE_Arzt_Vorname>Eberhard</NFD_VE_Arzt_Vorname>
+      <NFD_VE_Adresse>
+        <NFDM:Adresse>
+          <NFDM:Postleitzahl>54321</NFDM:Postleitzahl>
+          <NFDM:Ort>Hannover</NFDM:Ort>
+          <NFDM:Strasse>Bahnhofstr.</NFDM:Strasse>
+          <NFDM:Hausnummer>13</NFDM:Hausnummer>
+          <NFDM:Anschriftenzusatz>Vorderhaus</NFDM:Anschriftenzusatz>
+          <NFDM:Wohnsitzlaendercode>DE</NFDM:Wohnsitzlaendercode>
+        </NFDM:Adresse>
+      </NFD_VE_Adresse>
+    </NFD_Versicherter_Einwilligung>
+    <NFD_Befunddaten>
+      <Besondere_Hinweise>
+        <Schwangerschaft>
+          <Entbindungstermin_Errechnet>2019-08-13</Entbindungstermin_Errechnet>
+          <Schwangerschaft>1</Schwangerschaft>
+          <diagnostiziert_indiziert DI_Art="Arzt">
+            <DI_Arzt>
+              <DI_Arzt_Name>a</DI_Arzt_Name>
+              <DI_Arzt_Fachgebiet>Gynäkologe</DI_Arzt_Fachgebiet>
+              <DI_Arzt_Ort>Hannover</DI_Arzt_Ort>
+            </DI_Arzt>
+          </diagnostiziert_indiziert>
+        </Schwangerschaft>
+        <Implantate>
+          <Datum_Implantation xsi:nil="false">1999-12-01</Datum_Implantation>
+          <Implantate>VP-Shunt</Implantate>
+          <Typenbezeichnung>Typ Medtronic Strata® Adjustable Pressure Valve</Typenbezeichnung>
+          <diagnostiziert_indiziert DI_Art="Institution">
+            <DI_Institution>
+              <DI_Institution_Name>Uniklinikum Mannheim</DI_Institution_Name>
+              <DI_Institution_Fachabteilung>Abteilung für Neurochirurgie</DI_Institution_Fachabteilung>
+              <DI_Institution_Ort>Mannheim</DI_Institution_Ort>
+            </DI_Institution>
+          </diagnostiziert_indiziert>
+        </Implantate>
+        <Kommunikationsstoerungen>
+          <Kommunikationsstoerung>ausgeprägte Schwerhörigkeit (Presbyakusis)</Kommunikationsstoerung>
+          <diagnostiziert_indiziert DI_Art="Arzt">
+            <DI_Arzt>
+              <DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+              <DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+              <DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+            </DI_Arzt>
+          </diagnostiziert_indiziert>
+        </Kommunikationsstoerungen>
+        <Weglaufgefaehrdung>
+          <Weglaufgefaehrdung>1</Weglaufgefaehrdung>
+          <Weglaufgefaehrdung_Erlaeuterung>Patient neigt bei Wechsel der gewohnten Umgebung zur Desorientiertheit mit ausgeprägter Weglauftendenz (häufig mit erreichbaren Öffentlichen Verkehrsmitteln nach Hause!)</Weglaufgefaehrdung_Erlaeuterung>
+          <diagnostiziert_indiziert DI_Art="Arzt">
+            <DI_Arzt>
+              <DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+              <DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+              <DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+            </DI_Arzt>
+          </diagnostiziert_indiziert>
+        </Weglaufgefaehrdung>
+        <Sonstige_Hinweise>
+          <sonstige_Hinweise>ICD ist über telemedizinische Plattform an Plattform Merlin.net angebunden. Kontakt Dr. Herzsprung Dt. Herzzentrum, München (089 1234 56 789)</sonstige_Hinweise>
+          <diagnostiziert_indiziert DI_Art="Arzt">
+            <DI_Arzt>
+              <DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+              <DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+              <DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+            </DI_Arzt>
+          </diagnostiziert_indiziert>
+        </Sonstige_Hinweise>
+      </Besondere_Hinweise>
+      <Allergien_Unvertraeglichkeiten>
+        <Substanz>Kontaktallergie Latex</Substanz>
+        <Reaktion>Kontaktallergie Latex</Reaktion>
+        <diagnostiziert_indiziert DI_Art="Arzt">
+          <DI_Arzt>
+            <DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+            <DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+            <DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+          </DI_Arzt>
+        </diagnostiziert_indiziert>
+      </Allergien_Unvertraeglichkeiten>
+      <Allergien_Unvertraeglichkeiten>
+        <Substanz>Nahrungsmittel Nüsse</Substanz>
+        <Reaktion>Asthma, einmalige Reaktion (9/2009) bis Intubationspflichtigkeit!</Reaktion>
+        <diagnostiziert_indiziert DI_Art="Arzt">
+          <DI_Arzt>
+            <DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+            <DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+            <DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+          </DI_Arzt>
+        </diagnostiziert_indiziert>
+      </Allergien_Unvertraeglichkeiten>
+      <Diagnosen>
+        <Diagnose_Code>E10.74</Diagnose_Code>
+        <Diagnose_Text>Primär insulinabhängiger Diabetes mellitus [Typ-1-Diabetes] Mit multiplen Komplikationen Mit diabetischem Fußsyndrom, nicht als entgleist bezeichnet</Diagnose_Text>
+        <Diagnose_Zeitpunkt>1911-11-11</Diagnose_Zeitpunkt>
+        <Diagnosesicherheit>G</Diagnosesicherheit>
+        <Seitenlokalisation/>
+        <Diagnose_Code_System DC_Version="String">
+          <Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+        </Diagnose_Code_System>
+        <diagnostiziert_indiziert DI_Art="Arzt">
+          <DI_Arzt>
+            <DI_Arzt_Name>Dr. Schneider</DI_Arzt_Name>
+            <DI_Arzt_Fachgebiet>Allgemeinmedizin</DI_Arzt_Fachgebiet>
+            <DI_Arzt_Ort>Thaleischweiler-Fröschen</DI_Arzt_Ort>
+          </DI_Arzt>
+        </diagnostiziert_indiziert>
+      </Diagnosen>
+      <Diagnosen>
+        <Diagnose_Code>G70.9</Diagnose_Code>
+        <Diagnose_Text>Neuromuskuläre Krankheit, nicht näher bezeichnet</Diagnose_Text>
+        <Diagnose_Zeitpunkt>2012-01-01</Diagnose_Zeitpunkt>
+        <Diagnosesicherheit>V</Diagnosesicherheit>
+        <Seitenlokalisation/>
+        <Diagnose_Code_System DC_Version="String">
+          <Kennzeichen_Code_System>ICD 10 GM 2012</Kennzeichen_Code_System>
+        </Diagnose_Code_System>
+        <diagnostiziert_indiziert DI_Art="Arzt">
+          <DI_Arzt>
+            <DI_Arzt_Name>Dr. Neuron-Oberschlund</DI_Arzt_Name>
+            <DI_Arzt_Fachgebiet>Facharzt für Neurologie</DI_Arzt_Fachgebiet>
+            <DI_Arzt_Ort>Kaiserslautern</DI_Arzt_Ort>
+          </DI_Arzt>
+        </diagnostiziert_indiziert>
+      </Diagnosen>
+    </NFD_Befunddaten>
+    <NFD_Medikationseintrag>
+      <diagnostiziert_indiziert DI_Art="Arzt">
+        <DI_Arzt>
+          <DI_Arzt_Name>Dr. Itein</DI_Arzt_Name>
+          <DI_Arzt_Fachgebiet>Chirurgie</DI_Arzt_Fachgebiet>
+          <DI_Arzt_Ort>Trandorf</DI_Arzt_Ort>
+        </DI_Arzt>
+      </diagnostiziert_indiziert>
+      <M a="L-THYROX HEXAL 112 Tabletten" d="1" dud="00" f="TAB" i="morgens nüchtern mindesten 1/2 Stunde vor dem Essen mit Leitungswasser einnehmen" m="1" p="4677685">
+        <W s="0,109 mg" w="Levothyroxin"/>
+      </M>
+    </NFD_Medikationseintrag>
+    <NFD_Medikationseintrag>
+      <diagnostiziert_indiziert DI_Art="Arzt">
+        <DI_Arzt>
+          <DI_Arzt_Name>Dr. Frankenstein</DI_Arzt_Name>
+          <DI_Arzt_Fachgebiet>Chirurgie</DI_Arzt_Fachgebiet>
+          <DI_Arzt_Ort>Trandorf</DI_Arzt_Ort>
+        </DI_Arzt>
+      </diagnostiziert_indiziert>
+      <M a="EXFORGE HCT 10 mg/160 mg/12,5 mg Filmtabletten" d="1" dud="00" fd="Film" i="Einnahme unabhängig von den Mahlzeiten" m="1" p="05111359">
+        <W s="10 mg" w="Amlodipin"/>
+        <W s="160 mg" w="Valsartan"/>
+        <W s="12,5 mg" w="Hydrochlorothiazid"/>
+      </M>
+    </NFD_Medikationseintrag>
+    <NFD_Freiwillige_Zusatzinformationen>
+      <Freiwillige_Zusatzinformationen>Blutgruppe AB Rh neg; Knochenmark-Spender (Typisierung 2011 erfolgt / DKMS)</Freiwillige_Zusatzinformationen>
+    </NFD_Freiwillige_Zusatzinformationen>
+  </Notfalldaten>
+  <SignatureArzt><ds:Signature Id="Signature-1533802268721"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference Id="Ref-1533802268721" URI="#ID1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>t7ezXR6S6ymp4dwfSnpXEZR2crXP4LghL4Xt6hT6qOg=</ds:DigestValue></ds:Reference><ds:Reference Id="Ref-SignedProperties-1533802268721" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1533802268721"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>vgwa+cAuUip81I0sXewNK3KHqO16iGk0PRgRNOv8ocA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>fJIxI0LU+LRoaZjZnalbFdXYPAksCSQdMi/cKwP5oDDnb9GgFgaTaJ9bkMvcFNcGwfEiulVdBHbl
+Zgcawpl+Mz3BbY+cqDgzGkpVj1GrJfB5h+AlEyUSfQ6KlWGurw0VDmZwILq68O/zO69m115wA/dv
+vNSjFE+kZCKJMXhOfQdIjXiII+GVUrXM3LhlrBnbnpAQjudrrK4HfEYh7O4cI/gdJ/aZfegiOaWL
+htOvotZHeVrHD5B7BEjlS+NjP/evX3bw97H27l5Pzdm9wNDRcahDBQs/bp4Vvui+j2qZFQaFGXiV
+mePzlag+wULHGJWRpAylUByVvAMCGxLK+NahSw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEfDCCA2SgAwIBAgIEGzj0kDANBgkqhkiG9w0BAQsFADCBhzEjMCEGA1UEAwwaQy5FSEVYLkhV
+TUFOLUNBMSBURVNULU9OTFkxNTAzBgNVBAsMLGVIZWFsdGhFeHBlcnRzLUNBIGRlciBUZWxlbWF0
+aWtpbmZyYXN0cnVrdHVyMRwwGgYDVQQKDBNlSGVhbHRoRXhwZXJ0cyBHbWJIMQswCQYDVQQGEwJE
+RTAeFw0xODA4MDkwODExMDhaFw00ODEyMzAyMzAwMDBaMF4xGjAYBgNVBAMMEURyLiBQZXRlciBN
+w7xsbGVyMRUwEwYDVQQFEwwwMS1oYmEtdmFsaWQxHDAaBgNVBAoME2VIZWFsdGhFeHBlcnRzIEdt
+YkgxCzAJBgNVBAYTAkRFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqQpjgqrZlZEJ
+mfL7yWvrv/62eu4AmnGMM8PM8g2XtgLpe0uvhf+c9WECb/sDg6EjDdkPzS6fbEbXNPSyT9KWhg3L
+sTkIevBtfJNAWyCz8pjpi/qq0YeHMmDFmALGHnV0So0AE1eN6584/JuJ+Gl9O44sE9Y4xmybv5nR
+i8dqpxZIwh75n4Hq1qGdTemYgFC1WbY8JFDjLsnYhoYklYOZI67fviBlnc8P51YOEHqeEjj2/m2Q
+QhosfbbJobDWpaCc628IFJySRwqrxpxP/T+n8KW5Fnp/8pP1u3YUe052+rekAqmwqqJC+0pcVHZe
+xuWr5DLl1S8XECX19007u4G/CwIDAQABo4IBFjCCARIwHwYDVR0jBBgwFoAUmI/he3Wx/QwCIDxn
+7OEOFU8CCLAwHQYDVR0OBBYEFA1LG0TKtpRh7GXf9qmPJEa83F9yMAwGA1UdEwEB/wQCMAAwDgYD
+VR0PAQH/BAQDAgQwMCAGA1UdIAQZMBcwCgYIKoIUAEwEgREwCQYHKoIUAEwESjBSBggrBgEFBQcB
+AQRGMEQwQgYIKwYBBQUHMAGGNmh0dHA6Ly9vY3NwLmVoZXguZGU6MjU2MC9lamJjYS9wcml2YXRl
+L3dlYi9zdGF0dXMvb2NzcDA8BgUrJAgDAwQzMDEwLzAtMCswKTAODAzDhHJ6dGluL0FyenQwCQYH
+KoIUAEwEHhMMMDEtaGJhLXZhbGlkMA0GCSqGSIb3DQEBCwUAA4IBAQBin0PS95mv6B3Ja5yIUNhH
+zt+w3aDr4hUdRFek4HsypdSkn3yL3/lQBb/1ANUyBcrV3C1jI6ivtd070FNqiGTN6kzAZM0yUco9
+1zA8ZSI8KRMvrHLUzZyLJ3q9oT64xNHjjL+67CuRF1xRPyRFQaRkizlN3GRqc3Z7KCrSbcSlVesR
+9iGrFIFE3x0B4XYgp9R+cbVkh+wuEDi4fxmC9tbESbTFG4Jo+XQiM0thKA2Uo2dB1yVO93Tu08C8
+fUdvN8zOwB+jGMlVGI2cylVLiEu8/EdnXzyYoo3uIMBZ04xxjitbdeQT43xV9fAO3CSBXmRy4kJR
+h9duID9lVN1sLci2</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1533802268721"><xades:SignedProperties Id="SignedProperties-1533802268721"><xades:SignedSignatureProperties><xades:SigningTime>2018-08-09T10:11:08.721Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Z8+uXNMz3i6JFa2ocq31Dt4TJ6r4kJUU7YoaQA+f6gA=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=DE,O=eHealthExperts GmbH,OU=eHealthExperts-CA der Telematikinfrastruktur,CN=C.EHEX.HUMAN-CA1 TEST-ONLY</ds:X509IssuerName><ds:X509SerialNumber>456717456</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Ref-1533802268721"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></SignatureArzt>
+</NFD_Document>

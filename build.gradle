@@ -1,0 +1,119 @@
+buildscript {
+    dependencies {
+        classpath "de.gematik:gematik-parent-plugin:1.2.0"
+        classpath "de.gematik:documentation-plugin:1.1.2"
+    }
+}
+
+apply plugin: "de.gematik.parent"
+apply plugin: "de.gematik.publish"
+apply plugin: "de.gematik.asciidoctor"
+apply plugin: "de.gematik.javadoc"
+
+group = 'de.gematik.ti'
+
+description = """HealthCardControl"""
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+sourceSets {
+    test {
+        java.srcDirs = ['src/test/java']
+        resources.srcDirs = ['src/test/resources']
+        runtimeClasspath = project.sourceSets.main.compileClasspath +
+                project.sourceSets.test.compileClasspath +
+                fileTree("${buildDir}/resources/test") + fileTree("${buildDir}/resources/main") + fileTree("${buildDir}") +
+                project.sourceSets.test.output + project.sourceSets.main.output
+    }
+}
+
+dependencies {
+    def version_schema_vsd = '1.0.1'
+    def version_schema_dpe = '1.0.1'
+    def version_schema_nfd = '1.0.2'
+    def version_events = '1.2.0'
+
+    implementation group: 'de.gematik.ti', name: 'healthcard.access', version: '1.2.2'
+    implementation group: 'org.greenrobot', name: 'eventbus', version: '3.1.1'
+    implementation group: 'de.gematik.ti', name: 'openhealthcard.events', version: version_events
+    implementation group: 'de.gematik.ti', name: 'utils', version: '1.2.1'
+    implementation group: 'de.gematik.ti', name: 'cardreader.provider.api', version: '1.2.1'
+    compileOnly group: 'de.gematik.ti', name: 'schema.gen.vsd', version: version_schema_vsd
+    compileOnly group: 'de.gematik.ti', name: 'schema.gen.nfd', version: version_schema_nfd
+    compileOnly group: 'de.gematik.ti', name: 'schema.gen.dpe', version: version_schema_dpe
+
+
+    testImplementation group: 'de.gematik.ti', name: 'openhealthcard.events', version: version_events
+    testImplementation group: 'de.gematik.ti', name: 'schema.gen.vsd', version: version_schema_vsd
+    testImplementation group: 'de.gematik.ti', name: 'schema.gen.nfd', version: version_schema_nfd
+    testImplementation group: 'de.gematik.ti', name: 'schema.gen.dpe', version: version_schema_dpe
+    testImplementation group: 'de.gematik.ti', name: 'healthcard.access', version: '1.2.2', classifier: 'test'
+
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
+    testImplementation group: 'org.greenrobot', name: 'eventbus', version: '3.1.1'
+
+    implementation group: 'com.madgag.spongycastle', name: 'prov', version: '1.58.0.0'
+    implementation group: 'com.madgag.spongycastle', name: 'core', version: '1.58.0.0'
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+
+    testImplementation group: 'com.github.tony19', name: 'logback-android', version: '1.3.0-3'
+    testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.0.0'
+    testImplementation group: 'org.powermock', name: 'powermock-api-mockito2', version: '2.0.2'
+    testImplementation group: 'org.powermock', name: 'powermock-classloading-base', version: '2.0.2'
+
+
+}
+
+gematikDocumentation {
+    projectShortcut = "HCARDC"
+    documentVersionReference = "version_healthcard_control"
+}
+
+gematikPublish {
+    name = "HealthCardControl"
+    description = "The HealthCardControl library is an framework that detect card type and version, supports functionatlity to read VSDN and NFD Data, etc."
+    gitHubProjectName = "ref-HealthCardControl"
+}
+
+task sourceJar(type: Jar) {
+    archiveClassifier.set("sources")
+    from "${project.buildDir}/../src/main/java/"
+    include "**/*.java"
+}
+task testSourceJar(type: Jar) {
+    archiveClassifier.set("test-sources")
+    from "${project.buildDir}/../src/test/java/"
+    include "**/*.java"
+}
+task adocJar(type: Jar) {
+    archiveClassifier.set("adoc")
+    from "${project.buildDir}/../doc"
+    into "${project.name}"
+    exclude "**/generated/**/*.*"
+
+}
+task javadocJar(type: Jar) {
+    archiveClassifier.set("javadoc")
+    from "${project.buildDir}/docs/javadoc/"
+    into "${project.name}"
+}
+
+artifacts {
+    archives sourceJar
+    archives testSourceJar
+    archives adocJar
+    archives javadocJar
+}
+
+test {
+    //we want display the following test events
+    testLogging {
+        events "PASSED", "STARTED", "FAILED", "SKIPPED"
+    }
+}

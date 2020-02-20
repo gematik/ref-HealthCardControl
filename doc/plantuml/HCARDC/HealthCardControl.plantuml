@@ -1,0 +1,61 @@
+@startuml
+
+    package de.gematik.ti.healthcard.control {
+      class HealthCardControl {
+          {static} - LOG : Logger
+          {static} - TAG : String
+          {static} - instance : HealthCardControl
+          - HealthCardControl()
+          {static} + getInstance()
+          {static} + start()
+          {static} + stop()
+      }
+    }
+
+ package de.gematik.ti.healthcard.control {
+      class CardDetector {
+          {static} - LOG : Logger
+          {static} - TAG : String
+          {static} - RECEIVE_BUFFER_SIZE : int
+          {static} - instance : CardDetector
+          - healthCardMap : Map<ICardReader, IHealthCard>
+          - CardDetector()
+          {static} + getInstance()
+          {static} + startDetection()
+          {static} + stopDetection()
+          - register()
+          - unregister()
+          + handleCardPresentEvents()
+          - createHealthCardWithTypeAndSendEvent()
+          - extractCardType()
+          - sendEvent()
+          - createPresentEventForHealthCardType()
+          - getHealthCardTypeSmcb()
+          - getHealthCardTypeHba()
+          - getHealthCardTypeForEgk()
+          + handleCardAbsentEvents()
+          - sendCardAbsentEvent()
+          + handleCardReaderDisconnectedEvents()
+          - createAbsentEventForHealthCardType()
+      }
+    }
+
+    package de.gematik.ti.healthcard.control {
+      class TrustedChannelPaceKeyRequestHandler {
+          {static} - LOG : Logger
+          {static} - TAG : String
+          {static} - instance : TrustedChannelPaceKeyRequestHandler
+          - TrustedChannelPaceKeyRequestHandler()
+          {static} + getInstance()
+          {static} + startHandling()
+          {static} + stopHandling()
+          - register()
+          - unregister()
+          + handleRequestPaceKeyEvent()
+      }
+    }
+
+  HealthCardControl ..> CardDetector
+  HealthCardControl ..> TrustedChannelPaceKeyRequestHandler
+
+@enduml

@@ -1,0 +1,132 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace protocol {
+      class de.gematik.ti.healthcard.control.protocol.EgkCardProtocol {
+          {static} - LOG : Logger
+          - cardEgkHc : IHealthCard
+          - pin : Format2Pin
+          + EgkCardProtocol()
+          + getAllProtocolEntries()
+          + getValidProtocolEntries()
+          + read()
+          + write()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace protocol {
+      class de.gematik.ti.healthcard.control.protocol.ProtocolReader {
+          {static} - LOG : Logger
+          {static} - MAXIMUMNUMBEROFRECORDS : int
+          - allProtocolEntries : Collection<ProtocolEntry>
+          - cardEgk : IHealthCard
+          {static} - dfHcaAID : ApplicationIdentifier
+          {static} - efLoggingFID : FileIdentifier
+          {static} - efLoggingSFID : ShortFileIdentifier
+          {static} - mrPinHomePWID : Password
+          - responseResultOperation : ResultOperation<byte[]>
+          + ProtocolReader()
+          + call()
+          + getAllProtocolEntries()
+          + read()
+          - doFirstRead()
+          - doRead()
+          {static} - initFileReference()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace protocol {
+      class de.gematik.ti.healthcard.control.protocol.ProtocolRecordBuilder {
+          {static} - CHARSET : Charset
+          {static} - LOG : Logger
+          {static} - MAXIMUMRECORDLENGTH : int
+          {static} + buildRecord()
+          {static} + buildRecord()
+          {static} + buildRecord()
+          {static} + getByteArrayOfLongvalue()
+          - ProtocolRecordBuilder()
+          {static} - checkCard()
+          {static} - getSfid()
+          {static} - padString()
+          {static} - readActorNameFromAutCert()
+          {static} - readIcc()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace protocol {
+      class de.gematik.ti.healthcard.control.protocol.ProtocolWriter {
+          {static} - LOG : Logger
+          - cardEgkHc : IHealthCard
+          - dfHcaAid : ApplicationIdentifier
+          - efLoggingFid : FileIdentifier
+          - efLoggingSfid : ShortFileIdentifier
+          - responseResultOperation : ResultOperation<Response>
+          + ProtocolWriter()
+          + write()
+          - initFileReference()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace protocol {
+      class de.gematik.ti.healthcard.control.protocol.Subscribers {
+          {static} - LOG : Logger
+          - Subscribers()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace protocol {
+      class de.gematik.ti.healthcard.control.protocol.Subscribers.ActorIdSubscriber {
+          - actorId : String
+          + getActorId()
+          + onError()
+          + onSuccess()
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace protocol {
+      class de.gematik.ti.healthcard.control.protocol.Subscribers.CertificateSubscriber {
+          - certificate : byte[]
+          + getCertificate()
+          + onError()
+          + onSuccess()
+      }
+    }
+  }
+  
+
+  de.gematik.ti.healthcard.control.protocol.EgkCardProtocol o-- de.gematik.ti.healthcard.control.protocol.ProtocolReader : protocolReader
+  de.gematik.ti.healthcard.control.protocol.ProtocolReader .up.|> java.util.concurrent.Callable
+  de.gematik.ti.healthcard.control.protocol.Subscribers +-down- de.gematik.ti.healthcard.control.protocol.Subscribers.ActorIdSubscriber
+  de.gematik.ti.healthcard.control.protocol.Subscribers +-down- de.gematik.ti.healthcard.control.protocol.Subscribers.CertificateSubscriber
+  de.gematik.ti.healthcard.control.protocol.Subscribers.ActorIdSubscriber .up.|> de.gematik.ti.healthcardaccess.operation.Subscriber
+  de.gematik.ti.healthcard.control.protocol.Subscribers.CertificateSubscriber .up.|> de.gematik.ti.healthcardaccess.operation.Subscriber
+
+
+
+
+
+
+
+
+
+@enduml

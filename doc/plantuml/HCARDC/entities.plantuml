@@ -1,0 +1,47 @@
+@startuml
+
+
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace entities {
+      enum C2CMode {
+        MUTUALLY
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace entities {
+      enum CardGeneration {
+        G1
+        G1P
+        G2
+        G2_1
+        UNKNOWN
+        VERSION_3_0_3
+        VERSION_4_0_0
+        VERSION_4_4_0
+      }
+    }
+  }
+  
+
+  namespace de.gematik.ti.healthcard.control {
+    namespace entities {
+      class de.gematik.ti.healthcard.control.entities.UsageInformation {
+      }
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+@enduml

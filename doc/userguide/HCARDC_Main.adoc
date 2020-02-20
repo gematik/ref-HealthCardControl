@@ -1,0 +1,7 @@
+include::config.adoc[]
+
+== HealthCardControl
+
+include::HCARDC_Introduction.adoc[]
+include::HCARDC_Overview.adoc[]
+include::HCARDC_GettingStarted.adoc[]

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="ISO-8859-15"?><NFD:NFD_Document xmlns:NFD="http://ws.gematik.de/fa/nfds/NFD_Document/v1.3" xmlns:NFDM="http://ws.gematik.de/fa/nfds/common/NFDM_Common/v1.0" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:n1="http://www.altova.com/samplexml/other-namespace" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" NFD_Version="1.3.0" xsi:schemaLocation="http://ws.gematik.de/fa/nfds/NFD_Document/v1.3 NFD_Document_v1_3.xsd">
+    <NFD:Notfalldaten ID="ID1" ID_NFD="a" NFD_letzte_Aktualisierung_date="2017-01-29" NFD_letzte_Aktualisierung_time="16:22:01">
+        <NFD:NFD_Versicherter>
+            <NFDM:Versicherter>
+                <NFDM:Versicherten_ID>X110460336</NFDM:Versicherten_ID>
+                <NFDM:Geburtsdatum>19631107</NFDM:Geburtsdatum>
+                <NFDM:Vorname>Johann-Georg Wilhelm</NFDM:Vorname>
+                <NFDM:Nachname>Kritzepetrowski-Helmbichler</NFDM:Nachname>
+                <NFDM:Vorsatzwort>von</NFDM:Vorsatzwort>
+                <NFDM:Namenszusatz>Freiherr</NFDM:Namenszusatz>
+                <NFDM:Titel>Prof. Dr. </NFDM:Titel>
+                <NFDM:Geschlecht>M</NFDM:Geschlecht>
+            </NFDM:Versicherter>
+            <NFD:NFD_Behandelnder_Arzt_Institution BAI_Art="Arzt">
+                <NFD:NFD_BAI_Arzt_Nachname>Frankenstein</NFD:NFD_BAI_Arzt_Nachname>
+                <NFD:NFD_BAI_Arzt_Vorname>Berthold</NFD:NFD_BAI_Arzt_Vorname>
+                <NFD:NFD_BAI_Institution_Bezeichnung>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</NFD:NFD_BAI_Institution_Bezeichnung>
+                <NFD:NFD_BAI_Arzt_Bezeichnung>Hausarzt</NFD:NFD_BAI_Arzt_Bezeichnung>
+                <NFD:NFD_BAI_Adresse>
+                    <NFDM:Adresse>
+                        <NFDM:Postleitzahl>12345</NFDM:Postleitzahl>
+                        <NFDM:Ort>Steinhausen am Wald</NFDM:Ort>
+                        <NFDM:Strasse>Hochwaldstraße</NFDM:Strasse>
+                        <NFDM:Hausnummer>12</NFDM:Hausnummer>
+                        <NFDM:Anschriftenzusatz>Hinterhaus, III. Etage, links</NFDM:Anschriftenzusatz>
+                        <NFDM:Wohnsitzlaendercode>D</NFDM:Wohnsitzlaendercode>
+                    </NFDM:Adresse>
+                </NFD:NFD_BAI_Adresse>
+                <NFD:NFD_BAI_Kommunikation>
+                    <NFDM:Kommunikationsdaten>
+                        <NFDM:Telefonnummer>0987/6544</NFDM:Telefonnummer>
+                        <NFDM:Faxnummer>0987/6545</NFDM:Faxnummer>
+                        <NFDM:E-Mail>B.Frankenstein@mydoctor.com</NFDM:E-Mail>
+                    </NFDM:Kommunikationsdaten>
+                </NFD:NFD_BAI_Kommunikation>
+            </NFD:NFD_Behandelnder_Arzt_Institution>
+            <NFD:NFD_Benachrichtigungskontakt>
+                <NFD:NFD_BK_Bezeichnung>Tochter</NFD:NFD_BK_Bezeichnung>
+                <NFD:NFD_BK_Nachname>von Huber</NFD:NFD_BK_Nachname>
+                <NFD:NFD_BK_Vorname>Chantal-Eileen</NFD:NFD_BK_Vorname>
+                <NFD:NFD_BK_Kommunikation>
+                    <NFDM:Kommunikationsdaten>
+                        <NFDM:Telefonnummer>0987/543</NFDM:Telefonnummer>
+                        <NFDM:Faxnummer>aaaaaaaaaaaaaaaaaaaaaaaaa</NFDM:Faxnummer>
+                        <NFDM:E-Mail>chantal@daisy_chain.com</NFDM:E-Mail>
+                    </NFDM:Kommunikationsdaten>
+                </NFD:NFD_BK_Kommunikation>
+            </NFD:NFD_Benachrichtigungskontakt>
+            <NFD:NFD_Versicherter_Kommunikation>
+                <NFDM:Kommunikationsdaten>
+                    <NFDM:Telefonnummer>0987/65412</NFDM:Telefonnummer>
+                    <NFDM:Faxnummer>aaaaaaaaaaaaaaaaaaaaaaaaa</NFDM:Faxnummer>
+                    <NFDM:E-Mail>JGW.Kritze@Alter-Adel.de</NFDM:E-Mail>
+                </NFDM:Kommunikationsdaten>
+            </NFD:NFD_Versicherter_Kommunikation>
+        </NFD:NFD_Versicherter>
+        <NFD:NFD_Versicherter_Einwilligung>
+            <NFD:NFD_VE_Arzt_Nachname>Meyer</NFD:NFD_VE_Arzt_Nachname>
+            <NFD:NFD_VE_Arzt_Vorname>Eberhard</NFD:NFD_VE_Arzt_Vorname>
+            <NFD:NFD_VE_Adresse>
+                <NFDM:Adresse>
+                    <NFDM:Postleitzahl>54321</NFDM:Postleitzahl>
+                    <NFDM:Ort>Hannova</NFDM:Ort>
+                    <NFDM:Strasse>Bahnhofstr.</NFDM:Strasse>
+                    <NFDM:Hausnummer>13</NFDM:Hausnummer>
+                    <NFDM:Anschriftenzusatz>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</NFDM:Anschriftenzusatz>
+                    <NFDM:Wohnsitzlaendercode>DE</NFDM:Wohnsitzlaendercode>
+                </NFDM:Adresse>
+            </NFD:NFD_VE_Adresse>
+        </NFD:NFD_Versicherter_Einwilligung>
+        <NFD:NFD_Befunddaten>
+            <NFD:Besondere_Hinweise>
+                <NFD:Schwangerschaft>
+                    <NFD:Entbindungstermin_Errechnet xsi:nil="true"/>
+                    <NFD:Schwangerschaft>0</NFD:Schwangerschaft>
+                    <NFD:diagnostiziert_indiziert DI_Art="Arzt">
+                        <NFD:DI_Arzt>
+                            <NFD:DI_Arzt_Name>Kraxenbichler-Tupfa</NFD:DI_Arzt_Name>
+                            <NFD:DI_Arzt_Fachgebiet>Innere Medizin</NFD:DI_Arzt_Fachgebiet>
+                            <NFD:DI_Arzt_Ort>Bad Entenhausen</NFD:DI_Arzt_Ort>
+                        </NFD:DI_Arzt>
+                    </NFD:diagnostiziert_indiziert>
+                </NFD:Schwangerschaft>
+                <NFD:Sonstige_Hinweise>
+                    <NFD:sonstige_Hinweise>ICD ist über telemedizinische Plattform an Plattform Merlin.net angebunden. Kontakt Dr. Herzsprung Dt. Herzzentrum, München (089 1234 56 789)</NFD:sonstige_Hinweise>
+                    <NFD:diagnostiziert_indiziert DI_Art="Arzt">
+                        <NFD:DI_Arzt>
+                            <NFD:DI_Arzt_Name>Dr. Schneider</NFD:DI_Arzt_Name>
+                            <NFD:DI_Arzt_Fachgebiet>Allgemeinmedizin</NFD:DI_Arzt_Fachgebiet>
+                            <NFD:DI_Arzt_Ort>Thaleischweiler-Fröschen</NFD:DI_Arzt_Ort>
+                        </NFD:DI_Arzt>
+                    </NFD:diagnostiziert_indiziert>
+                </NFD:Sonstige_Hinweise>
+            </NFD:Besondere_Hinweise>
+            <NFD:Allergien_Unvertraeglichkeiten>
+                <NFD:Substanz>Unacid (Sultamicillin)</NFD:Substanz>
+                <NFD:Reaktion>ausgeprägtes Arzneimittelexanthem</NFD:Reaktion>
+                <NFD:diagnostiziert_indiziert DI_Art="Arzt">
+                    <NFD:DI_Arzt>
+                        <NFD:DI_Arzt_Name>Fachklinik für Lungenerkrankungen</NFD:DI_Arzt_Name>
+                        <NFD:DI_Arzt_Fachgebiet>Pulmologie I</NFD:DI_Arzt_Fachgebiet>
+                        <NFD:DI_Arzt_Ort>Bad Höhenhausen-Schauinsland</NFD:DI_Arzt_Ort>
+                    </NFD:DI_Arzt>
+                </NFD:diagnostiziert_indiziert>
+            </NFD:Allergien_Unvertraeglichkeiten>
+            <NFD:Diagnosen>
+                <NFD:Diagnose_Code>G70.9</NFD:Diagnose_Code>
+                <NFD:Diagnose_Text>Neuromuskuläre Krankheit, nicht näher bezeichnet</NFD:Diagnose_Text>
+                <NFD:Diagnose_Zeitpunkt>2012-01-01</NFD:Diagnose_Zeitpunkt>
+                <NFD:Diagnosesicherheit>V</NFD:Diagnosesicherheit>
+                <NFD:Seitenlokalisation/>
+                <NFD:Diagnose_Code_System DC_Version="String">
+                    <NFD:Kennzeichen_Code_System>ICD 10 GM 2012</NFD:Kennzeichen_Code_System>
+                </NFD:Diagnose_Code_System>
+                <NFD:diagnostiziert_indiziert DI_Art="Arzt">
+                    <NFD:DI_Arzt>
+                        <NFD:DI_Arzt_Name>Dr. Neuron-Oberschlund</NFD:DI_Arzt_Name>
+                        <NFD:DI_Arzt_Fachgebiet>Facharzt für Neurologie</NFD:DI_Arzt_Fachgebiet>
+                        <NFD:DI_Arzt_Ort>Kaiserslautern</NFD:DI_Arzt_Ort>
+                    </NFD:DI_Arzt>
+                </NFD:diagnostiziert_indiziert>
+            </NFD:Diagnosen>
+        </NFD:NFD_Befunddaten>
+        <NFD:NFD_Medikationseintrag>
+            <NFD:diagnostiziert_indiziert DI_Art="Arzt">
+                <NFD:DI_Arzt>
+                    <NFD:DI_Arzt_Name>mvKVfxaRyvlOOyRmpuJ9CRUokJeLJj4m0zYdVZ3TAlZvA</NFD:DI_Arzt_Name>
+                    <NFD:DI_Arzt_Fachgebiet>0xtHSB5R5pIZXVaNfWWHiAit9nxqzFJx0xw</NFD:DI_Arzt_Fachgebiet>
+                    <NFD:DI_Arzt_Ort>fFvhoqFzGQvKWlPd7cxTcZv5K9Q8NHr0gMZfZSeV</NFD:DI_Arzt_Ort>
+                </NFD:DI_Arzt>
+            </NFD:diagnostiziert_indiziert>
+            <NFD:M a="Ramipril AL" du="1" dus="1.2.276.0.76.3.1.1.5.2.41" f="TAB" fs="1.2.276.0.76.3.1.1.5.2.40" i="wXRpIlAF5naMBy6DhnhgMCY7gJ0RADxDqru3BVNo0cMsoQHKVBNYwuZsyEWKYcSlFnZn4BUsS9E7kaBO" m="1" p="796950" ps="BMP v2.5, Kap 8.3.1, Tab 3">
+                <NFD:W s="2,5 mg" w="Ramipril"/>
+            </NFD:M>
+        </NFD:NFD_Medikationseintrag>
+        <NFD:NFD_Medikationseintrag>
+            <NFD:diagnostiziert_indiziert DI_Art="Arzt">
+                <NFD:DI_Arzt>
+                    <NFD:DI_Arzt_Name>PKYtoRPKHj9ZRt1VFNBEOJV4TonnRPdWu9Tc2lrBo5Uux</NFD:DI_Arzt_Name>
+                    <NFD:DI_Arzt_Fachgebiet>9m0zBNjJXV8kewXVrPMj8kKFSfEIQjO2KlE</NFD:DI_Arzt_Fachgebiet>
+                    <NFD:DI_Arzt_Ort>VLsRaOnQFSXlz5o6OZAZNKYWVrX0NoghEjlSKvyN</NFD:DI_Arzt_Ort>
+                </NFD:DI_Arzt>
+            </NFD:diagnostiziert_indiziert>
+            <NFD:M a="Ramipril AL" du="1" dus="1.2.276.0.76.3.1.1.5.2.41" f="TAB" fs="1.2.276.0.76.3.1.1.5.2.40" i="xQobQi2cya4TDBY3pvyl3lLEVbKTzE4CDYdHuRNGafYfHXUXXmYX9mibAjW3PwNBQV6yigm79YfH6kVK" m="1" p="796950" ps="BMP v2.5, Kap 8.3.1, Tab 3">
+                <NFD:W s="2,5 mg" w="Ramipril"/>
+            </NFD:M>
+        </NFD:NFD_Medikationseintrag>
+        <NFD:NFD_Freiwillige_Zusatzinformationen>
+            <NFD:Freiwillige_Zusatzinformationen>Blutgruppe AB Rh neg; Knochenmark-Spender (Typisierung 2011 erfolgt / DKMS)</NFD:Freiwillige_Zusatzinformationen>
+        </NFD:NFD_Freiwillige_Zusatzinformationen>
+    </NFD:Notfalldaten>
+    <NFD:SignatureArzt>
+    <ds:Signature Id="id-d1ab6783edebb2fbbe0fadfd74895a8b" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2007/05/xmldsig-more#sha256-rsa-MGF1"/><ds:Reference URI="#ID1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><ds:XPath>not(ancestor-or-self::ds:Signature)</ds:XPath></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>XNe6VdKBnMtAxdn1AumFrdpliH74Ty5ftMnDoqSDBlU=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-d1ab6783edebb2fbbe0fadfd74895a8b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>QbxGuKLCufPOiZ12Ue6BwaSD+p8sUaMawWHl5pXHgT0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-d1ab6783edebb2fbbe0fadfd74895a8b">NdIGuqOOnnUNwn+RyPbJudTwv2QbddKH7/S0u8d1hD4vJtmjwJJA/ZTa6DRWVNM29O793towduOQoVNVrVwCAbSqTyWMJa/hTX7ZuA6eIY8o8Jwec6qAy5lUFUmO4F3Q9I2eReXGTG+LYzKgpuqLfPwCY2EjQhNgtNfq3kUxxhVFKsncO7Tz8LYVYi0RXOD+BaPZFz2bJFkCT/1ZXWEjkDlLJ4F2DkF4OKU28dCLFBBUF2lEPcSrgR2aB1S5Oqb32Rp4PyEiDF0MW5CneFI/iBWJeTdNcyIXSz9IDg48z/IUGiEAErVzDA+SbtaUxqiernTmWVDySVPT+UhyT/Cktw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFTzCCBDegAwIBAgIHAfhUbCzw4zANBgkqhkiG9w0BAQsFADCBmjELMAkGA1UEBhMCREUxHzAdBgNVBAoMFmdlbWF0aWsgR21iSCBOT1QtVkFMSUQxRjBEBgNVBAsMPUhCQS1xQ0EgZGVyIFRlbGVtYXRpa2luZnJhc3RydWt0dXIgbWl0IEFuYmlldGVyYWtrcmVkaXRpZXJ1bmcxIjAgBgNVBAMMGUdFTS5IQkEtcUNBNTpQTiBURVNULU9OTFkwHhcNMTYwNTIzMDAwMDAwWhcNMjEwNTIzMDAwMDAwWjB5MQswCQYDVQQGEwJERTFqMA8GA1UEKgwIRnJpZG9saW4wEwYDVQQEDAxIw7ZoZW5mZWxzZW4wGwYDVQQFExQ4MDI3Njg4MzExMDAwMDAxNDMzMzAlBgNVBAMMHkZyaWRvbGluIEjDtmhlbmZlbHNlblRFU1QtT05MWTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL6RvsgX/ve3ft2AYwmxFYWZJSZK2ZsRTp7/ljXR/UzHJCCGvROOhr0Sa3be6Q1lAGS83tuiKNNTAvWXeHincRPmRZJJcDxm2ol4hMKFuogq3J8G7UFciaHei5JsPGayzpqFtLYgwF6IWanj97FYu2lyK+acTwtNL8UsjDhYGXD5SS9WxAnurq+T2bfQx4ZliwkBB3yrIaCJ7LsVi1idOiI6ncPUQRyOy/tjgqc/P9abfudnhrBh4//PqXxLl+0hqvam7PDZNrQPlyCzLdTcsVbo35seLBEKgQ+LFWlw1fYbvxscD9815gS26nKqCymmeOwI0lWFCzL0XOj9w5vBNtkCAwEAAaOCAbgwggG0MB0GA1UdDgQWBBRWxBlbOJZ24m12LP7q0ME4smukUDAMBgNVHRMBAf8EAjAAMFQGBSskCAMDBEswSaQkMCIxCzAJBgNVBAYTAkRFMRMwEQYDVQQKDArDhEsgQmVybGluMCEwHzAdMBswDgwMw4RyenRpbi9Bcnp0MAkGByqCFABMBB4wGwYJKwYBBAHAbQMFBA4wDAYKKwYBBAHAbQMFATAYBggrBgEFBQcBAwQMMAowCAYGBACORgEBMB8GA1UdIwQYMBaAFGEksRq5GuJ3EDcLpw4l4XKBS4r0MHoGA1UdIARzMHEwCQYHKoIUAEwESDAHBgUrJAgBATBNBggqghQATASBETBBMD8GCCsGAQUFBwIBFjNodHRwOi8vd3d3LmUtYXJ6dGF1c3dlaXMuZGUvcG9saWNpZXMvRUVfcG9saWN5Lmh0bWwwDAYKKwYBBAGCzTMBATAOBgNVHQ8BAf8EBAMCBkAwSwYIKwYBBQUHAQEEPzA9MDsGCCsGAQUFBzABhi9odHRwOi8vb2NzcC5wa2kudGVsZW1hdGlrLXRlc3Q6ODA4MC9DTU9DU1AvT0NTUDANBgkqhkiG9w0BAQsFAAOCAQEAC6VatBMAjmD2+aWRQO1nx7iVYjIyH6yTsVE7jHYGqqoq0SABxHKj1h3QlNdObaeG1aVRDmdj7Jwjooa6aPsombFxp+nFRcdE0aEujrOhWuQtYXTTpFygqclCBTWxzuqsmSSA28WfpfENhCW0/NHx0EAS7Vv8lYBhhCRYSUU9gSFQaohO1aEeJVAKF0bl8ooY7acSk2n8jwAC/kwxYhuyQIcz0Kkt/XKrD2skYHf6Xm5g6FKWgch5nAmHo+0SHX/+uSNimbHkFpTSKATmLGm0q5KsIyJD1JduPF1xIFCWhIh04r2ZmF6MQP7ZiMuwSw4sGOnVtQsmCxcp0H1bp6bG0g==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-d1ab6783edebb2fbbe0fadfd74895a8b"><xades:SignedProperties Id="xades-id-d1ab6783edebb2fbbe0fadfd74895a8b"><xades:SignedSignatureProperties><xades:SigningTime>2019-03-14T08:54:34Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>yyG06P8Ca0QDfRb9DOtKLYPszKU5cfgzXKTQJmLy+fA=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=GEM.HBA-qCA5:PN TEST-ONLY,OU=HBA-qCA der Telematikinfrastruktur mit Anbieterakkreditierung,O=gematik GmbH NOT-VALID,C=DE</ds:X509IssuerName><ds:X509SerialNumber>554516452536547</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier><xades:SignatureProductionPlace/><xades:SignerRole/></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#null"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></NFD:SignatureArzt>
+</NFD:NFD_Document>

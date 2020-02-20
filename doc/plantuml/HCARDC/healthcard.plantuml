@@ -1,0 +1,26 @@
+@startuml
+
+
+
+  package de.gematik.ti.healthcard.control {
+    package de.gematik.ti.healthcard.control.events.healthcard {
+      abstract class AbstractHealthCardEvent {
+          # AbstractHealthCardEvent()
+          + getHealthCard()
+      }
+    }
+  }
+  
+
+  AbstractHealthCardEvent -up-|> AbstractCardReaderEvent
+  AbstractHealthCardEvent o-- T : healthCard
+
+
+
+
+
+
+
+
+
+@enduml
